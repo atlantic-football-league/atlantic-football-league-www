@@ -1,12 +1,19 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import './all.sass'
-import useSiteMetadata from './SiteMetadata'
+import React from "react";
+import Helmet from "react-helmet";
+import styled from "styled-components";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import "./all.scss";
+import useSiteMetadata from "./SiteMetadata";
+
+const Container = styled.div`
+  padding: 1rem;
+  max-width: 1200px;
+  margin: auto;
+`;
 
 const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
+  const { title, description } = useSiteMetadata();
   return (
     <div>
       <Helmet>
@@ -45,10 +52,10 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:image" content="/img/og-image.jpg" />
       </Helmet>
       <Navbar />
-      <div>{children}</div>
+      <Container>{children}</Container>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default TemplateWrapper
+export default TemplateWrapper;

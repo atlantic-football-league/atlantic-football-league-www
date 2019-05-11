@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i");
+
+:root {
+  box-sizing: border-box;
+  font-family: "Roboto", Helvetica, sans-serif;
+  color: black;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  background-color: #f8f8fa;
+}

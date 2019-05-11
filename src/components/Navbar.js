@@ -1,98 +1,121 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import React from "react";
+import { Link } from "gatsby";
+import github from "../img/github-icon.svg";
+import logo from "../img/afl-logo.png";
+import styled from "styled-components";
 
-const Navbar = class extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      active: false,
-      navBarActiveClass: '',
+const Wrapper = styled.div`
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  z-index: 1;
+`;
+
+const NavMenu = styled.nav`
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr auto;
+    grid-auto-flow: row;
+    justify-content: stretch;
+  }
+`;
+
+const NavLink = styled(Link).attrs({ activeClassName: "active" })`
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 0.5rem;
+  justify-content: start;
+  align-items: center;
+  padding: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  text-decoration: none;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  transform: border-bottom-color linerar 100ms;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  &.active {
+    color: rgba(0, 0, 0, 1);
+    border-bottom-color: #223b9f;
+
+    @media (max-width: 800px) {
+      border-bottom-color: transparent;
+      color: #223b9f;
     }
   }
+`;
 
-  toggleHamburger = () => {
-    // toggle the active boolean in the state
-    this.setState(
-      {
-        active: !this.state.active,
-      },
-      // after state has been updated,
-      () => {
-        // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
-          : this.setState({
-              navBarActiveClass: '',
-            })
-      }
-    )
+const BrandLink = styled(NavLink)`
+  color: #223b9f;
+
+  &.active {
+    color: #223b9f;
+  }
+`;
+
+const Logo = styled.img.attrs({ src: logo })`
+  height: 1.75rem;
+`;
+
+const Links = styled.div`
+  display: grid;
+  grid-auto-flow: column;
+  @media (max-width: 800px) {
+    grid-column: 1 / -1;
+    grid-auto-flow: row;
+    display: none;
+  }
+`;
+
+const MenuButton = styled.button`
+  background-color: transparent;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  font-weight: 700;
+  font-size: inherit;
+  border: none;
+  display: none;
+
+  @media (max-width: 800px) {
+    display: block;
   }
 
-  render() {
-    return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-            </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
-          </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    )
+  &:focus {
+    background: rgba(0, 0, 0, 0.1);
+    outline: none;
+    & + * {
+      display: grid;
+    }
   }
-}
+`;
 
-export default Navbar
+const Navbar = () => {
+  return (
+    <Wrapper>
+      <NavMenu>
+        <BrandLink to="/">
+          <Logo /> Atlantic Football League
+        </BrandLink>
+        <MenuButton>Menu</MenuButton>
+        <Links>
+          <NavLink to="/news">News</NavLink>
+          <NavLink to="/schedule">Schedule</NavLink>
+          <NavLink to="/achievements">Achievements</NavLink>
+        </Links>
+      </NavMenu>
+    </Wrapper>
+  );
+};
+
+export default Navbar;
