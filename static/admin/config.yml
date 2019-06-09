@@ -30,19 +30,16 @@ collections:
       - { label: "Tags", name: "tags", widget: "list" }
   - name: "teams"
     label: "Teams"
-    extention: yml
-    files:
-      - file: "src/data/teams.yml"
-        name: "teams"
-        label: "Teams"
+    folder: "src/data/teams"
+    create: true
+    fields:
+      - label: Teams
+        name: teams
+        widget: list
         fields:
-          - label: Teams
-            name: teams
-            widget: list
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Symbol, name: symbol, widget: string }
-              - { label: Logo, name: logo, widget: image }
+          - { label: Name, name: name, widget: string }
+          - { label: Symbol, name: symbol, widget: string }
+          - { label: Logo, name: logo, widget: image }
   - name: "pages"
     label: "Pages"
     files:
