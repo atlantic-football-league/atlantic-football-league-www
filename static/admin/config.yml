@@ -35,9 +35,12 @@ collections:
     create: true
     slug: "{{symbol}}"
     fields:
-      - { label: Name, name: name, widget: string }
-      # - { label: Symbol, name: symbol, widget: string }
-      # - { label: Logo, name: logo, widget: image }
+      - { label: Name, name: title, widget: string }
+      - { label: Symbol, name: symbol, widget: string }
+      - { label: Logo, name: logo, widget: image }
+      - { label: Color, name: color, widget: string }
+      - { label: WebsiteUrl, name: website, widget: string }
+
   - name: "pages"
     label: "Pages"
     files:

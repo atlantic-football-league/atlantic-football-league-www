@@ -61,6 +61,15 @@ module.exports = {
         ]
       }
     },
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `teams`,
+        path: `${__dirname}/src/data/teams`
+      }
+    },
+    `gatsby-transformer-csv`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -68,7 +77,6 @@ module.exports = {
         path: `${__dirname}/src/data/`
       }
     },
-    `gatsby-transformer-csv`,
     {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
