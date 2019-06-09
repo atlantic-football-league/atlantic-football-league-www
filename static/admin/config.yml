@@ -2,6 +2,9 @@ backend:
   name: git-gateway
   branch: master
 
+editor:
+  preview: false
+
 media_folder: static/img
 public_folder: /img
 
@@ -25,7 +28,21 @@ collections:
       - { label: "Featured Image", name: "featuredimage", widget: image }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
-
+  - name: "teams"
+    label: "Teams"
+    extention: yml
+    files:
+      - file: "src/data/teams.yml"
+        name: "teams"
+        label: "Teams"
+        fields:
+          - label: Teams
+            name: teams
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Symbol, name: symbol, widget: string }
+              - { label: Logo, name: logo, widget: image }
   - name: "pages"
     label: "Pages"
     files:
@@ -117,15 +134,38 @@ collections:
       - file: "src/data/schedule.csv"
         label: "Schedule"
         name: "schedule"
-        widget: list
         fields:
-          - { label: Home, name: home, widget: string }
-          - { label: Home Score, name: hscore, widget: string }
-          - { label: Away, name: away, widget: string }
-          - { label: Away Score, name: ascore, widget: string }
-          - { label: Time, name: time, widget: string }
-          - { label: Date, name: date, widget: string }
-          - { label: Location, name: location, widget: string }
+          - label: Schedule
+            name: schedule
+            widget: table
+            fields:
+              - label: Home Team
+                name: home
+                widget: select
+                options:
+                  - { label: "Dalhousie Tigers", value: "DAL" }
+                  - { label: "Holland Hurricanes", value: "HC" }
+
+              # - label: Home Team
+              #   name: home
+              #   widget: select
+              #   options:
+              #     - { label: "Dalhousie Tigers", value: "DAL" }
+              #     - { label: "Holland Hurricanes", value: "HC" }
+              #     - { label: "UNB Fredericton Red Bombers", value: "FR" }
+              #     - { label: "UNB Saint John Seawolves", value: "sj" }
+              # - { label: Home Score, name: hscore, widget: number }
+              # - label: Away Team
+              #   name: away
+              #   widget: select
+              #   options:
+              #     - { label: "Dalhousie Tigers", value: "DAL" }
+              #     - { label: "Holland Hurricanes", value: "HC" }
+              #     - { label: "UNB Fredericton Red Bombers", value: "FR" }
+              #     - { label: "UNB Saint John Seawolves", value: "SJ" }
+              # - { label: Away Score, name: ascore, widget: number }
+              # - { label: Date, name: date, widget: datetime, format: "LLLL" }
+              # - { label: Location, name: location, widget: string }
 
       - file: "src/pages/about/index.md"
         label: "About"
