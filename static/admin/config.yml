@@ -33,13 +33,9 @@ collections:
     folder: "src/data/teams"
     create: true
     fields:
-      - label: Teams
-        name: teams
-        widget: list
-        fields:
-          - { label: Name, name: name, widget: string }
-          - { label: Symbol, name: symbol, widget: string }
-          - { label: Logo, name: logo, widget: image }
+      - { label: Name, name: name, widget: string }
+      - { label: Symbol, name: symbol, widget: string }
+      - { label: Logo, name: logo, widget: image }
   - name: "pages"
     label: "Pages"
     files:
