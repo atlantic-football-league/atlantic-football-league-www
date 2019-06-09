@@ -31,11 +31,13 @@ collections:
   - name: "teams"
     label: "Teams"
     folder: "src/data/teams"
+    # extention: yml
     create: true
+    slug: "{{symbol}}"
     fields:
       - { label: Name, name: name, widget: string }
-      - { label: Symbol, name: symbol, widget: string }
-      - { label: Logo, name: logo, widget: image }
+      # - { label: Symbol, name: symbol, widget: string }
+      # - { label: Logo, name: logo, widget: image }
   - name: "pages"
     label: "Pages"
     files:
