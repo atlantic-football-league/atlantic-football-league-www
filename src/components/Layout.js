@@ -1,15 +1,18 @@
 import React from "react";
 import Helmet from "react-helmet";
-import styled from "styled-components";
+import styled, { ThemeProvider } from "styled-components";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "./all.scss";
 import useSiteMetadata from "./SiteMetadata";
+import theme from "../theme";
 
 const Container = styled.div`
   padding: 1rem;
   max-width: 1200px;
   margin: auto;
+  display: grid;
+  grid-template-areas: "main aside";
 `;
 
 const TemplateWrapper = ({ children }) => {
@@ -51,9 +54,13 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta property="og:image" content="/img/og-image.jpg" />
       </Helmet>
-      <Navbar />
-      <Container>{children}</Container>
-      <Footer />
+      <ThemeProvider theme={theme}>
+        <>
+          <Navbar />
+          <Container>{children}</Container>
+          <Footer />
+        </>
+      </ThemeProvider>
     </div>
   );
 };

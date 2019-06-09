@@ -1,15 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
-import logo from "../img/afl-logo.png";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+
+import logo from "../img/afl-logo.svg";
 
 const Wrapper = styled.div`
   position: sticky;
   top: 0;
   left: 0;
   right: 0;
-  background: #fff;
+  background: ${props => props.theme.colors.primary};
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
   z-index: 1;
 `;
@@ -18,6 +18,8 @@ const NavMenu = styled.nav`
   display: grid;
   grid-auto-flow: column;
   justify-content: start;
+  max-width: 1200px;
+  margin: auto;
 
   @media (max-width: 800px) {
     grid-template-columns: 1fr auto;
@@ -32,35 +34,27 @@ const NavLink = styled(Link).attrs({ activeClassName: "active" })`
   grid-gap: 0.5rem;
   justify-content: start;
   align-items: center;
-  padding: 1rem;
-  color: rgba(0, 0, 0, 0.5);
+  padding: 0.75rem 1rem;
+  color: ${props => props.theme.grayscale_i(0.7)};
   font-weight: 700;
   text-decoration: none;
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
-  transform: border-bottom-color linerar 100ms;
+  transform: border-bottom-color linerar 200ms;
 
   &:hover {
-    background: rgba(0, 0, 0, 0.05);
+    background: ${props => props.theme.grayscale(0.1)};
   }
 
   &.active {
-    color: rgba(0, 0, 0, 1);
-    border-bottom-color: #223b9f;
-
-    @media (max-width: 800px) {
-      border-bottom-color: transparent;
-      color: #223b9f;
-    }
+    color: ${props => props.theme.grayscale_i(1)};
+    border-bottom-color: ${props => props.theme.grayscale_i(1)};
   }
 `;
 
 const BrandLink = styled(NavLink)`
-  color: #223b9f;
-
-  &.active {
-    color: #223b9f;
-  }
+  color: ${props => props.theme.grayscale_i(1)};
+  border-bottom-color: ${props => props.theme.grayscale_i(0)} !important;
 `;
 
 const Logo = styled.img.attrs({ src: logo })`
@@ -70,17 +64,28 @@ const Logo = styled.img.attrs({ src: logo })`
 const Links = styled.div`
   display: grid;
   grid-auto-flow: column;
+
   @media (max-width: 800px) {
     grid-column: 1 / -1;
     grid-auto-flow: row;
     display: none;
+    background: ${props => props.theme.grayscale_i(1)};
+
+    a {
+      color: ${props => props.theme.grayscale(0.5)};
+    }
+
+    .active {
+      color: ${props => props.theme.colors.primary};
+      border-bottom-color: ${props => props.theme.grayscale_i(0)};
+    }
   }
 `;
 
 const MenuButton = styled.button`
   background-color: transparent;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.5);
+  color: ${props => props.theme.grayscale_i(0.7)};
   padding: 1rem;
   font-weight: 700;
   font-size: inherit;
@@ -89,26 +94,31 @@ const MenuButton = styled.button`
 
   @media (max-width: 800px) {
     display: block;
-  }
 
-  &:focus {
-    background: rgba(0, 0, 0, 0.1);
-    outline: none;
-    & + * {
-      display: grid;
-    }
+    ${props =>
+      props.isOpen &&
+      css`
+        background: rgba(0, 0, 0, 0.1);
+        outline: none;
+        & + * {
+          display: grid;
+        }
+      `}
   }
 `;
 
 const Navbar = () => {
+  const [openNav, setOpenNav] = useState(false);
   return (
     <Wrapper>
       <NavMenu>
         <BrandLink to="/">
           <Logo /> Atlantic Football League
         </BrandLink>
-        <MenuButton>Menu</MenuButton>
-        <Links>
+        <MenuButton isOpen={openNav} onClick={() => setOpenNav(!openNav)}>
+          Menu
+        </MenuButton>
+        <Links isOpen={openNav} onClick={() => setOpenNav(false)}>
           <NavLink to="/news">News</NavLink>
           <NavLink to="/schedule">Schedule</NavLink>
           <NavLink to="/achievements">Achievements</NavLink>
