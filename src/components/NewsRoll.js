@@ -80,6 +80,7 @@ export default () => (
     query={graphql`
       query NewsRollQuery {
         allMarkdownRemark(
+          limit: 5
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "news-post" } } }
         ) {
@@ -95,13 +96,6 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
               }
             }
           }
