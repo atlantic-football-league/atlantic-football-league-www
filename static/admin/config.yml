@@ -47,6 +47,12 @@ collections:
     slug: "schedule-{{year}}"
     identifier_field: year
     fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "schedule",
+        }
       - { label: Season, name: year, widget: number }
       - label: Games
         name: games
@@ -87,7 +93,7 @@ collections:
               required: false,
               valueType: "int",
             }
-          - { label: Date/Time, name: date, widget: datetime, format: "LLLL" }
+          - { label: Date/Time, name: date, widget: datetime }
           - { label: Location, name: location, widget: string, required: false }
   - name: "pages"
     label: "Pages"
