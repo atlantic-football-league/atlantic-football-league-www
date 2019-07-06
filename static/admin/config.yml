@@ -65,7 +65,13 @@ collections:
             searchFields: ["title", "symbol"]
             valueField: "symbol"
             displayFields: ["title", "symbol"]
-          - { label: Home Score, name: hscore, widget: number }
+          - {
+              label: Home Score,
+              name: hscore,
+              widget: number,
+              required: false,
+              valueType: "int",
+            }
           - label: Away Team
             name: away
             widget: relation
@@ -73,9 +79,15 @@ collections:
             searchFields: ["title", "symbol"]
             valueField: "symbol"
             displayFields: ["title", "symbol"]
-          - { label: Away Score, name: ascore, widget: number }
+          - {
+              label: Away Score,
+              name: ascore,
+              widget: number,
+              required: false,
+              valueType: "int",
+            }
           - { label: Date/Time, name: date, widget: datetime, format: "LLLL" }
-          - { label: Location, name: location, widget: string }
+          - { label: Location, name: location, widget: string, required: false }
   - name: "pages"
     label: "Pages"
     files:
