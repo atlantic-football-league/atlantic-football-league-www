@@ -45,6 +45,7 @@ collections:
     name: "schedule"
     create: true
     slug: "schedule-{{year}}"
+    identifier_field: year
     fields:
       - { label: Season, name: year, widget: number }
       - label: Games
