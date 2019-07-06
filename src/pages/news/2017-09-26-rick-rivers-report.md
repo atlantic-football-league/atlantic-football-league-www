@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2017-09-26T00:00:00.000Z
 title: "The Rivers’ Report: Streak Ends"
 author: Rick Rivers
 ---

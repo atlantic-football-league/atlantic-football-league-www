@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2014-10-13T00:00:00.000Z
 title: Hurricanes clinch first place in 40-17 win over Seawolves
 author: Sarah Seeley
 location: Charlottetown, PE

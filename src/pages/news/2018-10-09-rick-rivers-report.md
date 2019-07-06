@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2018-10-09T00:00:00.000Z
 title: "Rick Rivers’ Report: Home Field for Playoffs, Tigers 23 - Hurricanes 12"
 author: Rick Rivers
 ---

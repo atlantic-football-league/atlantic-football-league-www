@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2016-10-03T00:00:00.000Z
 title: Hurricanes Football Names Players of the Week
 image: 2016-10-04-one.jpg
 ---

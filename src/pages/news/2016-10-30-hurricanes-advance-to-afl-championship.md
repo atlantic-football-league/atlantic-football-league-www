@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2016-10-30T00:00:00.000Z
 title: Holland College Hurricanes top the UNB Red Bombers 15-10 to advance to the AFL Championship
 author: Ryan J. MacEachern
 ---

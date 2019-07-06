@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2016-09-11T00:00:00.000Z
 title: UNB Red Bombers Annual Red N’ Black Inter-Squad Game
 image: 2016-09-11-one.jpg
 ---

@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2019-04-08T00:00:00.000Z
 title: "MacInnis and Colley named Hurricanes Athletes of the Year; Hyndman and Kobayashi recipients of Rookie of the Year awards"
 ---
 

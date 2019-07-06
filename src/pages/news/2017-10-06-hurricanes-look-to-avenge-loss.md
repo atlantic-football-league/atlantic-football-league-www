@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2017-10-06T00:00:00.000Z
 title: "Hurricanes look to avenge season opening loss to Red Bombers"
 author: Bradley Collins
 ---

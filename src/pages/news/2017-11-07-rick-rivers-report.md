@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2017-11-07T00:00:00.000Z
 title: "The Rivers’ Report: Someone had to lose, Pity!"
 author: Rick Rivers
 ---

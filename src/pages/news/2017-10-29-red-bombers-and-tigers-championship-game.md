@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2017-10-29T00:00:00.000Z
 title: Red Bombers and Tigers Punch Their Tickets to the Championship Game
 author: Brian Freeman
 ---

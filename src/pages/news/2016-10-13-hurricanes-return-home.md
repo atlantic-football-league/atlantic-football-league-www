@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2016-10-13T00:00:00.000Z
 title: Hurricanes return home, aim to secure home field advantage in first round of playoffs
 author: Thomas Becker
 ---

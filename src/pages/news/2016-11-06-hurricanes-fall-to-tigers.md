@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2016-11-06T00:00:00.000Z
 title: Holland College Hurricanes fall to undefeated Dalhousie Tigers in AFL championship
 author: Ryan J. MacEachern
 image: 2016-11-06-one.jpg

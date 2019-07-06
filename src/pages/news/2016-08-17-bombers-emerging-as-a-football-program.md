@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2016-08-17T00:00:00.000Z
 title: UNB Red Bombers Emerging as a Football Program – Not Just a Team
 author: Brian Gilliland
 ---

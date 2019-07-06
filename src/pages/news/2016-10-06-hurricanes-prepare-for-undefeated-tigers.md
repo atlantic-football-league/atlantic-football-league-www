@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2016-10-06T00:00:00.000Z
 title: "Battle for First: Hurricanes Prepare for Undefeated Tigers"
 author: Thomas Becker
 ---

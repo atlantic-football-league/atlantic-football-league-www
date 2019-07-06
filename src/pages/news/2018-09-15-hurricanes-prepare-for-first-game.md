@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2018-09-15T00:00:00.000Z
 title: Hurricanes Football Team Prepares For First Game of Promising Season
 author: Bryce Doiron
 ---

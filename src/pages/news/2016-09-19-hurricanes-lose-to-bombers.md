@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2016-09-19T00:00:00.000Z
 title: Hurricanes surrender 14-point lead; lose 27-21 to UNB Red Bombers
 author: Thomas Becker
 ---

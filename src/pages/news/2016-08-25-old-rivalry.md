@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2016-08-25T00:00:00.000Z
 title: UNB Alumni & Dal Alumni Revive an Old Rivalry
 author: Brian Gilliland
 ---

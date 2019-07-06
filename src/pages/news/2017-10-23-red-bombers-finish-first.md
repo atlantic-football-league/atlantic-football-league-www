@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2017-10-23T00:00:00.000Z
 title: "UNB Red Bombers (5-1) Finish in 1st Place in AFL"
 ---
 

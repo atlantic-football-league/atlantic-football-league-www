@@ -10,57 +10,87 @@ const Container = styled.main`
   grid-gap: 1rem;
 `;
 
-const Article = styled.article``;
+const Article = styled.article`
+  display: grid;
+  grid-gap: 0.5rem;
+`;
+
+const ArticleLink = styled(Link)`
+  color: inherit;
+  text-decoration: inherit;
+
+  &:hover {
+    h3,
+    a {
+      color: ${({ theme }) => theme.colors.primary};
+    }
+  }
+`;
+
+const Title = styled.h3`
+  margin: 0;
+`;
+
+const Author = styled.p`
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8em;
+  color: ${({ theme }) => theme.grayscale(0.5)};
+
+  .prefix {
+    font-weight: 400;
+    text-transform: none;
+  }
+`;
+
+const Time = styled.time`
+  font-weight: 600;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: ${({ theme }) => theme.grayscale(0.5)};
+`;
+
+const MoreLink = styled(Link)`
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: ${({ theme }) => theme.grayscale(0.5)};
+`;
+
+const Excerpt = styled.p`
+  font-size: 0.9em;
+  margin: 0;
+`;
 
 class NewsRoll extends React.Component {
   render() {
-    const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
+    const { data, limit } = this.props;
+    const { edges } = data.allMarkdownRemark;
+    const posts = limit ? edges.slice(0, limit) : edges;
 
     return (
       <Container>
         {posts &&
           posts.map(({ node: post }) => (
-            <Panel key={post.id}>
-              <article
-                className={`news-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? "is-featured" : ""
-                }`}
-              >
-                <header>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.title}`
-                        }}
-                      />
-                    </div>
-                  ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
-                  </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
-                  </Link>
-                </p>
-              </article>
-            </Panel>
+            <ArticleLink to={post.fields.slug}>
+              <Panel key={post.id}>
+                <Article>
+                  <Time datetime={post.frontmatter.date}>
+                    {post.frontmatter.date}
+                  </Time>
+                  <Title>{post.frontmatter.title}</Title>
+                  {post.frontmatter.author && (
+                    <Author>
+                      <span class="prefix">by</span> {post.frontmatter.author}
+                    </Author>
+                  )}
+                  <Excerpt>{post.excerpt}</Excerpt>
+                  <MoreLink to={post.fields.slug}>Keep Reading →</MoreLink>
+                </Article>
+              </Panel>
+            </ArticleLink>
           ))}
       </Container>
     );
@@ -75,12 +105,11 @@ NewsRoll.propTypes = {
   })
 };
 
-export default () => (
+export default ({ limit }) => (
   <StaticQuery
     query={graphql`
       query NewsRollQuery {
         allMarkdownRemark(
-          limit: 5
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "news-post" } } }
         ) {
@@ -93,6 +122,7 @@ export default () => (
               }
               frontmatter {
                 title
+                author
                 templateKey
                 date(formatString: "DD MMMM, YYYY")
                 featuredpost
@@ -102,6 +132,8 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <NewsRoll data={data} count={count} />}
+    render={(data, count) => (
+      <NewsRoll data={data} count={count} limit={limit} />
+    )}
   />
 );

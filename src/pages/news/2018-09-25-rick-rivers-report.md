@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2018-09-25T00:00:00.000Z
 title: "Rick Rivers’ Report: Duplisea Leads Tigers"
 author: Rick Rivers
 ---

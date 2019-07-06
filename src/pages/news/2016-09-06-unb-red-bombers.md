@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2016-09-06T00:00:00.000Z
 title: UNB Red Bombers Training Camp
 image: 2016-09-06-one.jpg
 ---

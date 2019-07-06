@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2018-09-19T00:00:00.000Z
 title: Hurricanes Look to Repeat Win Against the Seawolves in Home Opener
 author: Bryce Doiron
 ---

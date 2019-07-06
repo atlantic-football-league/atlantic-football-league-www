@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2015-09-28T00:00:00.000Z
 title: Hurricanes rise above call; score 13 unanswered points in 21-9 win over the Seawolves
 author: Thomas Becker
 ---

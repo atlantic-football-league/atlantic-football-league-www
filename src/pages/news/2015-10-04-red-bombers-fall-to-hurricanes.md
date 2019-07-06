@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2015-10-04T00:00:00.000Z
 title: Red Bombers Fall to Hurricanes 29-18
 image: 2015-10-04-bombers.jpg
 ---

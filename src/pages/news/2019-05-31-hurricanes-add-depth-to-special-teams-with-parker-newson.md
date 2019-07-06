@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2019-05-31T00:00:00.000Z
 title: "MFBALL | ‘Canes add depth to special teams with Islander Parker Newson"
 author: Mason Murray
 ---

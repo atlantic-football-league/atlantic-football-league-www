@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2017-01-12T00:00:00.000Z
 title: "Small roots, big dreams: former Holland College Hurricane lineman set to attend Tropical Bowl"
 author: Thomas Becker
 image: 2017-01-12-one.jpg

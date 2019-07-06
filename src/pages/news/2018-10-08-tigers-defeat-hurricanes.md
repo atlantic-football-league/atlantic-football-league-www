@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2018-10-08T00:00:00.000Z
 title: "Dalhousie Tigers defeat Holland Hurricanes"
 ---
 

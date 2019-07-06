@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2016-11-12T00:00:00.000Z
 title: Members of Seawolves Attend Saint John Remembrance Day Ceremony
 author: Barry Ogden
 image: 2016-11-12-two.jpg

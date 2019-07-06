@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2019-01-21T00:00:00.000Z
 title: "Atlantic Football League 2009-2019"
 author: Rick Rivers
 ---

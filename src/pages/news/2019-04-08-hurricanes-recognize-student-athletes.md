@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2019-04-08T00:00:00.000Z
 title: "Hurricanes set to recognize student-athletes this Friday at annual Awards Gala"
 ---
 

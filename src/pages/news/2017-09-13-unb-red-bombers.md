@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2017-09-13T00:00:00.000Z
 title: "UNB Red Bombers: Don't Miss Homecoming 2017 Sept. 30, 1:00pm"
 author: Brian Freeman
 ---

@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2018-04-10T00:00:00.000Z
 title: "2018 UNB Homecoming Game Returning to College Field, Sept. 29th - Honouring The 1958 & 1959 Red Bombers M.I.F.L. Champions"
 ---
 

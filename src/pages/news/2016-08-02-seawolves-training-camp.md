@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2016-08-02T00:00:00.000Z
 title: Saint John Seawolves Training Camp
 ---
 SAINT JOHN • For Barry Ogden, this is about more than football. It’s about creating a beneficial bond between adult athletes and the youth. It’s about his hope to keep more kids home.

@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2019-02-07T00:00:00.000Z
 title: "Hurricanes Football Club Announces Appointment Of New Head Coach"
 ---
 

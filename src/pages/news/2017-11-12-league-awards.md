@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2017-11-12T00:00:00.000Z
 title: "AFL LEAGUE ALL STARS (2017 SEASON)"
 ---
 

@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2019-05-09T00:00:00.000Z
 title: "MFBALL | Ontario running back looks to make an impact in first season with ‘Canes"
 author: Mason Murray
 ---

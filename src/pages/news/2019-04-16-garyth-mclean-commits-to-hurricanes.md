@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2019-04-16T00:00:00.000Z
 title: "MFBALL | Miramichi native, Garyth McLean, commits to Hurricanes for 2019"
 ---
 

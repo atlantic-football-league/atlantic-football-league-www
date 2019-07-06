@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2017-10-19T00:00:00.000Z
 title: "Hurricanes look to secure home-field advantage for AFL playoffs"
 author: Bradley Collins
 ---

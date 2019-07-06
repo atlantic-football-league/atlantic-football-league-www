@@ -1,4 +1,5 @@
 ---
+team: true
 title: UNB Fredericton Red Bombers
 symbol: FR
 logo: /img/hol_logo.png

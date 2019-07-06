@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2015-09-20T00:00:00.000Z
 title: Bombers Fly in Season Opener Against Rival UNBSJ
 author: Brian Gilliand
 location: Saint John, NB

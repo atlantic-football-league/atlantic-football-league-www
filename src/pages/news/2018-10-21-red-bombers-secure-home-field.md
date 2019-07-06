@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2018-10-21T00:00:00.000Z
 title: "UNB Red Bombers Secure Homefield for Semi"
 author: Bryce Doiron
 ---

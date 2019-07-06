@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2015-10-18T00:00:00.000Z
 title: Tigers Defeat Red Bombers 31-20
 author: Rick Rivers
 ---

@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2018-10-15T00:00:00.000Z
 title: "Rick Rivers’ Report: Balanced D, O and ST Highlight Dal’s 30-0 Victory"
 author: Rick Rivers
 ---

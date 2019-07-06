@@ -1,46 +1,63 @@
 import React from "react";
 import PropTypes from "prop-types";
+import styled from "styled-components";
 import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
+const Header = styled.header`
+  display: grid;
+  grid-gap: 0.5rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid ${({ theme }) => theme.grayscale(0.2)};
+`;
+
+const Title = styled.h1`
+  margin: 0;
+`;
+
+const Time = styled.time`
+  font-weight: 600;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: ${({ theme }) => theme.grayscale(0.5)};
+`;
+
 export const NewsPostTemplate = ({
   content,
   contentComponent,
   tags,
   title,
+  date,
+  author,
   helmet
 }) => {
   const PostContent = contentComponent || Content;
-
+  console.log(date);
   return (
-    <section className="section">
+    <article className="section">
       {helmet || ""}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </div>
+      <Header>
+        <Time>{date}</Time>
+        <Title>{title}</Title>
+        by {author}
+      </Header>
+      <PostContent content={content} />
+      {tags && tags.length ? (
+        <div>
+          <h4>Tags</h4>
+          <ul className="taglist">
+            {tags.map(tag => (
+              <li key={tag + `tag`}>
+                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+              </li>
+            ))}
+          </ul>
         </div>
-      </div>
-    </section>
+      ) : null}
+    </article>
   );
 };
 
@@ -48,6 +65,8 @@ NewsPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   title: PropTypes.string,
+  date: PropTypes.string,
+  author: PropTypes.string,
   helmet: PropTypes.object
 };
 
@@ -64,8 +83,7 @@ const NewsPost = ({ data }) => {
             <title>{`${post.frontmatter.title}`}</title>
           </Helmet>
         }
-        tags={post.frontmatter.tags}
-        title={post.frontmatter.title}
+        {...post.frontmatter}
       />
     </Layout>
   );
@@ -85,8 +103,9 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD MMMM, YYYY")
         title
+        author
         tags
       }
     }

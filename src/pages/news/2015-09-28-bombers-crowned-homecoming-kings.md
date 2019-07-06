@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2015-09-28T00:00:00.000Z
 title: '#44 Flies high and Bombers are Crowned Homecoming Kings'
 author: Thomas Tremblay
 image: 2015-09-28-bombers-2.jpg

@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2014-10-02T00:00:00.000Z
 title: Hurricanes face Red Bombers in away game
 location: Charlottetown, PE
 ---

@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2016-10-02T00:00:00.000Z
 title: Tigers 25 - Red Bombers 0
 author: Brian Gilliland, Brian Freeman
 ---

@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2016-10-27T00:00:00.000Z
 title: "Stopping the run: Hurricanes prepare for semifinal battle against Red Bombers"
 author: Thomas Becker
 ---

@@ -8,8 +8,8 @@ import NewsRoll from "../components/NewsRoll";
 export const IndexPageTemplate = ({}) => (
   <div>
     <div className="column is-12">
-      <H2 className="has-text-weight-semibold is-size-2">Latest stories</H2>
-      <NewsRoll />
+      <H2>Latest stories</H2>
+      <NewsRoll limit={5} />
       <div className="column is-12 has-text-centered">
         <Link className="btn" to="/news">
           More News

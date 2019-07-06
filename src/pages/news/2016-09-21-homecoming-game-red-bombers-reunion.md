@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2016-09-21T00:00:00.000Z
 title: Homecoming Game Red Bombers Reunion
 image: 2016-09-21-two.jpg
 author: Brian Gilliland, Brian Freeman

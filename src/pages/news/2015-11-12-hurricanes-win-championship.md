@@ -3,7 +3,7 @@ templateKey: "news-post"
 featuredpost: false
 tags:
   - migrated
-date: 2019-06-20T00:00:00.000Z
+date: 2015-11-12T00:00:00.000Z
 title: Hurricanes win AFL championship
 author: Thomas Becker
 image: 2015-11-12-hurricanes.jpg
