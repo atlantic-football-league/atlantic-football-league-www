@@ -52,6 +52,12 @@ collections:
         widget: list
         displayFields: ["home", "hscore", "away", "ascore"]
         fields:
+          - {
+              label: "Post-season",
+              name: "postSeason",
+              widget: "boolean",
+              default: false,
+            }
           - label: Home Team
             name: home
             widget: relation

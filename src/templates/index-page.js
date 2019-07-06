@@ -6,17 +6,15 @@ import Layout from "../components/Layout";
 import NewsRoll from "../components/NewsRoll";
 
 export const IndexPageTemplate = ({}) => (
-  <div>
-    <div className="column is-12">
-      <H2>Latest stories</H2>
-      <NewsRoll limit={5} />
-      <div className="column is-12 has-text-centered">
-        <Link className="btn" to="/news">
-          More News
-        </Link>
-      </div>
+  <>
+    <H2>Latest stories</H2>
+    <NewsRoll limit={5} />
+    <div className="column is-12 has-text-centered">
+      <Link className="btn" to="/news">
+        More News
+      </Link>
     </div>
-  </div>
+  </>
 );
 
 const IndexPage = () => {

@@ -42,7 +42,7 @@ export const NewsPostTemplate = ({
       <Header>
         <Time>{date}</Time>
         <Title>{title}</Title>
-        by {author}
+        {author && <div>by {author}</div>}
       </Header>
       <PostContent content={content} />
       {tags && tags.length ? (

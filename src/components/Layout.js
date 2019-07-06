@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import styled, { ThemeProvider } from "styled-components";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
 import "./all.css";
 import useSiteMetadata from "./SiteMetadata";
 import theme from "../theme";
@@ -12,7 +13,8 @@ const Container = styled.div`
   max-width: 1200px;
   margin: auto;
   display: grid;
-  grid-template-areas: "main aside";
+  grid-gap: 1.5rem;
+  grid-template-columns: 1fr minmax(300px, 30%);
 `;
 
 const TemplateWrapper = ({ children }) => {
@@ -57,7 +59,10 @@ const TemplateWrapper = ({ children }) => {
       <ThemeProvider theme={theme}>
         <>
           <Navbar />
-          <Container>{children}</Container>
+          <Container>
+            <main>{children}</main>
+            <Sidebar />
+          </Container>
           <Footer />
         </>
       </ThemeProvider>
