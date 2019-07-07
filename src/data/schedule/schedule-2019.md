@@ -1,5 +1,6 @@
 ---
 year: 2019
+templateKey: schedule
 games:
   - ascore: ''
     away: HC
