@@ -4,7 +4,7 @@ templateKey: schedule
 games:
   - ascore: ''
     away: HC
-    date: 'Saturday, September 14, 2019 7:00 PM'
+    date: 2019-09-14T22:00:00.000Z
     home: FR
     hscore: ''
     location: TBD
