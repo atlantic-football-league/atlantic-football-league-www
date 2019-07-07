@@ -8,19 +8,31 @@ import "./all.css";
 import useSiteMetadata from "./SiteMetadata";
 import theme from "../theme";
 
+const SiteContainer = styled.div`
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  justify-content: stretch;
+`;
+
 const Container = styled.div`
   padding: 1rem;
   max-width: 1200px;
   margin: auto;
   display: grid;
   grid-gap: 1.5rem;
-  grid-template-columns: 1fr minmax(300px, 30%);
+  grid-template-columns: 1fr ${({ noSidebar }) =>
+      noSidebar ? "" : "minmax(300px, 30%)"};
+
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
-const TemplateWrapper = ({ children }) => {
+const TemplateWrapper = ({ children, noSidebar }) => {
   const { title, description } = useSiteMetadata();
   return (
-    <div>
+    <SiteContainer>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -59,14 +71,14 @@ const TemplateWrapper = ({ children }) => {
       <ThemeProvider theme={theme}>
         <>
           <Navbar />
-          <Container>
+          <Container noSidebar={noSidebar}>
             <main>{children}</main>
-            <Sidebar />
+            {noSidebar || <Sidebar />}
           </Container>
           <Footer />
         </>
       </ThemeProvider>
-    </div>
+    </SiteContainer>
   );
 };
 
