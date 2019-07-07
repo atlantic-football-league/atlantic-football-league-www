@@ -10,18 +10,18 @@ games:
     postSeason: false
   - ascore: ''
     away: DAL
-    date: 'Saturday, September 14, 2019 1:00 PM'
+    date: 2019-09-14T16:00:00.000Z
     home: SJ
     hscore: ''
     location: TBD
     postSeason: false
   - away: SJ
-    date: 'Saturday, September 21, 2019 1:00 PM'
+    date: 2019-09-21T16:00:00.000Z
     home: HC
     location: TBD
     postSeason: false
   - away: DAL
-    date: 'Saturday, September 21, 2019 1:00 PM'
+    date: 2019-09-21T16:00:00.000Z
     home: FR
     location: TBD
     postSeason: false
