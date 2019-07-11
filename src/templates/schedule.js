@@ -55,7 +55,7 @@ const Game = ({ away, ascore, home, hscore, date, location, teams }) => {
       </Cell>
       <Cell>
         <Team>
-          <Logo src={awayTeam.logo.publicURL} />
+          <Logo src={homeTeam.logo.publicURL} />
           {homeTeam.title}
         </Team>
       </Cell>
