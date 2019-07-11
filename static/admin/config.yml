@@ -34,6 +34,7 @@ collections:
     create: true
     slug: "{{symbol}}"
     fields:
+      - { label: "Is Team", name: "team", widget: "hidden", default: true }
       - { label: Name, name: title, widget: string }
       - { label: Symbol, name: symbol, widget: string }
       - { label: Logo, name: logo, widget: image }

@@ -1,4 +1,5 @@
 ---
+team: true
 title: UNB Saint John Seawolves
 symbol: SJ
 logo: /img/unbsj_logo.png
