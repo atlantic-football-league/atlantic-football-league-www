@@ -35,7 +35,6 @@ export const NewsPostTemplate = ({
   helmet
 }) => {
   const PostContent = contentComponent || Content;
-  console.log(date);
   return (
     <article className="section">
       {helmet || ""}

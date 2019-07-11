@@ -4,43 +4,32 @@ import { graphql } from "gatsby";
 import styled from "styled-components";
 import Layout from "../components/Layout";
 import Panel from "../components/Panel";
+import { H1 } from "../components/styles/Text";
 
-const Table = styled.table`
-  width: 100%;
-  font-size: 0.9rem;
-`;
+import {
+  Table,
+  THead,
+  TBody,
+  Row,
+  Heading,
+  Cell,
+  Team,
+  Logo
+} from "../components/styles/Table";
 
-const Row = styled.tr`
-  vertical-align: center;
-`;
-
-const Cell = styled.td``;
-const Team = styled.div`
-  display: grid;
-  align-items: center;
-  justify-content: start;
-  grid-auto-flow: column;
-  grid-gap: 0.25rem;
-`;
-
-const Logo = styled.img.attrs({ alt: "" })`
-  max-height: 1.25rem;
-`;
-
-const THead = styled.thead``;
-
-const TBody = styled.tbody``;
-const Heading = styled.th`
-  text-align: left;
+const Score = styled.div`
+  text-align: right;
+  font-weight: ${({ win }) => (win ? 600 : 400)};
+  color: ${({ win, theme }) => (win ? theme.colors.green : "inherit")};
 `;
 
 const TableHeader = () => (
   <THead>
     <Row>
       <Heading>Away</Heading>
-      <Heading>Score</Heading>
+      <Heading style={{ textAlign: "right" }}>A. Score</Heading>
       <Heading>Home</Heading>
-      <Heading>Score</Heading>
+      <Heading style={{ textAlign: "right" }}>H. Score</Heading>
       <Heading>Date</Heading>
       <Heading>Time/Location</Heading>
     </Row>
@@ -59,14 +48,22 @@ const Game = ({ away, ascore, home, hscore, date, location, teams }) => {
           {awayTeam.title}
         </Team>
       </Cell>
-      <Cell>{typeof ascore === "number" ? ascore : "--"}</Cell>
+      <Cell>
+        <Score win={hscore < ascore}>
+          {typeof ascore === "number" ? ascore : "--"}
+        </Score>
+      </Cell>
       <Cell>
         <Team>
           <Logo src={awayTeam.logo.publicURL} />
           {homeTeam.title}
         </Team>
       </Cell>
-      <Cell>{typeof hscore === "number" ? hscore : "--"}</Cell>
+      <Cell>
+        <Score win={hscore > ascore}>
+          {typeof hscore === "number" ? hscore : "--"}
+        </Score>
+      </Cell>
       <Cell>{dateOnly}</Cell>
       <Cell>
         {time} @ {location}
@@ -77,16 +74,19 @@ const Game = ({ away, ascore, home, hscore, date, location, teams }) => {
 
 export const ScheduleTemplate = ({ games, teams }) => {
   return (
-    <Panel style={{ overflowX: "auto" }}>
-      <Table>
-        <TableHeader />
-        <TBody>
-          {games.map(game => (
-            <Game key={game.id} {...game} teams={teams} />
-          ))}
-        </TBody>
-      </Table>
-    </Panel>
+    <>
+      <H1>Schedule</H1>
+      <Panel style={{ overflowX: "auto" }}>
+        <Table>
+          <TableHeader />
+          <TBody>
+            {games.map(game => (
+              <Game key={game.id} {...game} teams={teams} />
+            ))}
+          </TBody>
+        </Table>
+      </Panel>
+    </>
   );
 };
 

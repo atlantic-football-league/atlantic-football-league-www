@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "gatsby";
+import { Link, StaticQuery, graphql } from "gatsby";
 import styled, { css } from "styled-components";
 
 import logo from "../img/afl-logo.svg";
@@ -107,7 +107,7 @@ const MenuButton = styled.button`
   }
 `;
 
-const Navbar = () => {
+const Navbar = ({ schedulePath }) => {
   const [openNav, setOpenNav] = useState(false);
   return (
     <Wrapper>
@@ -120,7 +120,7 @@ const Navbar = () => {
         </MenuButton>
         <Links isOpen={openNav} onClick={() => setOpenNav(false)}>
           <NavLink to="/news">News</NavLink>
-          <NavLink to="/schedule">Schedule</NavLink>
+          <NavLink to={schedulePath}>Schedule</NavLink>
           <NavLink to="/achievements">Achievements</NavLink>
         </Links>
       </NavMenu>
@@ -128,4 +128,31 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default () => (
+  <StaticQuery
+    query={graphql`
+      query CurrentScheduleUrl {
+        allMarkdownRemark(
+          filter: { frontmatter: { templateKey: { eq: "schedule" } } }
+          sort: { fields: frontmatter___year, order: DESC }
+          limit: 1
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={data => {
+      return (
+        <Navbar
+          schedulePath={data.allMarkdownRemark.edges[0].node.fields.slug}
+        />
+      );
+    }}
+  />
+);

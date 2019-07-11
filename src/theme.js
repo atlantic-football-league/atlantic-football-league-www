@@ -2,6 +2,7 @@ const theme = {
   maxWidth: 1200,
   colors: {
     primary: "#223b9f",
+    green: "green",
     black: "black",
     white: "white",
     background: "#f8f8fa"

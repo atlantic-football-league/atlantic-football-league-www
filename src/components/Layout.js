@@ -12,13 +12,13 @@ const SiteContainer = styled.div`
   display: grid;
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
-  justify-content: stretch;
 `;
 
 const Container = styled.div`
   padding: 1rem;
+  width: 100%;
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
   display: grid;
   grid-gap: 1.5rem;
   grid-template-columns: 1fr ${({ noSidebar }) =>

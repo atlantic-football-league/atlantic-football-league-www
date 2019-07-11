@@ -2,6 +2,7 @@ import React from "react";
 import { H2 } from "./styles/Text";
 import Panel from "./Panel";
 import Standings from "./Standings";
+import UpcomingGames from "./UpcomingGames";
 
 const Sidebar = () => (
   <aside>
@@ -10,8 +11,10 @@ const Sidebar = () => (
     <Panel>
       <Standings />
     </Panel>
-    <H2>Upcoming Games</H2>
-    <Panel>{/* <UpcomingGames /> */}</Panel>
+    <H2>Games</H2>
+    <Panel>
+      <UpcomingGames />
+    </Panel>
   </aside>
 );
 

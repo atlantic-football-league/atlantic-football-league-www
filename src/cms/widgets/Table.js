@@ -9,8 +9,6 @@ const Input = styled.input`
 // This is the editing component
 export class Table extends Component {
   render() {
-    console.log(this.props);
-    console.log(this.props.getEditorComponents());
     return (
       <table className={this.props.classNameWrapper}>
         <thead>
@@ -92,7 +90,6 @@ export class Table extends Component {
 
 export class TablePreview extends Component {
   render() {
-    console.log(this.props);
     return <div>Table Preview</div>;
   }
 }
