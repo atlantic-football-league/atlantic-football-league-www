@@ -1,44 +1,96 @@
 import React from "react";
-import { graphql, StaticQuery } from "gatsby";
+import { graphql, StaticQuery, Link } from "gatsby";
 import { sortBy, groupBy } from "lodash";
 import styled from "styled-components";
 
-const formatDate = date =>
-  new Intl.DateTimeFormat("en-CA", {
-    weekday: "long",
-    month: "long",
-    day: "numeric",
-    year: "numeric"
-  }).format(date);
+import { formatDate, formatTime } from "../utils/dateTime";
+import { withTeams } from "../utils/queries";
+import { Team, Logo } from "./styles/Table";
 
-const formatTime = date =>
-  new Intl.DateTimeFormat("en-CA", {
-    hour: "numeric",
-    minute: "numeric"
-  }).format(date);
+const Heading = styled.h4`
+  margin: 0;
+  font-size: 0.9rem;
+`;
+
+const Section = styled.div`
+  border-bottom: 1px solid ${({ theme }) => theme.grayscale(0.2)};
+  padding: 0.5rem 0;
+
+  display: grid;
+  grid-gap: 0.25rem;
+  font-weight: 600;
+`;
+
+const Scoreboard = styled.div`
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-gap: 1rem;
+  align-items: center;
+`;
+
+const Score = styled.div`
+  display: grid;
+  grid-template-columns: 1fr auto;
+`;
+
+// const Team = styled.div``;
+
+const Versus = styled.div`
+  color: ${({ theme }) => theme.grayscale(0.5)};
+  font-size: 0.8rem;
+`;
+
+const TimeLocation = styled.div`
+  color: ${({ theme }) => theme.grayscale(0.5)};
+
+  font-size: 0.8rem;
+  text-align: center;
+`;
 
 const Final = styled.span`
   color: ${({ theme }) => theme.colors.green};
 `;
 
-const Section = styled.div`
-  border-bottom: 1px solid black;
-`;
-
-const TimeLocation = styled.div`
-  color: ${({ theme }) => theme.grayscale(0.5)};
-  font-weight: 600;
+const ScheduleLink = styled(Link)`
+  border-radius: 0.25rem;
+  display: block;
+  background: ${({ theme }) => theme.grayscale(0.1)};
+  padding: 0.5rem 1rem;
+  margin: 1rem 0 0 0;
   font-size: 0.8rem;
+  color: ${({ theme }) => theme.grayscale(0.6)};
   text-align: center;
+  text-decoration: inherit;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: background 100ms ease-in-out;
+
+  &:hover {
+    background: ${({ theme }) => theme.grayscale(0.15)};
+  }
 `;
 
-const Game = ({ date, location, home, away, hscore, ascore }) => {
+const Game = ({ date, location, home, away, hscore, ascore, teams }) => {
   const isFinal = typeof hscore === "number" && typeof ascore === "number";
   return (
-    <div>
-      <div>
-        {home} {hscore} vs. {away} {ascore}
-      </div>
+    <>
+      <Scoreboard>
+        <Score>
+          <Team>
+            <Logo src={teams[home].logo.publicURL} />
+            {home}
+          </Team>{" "}
+          {typeof hscore === "number" ? hscore : "--"}
+        </Score>
+        <Versus>vs.</Versus>
+        <Score>
+          <Team>
+            <Logo src={teams[away].logo.publicURL} />
+            {away}
+          </Team>
+          {typeof ascore === "number" ? ascore : "--"}
+        </Score>
+      </Scoreboard>
       <TimeLocation>
         <time>{formatTime(new Date(date))}</time> @ {location}{" "}
         {isFinal && (
@@ -47,18 +99,22 @@ const Game = ({ date, location, home, away, hscore, ascore }) => {
           </span>
         )}
       </TimeLocation>
-    </div>
+    </>
   );
 };
 
-const GamesByDay = ({ games }) => (
+const GamesByDay = ({ games, teams }) => (
   <>
-    <Section>{formatDate(new Date(games[0].date))}</Section>
     <Section>
-      {games.map(game => (
-        <Game {...game} />
-      ))}
+      <Heading>
+        <time>{formatDate(new Date(games[0].date))}</time>
+      </Heading>
     </Section>
+    {games.map(game => (
+      <Section>
+        <Game {...game} teams={teams} />
+      </Section>
+    ))}
   </>
 );
 
@@ -68,7 +124,7 @@ const NoGames = styled.p`
   text-align: center;
 `;
 
-const UpcomingGames = ({ data }) => {
+const UpcomingGames = ({ data, schedulePath, teams }) => {
   if (data.length === 0)
     return <NoGames>The are no recent or upcoming games.</NoGames>;
   const gamesByDate = sortBy(
@@ -77,12 +133,12 @@ const UpcomingGames = ({ data }) => {
   );
 
   return (
-    <div>
-      {/* <pre>{JSON.stringify(gamesByDate, null, 2)}</pre> */}
+    <>
       {gamesByDate.map(games => (
-        <GamesByDay games={games} />
+        <GamesByDay games={games} teams={teams} />
       ))}
-    </div>
+      <ScheduleLink to={schedulePath}>Full Schedule &rarr;</ScheduleLink>
+    </>
   );
 };
 
@@ -97,6 +153,9 @@ export default () => (
         ) {
           edges {
             node {
+              fields {
+                slug
+              }
               frontmatter {
                 year
                 games {
@@ -132,7 +191,10 @@ export default () => (
         "date"
       );
 
-      return <UpcomingGames data={sortedGames} />;
+      return withTeams(UpcomingGames, {
+        data: sortedGames,
+        schedulePath: data.allMarkdownRemark.edges[0].node.fields.slug
+      });
     }}
   />
 );

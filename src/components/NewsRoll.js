@@ -86,7 +86,9 @@ class NewsRoll extends React.Component {
                     </Author>
                   )}
                   <Excerpt>{post.excerpt}</Excerpt>
-                  <MoreLink to={post.fields.slug}>Keep Reading →</MoreLink>
+                  <MoreLink tabIndex={-1} to={post.fields.slug}>
+                    Keep Reading →
+                  </MoreLink>
                 </Article>
               </Panel>
             </ArticleLink>

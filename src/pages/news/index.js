@@ -13,7 +13,7 @@ export default class NewsIndexPage extends React.Component {
     return (
       <Layout>
         <Main>
-          <H1>Latest Stories</H1>
+          <H1>All Stories</H1>
           <section className="section">
             <div className="container">
               <div className="content">

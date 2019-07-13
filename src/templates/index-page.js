@@ -11,8 +11,9 @@ const MoreNewsLink = styled(Link)`
   display: block;
   background: ${({ theme }) => theme.grayscale(0.1)};
   padding: 0.5rem 1rem;
-  margin: 1rem 0;
-  color: inherit;
+  margin: 1rem 0 0 0;
+  font-size: 0.8rem;
+  color: ${({ theme }) => theme.grayscale(0.6)};
   text-align: center;
   text-decoration: inherit;
   text-transform: uppercase;
@@ -28,7 +29,7 @@ export const IndexPageTemplate = ({}) => (
   <>
     <H2>Latest stories</H2>
     <NewsRoll limit={5} />
-    <MoreNewsLink to="/news">More News</MoreNewsLink>
+    <MoreNewsLink to="/news">More News &rarr;</MoreNewsLink>
   </>
 );
 

@@ -2,6 +2,7 @@ import React from "react";
 import { graphql, StaticQuery } from "gatsby";
 import { orderBy } from "lodash";
 import styled from "styled-components";
+import { withTeams } from "../utils/queries";
 
 import {
   Table,
@@ -9,7 +10,9 @@ import {
   TBody,
   Row,
   Heading as THeading,
-  Cell as TCell
+  Cell as TCell,
+  Logo,
+  Team
 } from "./styles/Table";
 
 const Cell = styled(TCell)`
@@ -86,39 +89,40 @@ const getStandings = data => {
   );
 };
 
-const Standings = ({ data }) => (
-  <div>
-    <Table>
-      <THead>
-        <Row>
-          <THeading>Team</THeading>
-          <Heading>GP</Heading>
-          <Heading>W</Heading>
-          <Heading>L</Heading>
-          <Heading>PF</Heading>
-          <Heading>PA</Heading>
-          <Heading>Pts</Heading>
-          <Heading>W%</Heading>
-        </Row>
-      </THead>
-      <TBody>
-        {data.map(({ team, gp, w, l, pf, pa, pts, wPercent }) => (
-          <Row key={team}>
-            <TCell>
+const Standings = ({ data, teams }) => (
+  <Table>
+    <THead>
+      <Row>
+        <THeading>Team</THeading>
+        <Heading>GP</Heading>
+        <Heading>W</Heading>
+        <Heading>L</Heading>
+        <Heading>PF</Heading>
+        <Heading>PA</Heading>
+        <Heading>Pts</Heading>
+        <Heading>W%</Heading>
+      </Row>
+    </THead>
+    <TBody>
+      {data.map(({ team, gp, w, l, pf, pa, pts, wPercent }) => (
+        <Row key={team}>
+          <TCell>
+            <Team>
+              <Logo src={teams[team].logo.publicURL} />
               <strong>{team}</strong>
-            </TCell>
-            <Cell>{gp}</Cell>
-            <Cell>{w}</Cell>
-            <Cell>{l}</Cell>
-            <Cell>{pf}</Cell>
-            <Cell>{pa}</Cell>
-            <Cell style={{ fontWeight: 600 }}>{pts}</Cell>
-            <Cell>{wPercent.toFixed(3)}</Cell>
-          </Row>
-        ))}
-      </TBody>
-    </Table>
-  </div>
+            </Team>
+          </TCell>
+          <Cell>{gp}</Cell>
+          <Cell>{w}</Cell>
+          <Cell>{l}</Cell>
+          <Cell>{pf}</Cell>
+          <Cell>{pa}</Cell>
+          <Cell style={{ fontWeight: 600 }}>{pts}</Cell>
+          <Cell>{wPercent.toFixed(3)}</Cell>
+        </Row>
+      ))}
+    </TBody>
+  </Table>
 );
 
 export default () => (
@@ -149,7 +153,7 @@ export default () => (
     `}
     render={data => {
       const standingsData = getStandings(data);
-      return <Standings data={standingsData} />;
+      return withTeams(Standings, { data: standingsData });
     }}
   />
 );

@@ -1,8 +1,37 @@
 import React, { useState } from "react";
 import { Link, StaticQuery, graphql } from "gatsby";
+import { mapValues, values } from "lodash";
 import styled, { css } from "styled-components";
+import { withTeams } from "../utils/queries";
 
 import logo from "../img/afl-logo.svg";
+
+const Teams = styled.div`
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 0.5rem;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+`;
+
+const LogoLink = styled.a`
+  display: block;
+  max-width: 6rem;
+
+  @media (max-width: 800px) {
+    max-width: 5rem;
+  }
+  @media (max-width: 600px) {
+    max-width: 4rem;
+  }
+  img {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+    padding: 1rem;
+  }
+`;
 
 const Wrapper = styled.div`
   position: sticky;
@@ -55,6 +84,9 @@ const NavLink = styled(Link).attrs({ activeClassName: "active" })`
 const BrandLink = styled(NavLink)`
   color: ${props => props.theme.grayscale_i(1)};
   border-bottom-color: ${props => props.theme.grayscale_i(0)} !important;
+  @media (max-width: 400px) {
+    font-size: 0.9em;
+  }
 `;
 
 const Logo = styled.img.attrs({ src: logo })`
@@ -107,24 +139,40 @@ const MenuButton = styled.button`
   }
 `;
 
-const Navbar = ({ schedulePath }) => {
+const Navbar = ({ schedulePath, teams }) => {
   const [openNav, setOpenNav] = useState(false);
   return (
-    <Wrapper>
-      <NavMenu>
-        <BrandLink to="/">
-          <Logo /> Atlantic Football League
-        </BrandLink>
-        <MenuButton isOpen={openNav} onClick={() => setOpenNav(!openNav)}>
-          Menu
-        </MenuButton>
-        <Links isOpen={openNav} onClick={() => setOpenNav(false)}>
-          <NavLink to="/news">News</NavLink>
-          <NavLink to={schedulePath}>Schedule</NavLink>
-          <NavLink to="/achievements">Achievements</NavLink>
-        </Links>
-      </NavMenu>
-    </Wrapper>
+    <>
+      <Teams>
+        {values(
+          mapValues(teams, team => (
+            <LogoLink
+              href={team.website}
+              key={team.symbol}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={team.logo.publicURL} alt={team.title} />
+            </LogoLink>
+          ))
+        )}
+      </Teams>
+      <Wrapper>
+        <NavMenu>
+          <BrandLink to="/">
+            <Logo /> Atlantic Football League
+          </BrandLink>
+          <MenuButton isOpen={openNav} onClick={() => setOpenNav(!openNav)}>
+            Menu
+          </MenuButton>
+          <Links isOpen={openNav} onClick={() => setOpenNav(false)}>
+            <NavLink to="/news">News</NavLink>
+            <NavLink to={schedulePath}>Schedule</NavLink>
+            <NavLink to="/achievements">Achievements</NavLink>
+          </Links>
+        </NavMenu>
+      </Wrapper>
+    </>
   );
 };
 
@@ -148,11 +196,9 @@ export default () => (
       }
     `}
     render={data => {
-      return (
-        <Navbar
-          schedulePath={data.allMarkdownRemark.edges[0].node.fields.slug}
-        />
-      );
+      return withTeams(Navbar, {
+        schedulePath: data.allMarkdownRemark.edges[0].node.fields.slug
+      });
     }}
   />
 );

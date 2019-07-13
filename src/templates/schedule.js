@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import styled from "styled-components";
 import Layout from "../components/Layout";
 import Panel from "../components/Panel";
-import { H1 } from "../components/styles/Text";
+import { H1, H2 } from "../components/styles/Text";
 
 import {
   Table,
@@ -16,6 +16,8 @@ import {
   Team,
   Logo
 } from "../components/styles/Table";
+import { formatDate, formatTime } from "../utils/dateTime";
+import Standings from "../components/Standings";
 
 const Score = styled.div`
   text-align: right;
@@ -37,7 +39,6 @@ const TableHeader = () => (
 );
 
 const Game = ({ away, ascore, home, hscore, date, location, teams }) => {
-  const [dateOnly, time] = date.split("~");
   const awayTeam = teams[away];
   const homeTeam = teams[home];
   return (
@@ -64,9 +65,13 @@ const Game = ({ away, ascore, home, hscore, date, location, teams }) => {
           {typeof hscore === "number" ? hscore : "--"}
         </Score>
       </Cell>
-      <Cell>{dateOnly}</Cell>
       <Cell>
-        {time} @ {location}
+        <time>
+          {formatDate(new Date(date), { month: "short", weekday: "short" })}
+        </time>
+      </Cell>
+      <Cell>
+        <time>{formatTime(new Date(date))}</time> @ {location}
       </Cell>
     </Row>
   );
@@ -85,6 +90,11 @@ export const ScheduleTemplate = ({ games, teams }) => {
             ))}
           </TBody>
         </Table>
+      </Panel>
+
+      <H2>Standings</H2>
+      <Panel style={{ overflowX: "auto" }}>
+        <Standings />
       </Panel>
     </>
   );
@@ -127,7 +137,7 @@ export const pageQuery = graphql`
           hscore
           away
           ascore
-          date(formatString: "ddd, DD MMM~h:mm A")
+          date
           location
           postSeason
         }

@@ -11,7 +11,7 @@ import theme from "../theme";
 const SiteContainer = styled.div`
   display: grid;
   min-height: 100vh;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto auto 1fr auto;
 `;
 
 const Container = styled.div`
@@ -22,7 +22,7 @@ const Container = styled.div`
   display: grid;
   grid-gap: 1.5rem;
   grid-template-columns: 1fr ${({ noSidebar }) =>
-      noSidebar ? "" : "minmax(300px, 30%)"};
+      noSidebar ? "" : "minmax(320px, 30%)"};
 
   @media (max-width: 700px) {
     grid-template-columns: 1fr;
@@ -36,6 +36,7 @@ const TemplateWrapper = ({ children, noSidebar }) => {
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content={description} />
 
         <link
