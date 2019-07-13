@@ -105,7 +105,7 @@ const Schedule = ({ data }) => {
   const teamsObj = {};
 
   teams.edges.forEach(team => {
-    teamsObj[team.node.frontmatter.symbol] = team.node.frontmatter;
+    teamsObj[team.node.frontmatter.uid] = team.node.frontmatter;
   });
 
   return (
@@ -151,7 +151,7 @@ export const pageQuery = graphql`
             logo {
               publicURL
             }
-            symbol
+            uid
           }
         }
       }

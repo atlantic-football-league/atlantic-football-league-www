@@ -70,7 +70,7 @@ const Footer = ({ data }) => {
         <Menu>
           <MenuHeading>Teams</MenuHeading>
           {teams.map(({ node: { frontmatter: team } }) => (
-            <a href={team.website} key={team.symbol}>
+            <a href={team.website} key={team.uid}>
               {team.title}
             </a>
           ))}
@@ -97,7 +97,7 @@ export default () => (
               frontmatter {
                 title
                 website
-                symbol
+                uid
               }
             }
           }

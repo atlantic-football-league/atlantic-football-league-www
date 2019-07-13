@@ -109,7 +109,7 @@ const Standings = ({ data, teams }) => (
           <TCell>
             <Team>
               <Logo src={teams[team].logo.publicURL} />
-              <strong>{team}</strong>
+              <strong>{teams[team].symbol}</strong>
             </Team>
           </TCell>
           <Cell>{gp}</Cell>

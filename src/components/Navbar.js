@@ -148,7 +148,7 @@ const Navbar = ({ schedulePath, teams }) => {
           mapValues(teams, team => (
             <LogoLink
               href={team.website}
-              key={team.symbol}
+              key={team.uid}
               target="_blank"
               rel="noopener noreferrer"
             >

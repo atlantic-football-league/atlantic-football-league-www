@@ -14,6 +14,7 @@ export const withTeams = (Component, props) => (
                 logo {
                   publicURL
                 }
+                uid
                 symbol
               }
             }
@@ -26,7 +27,7 @@ export const withTeams = (Component, props) => (
       const teamsObj = {};
 
       teams.edges.forEach(team => {
-        teamsObj[team.node.frontmatter.symbol] = team.node.frontmatter;
+        teamsObj[team.node.frontmatter.uid] = team.node.frontmatter;
       });
       return <Component teams={teamsObj} {...props} />;
     }}

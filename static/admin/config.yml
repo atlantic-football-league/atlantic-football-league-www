@@ -32,15 +32,46 @@ collections:
     label: "Teams"
     folder: "src/data/teams"
     create: true
-    slug: "{{symbol}}"
+    slug: "{{uid}}"
     fields:
       - { label: "Is Team", name: "team", widget: "hidden", default: true }
       - { label: Name, name: title, widget: string }
-      - { label: Symbol, name: symbol, widget: string }
-      - { label: Logo, name: logo, widget: image }
-      - { label: Primary Color, name: color, widget: string }
-      - { label: Accent Color, name: textColor, widget: string }
-      - { label: WebsiteUrl, name: website, widget: string }
+      - {
+          label: uid,
+          name: uid,
+          widget: hidden,
+          hint: "DANGER: DO NOT MODIFY THIS FIELD AFTER. THIS FIELD IS NOT DISPLAYED ANYWHERE ON THE WEBSITE. WHEN CREATING THIS FIELD, ENSURE IT IS UNIQUE FROM ALL OTHER TEAMS.",
+        }
+      - {
+          label: symbol,
+          name: Symbol,
+          widget: string,
+          hint: "Short 2-5 letters that identify the team.",
+        }
+      - {
+          label: Logo,
+          name: logo,
+          widget: image,
+          hint: "Best if the logo is a PNG with a transparent background.",
+        }
+      - {
+          label: Primary Color,
+          name: color,
+          widget: string,
+          hint: "The team's main brand color",
+        }
+      - {
+          label: Accent Color,
+          name: textColor,
+          widget: string,
+          hint: "The team's accent color (should be high contrast with the main color).",
+        }
+      - {
+          label: WebsiteUrl,
+          name: website,
+          widget: string,
+          hint: "The team's website URL.",
+        }
   - folder: "src/data/schedule"
     label: "Schedule"
     name: "schedule"
@@ -71,8 +102,8 @@ collections:
             widget: relation
             collection: "teams"
             searchFields: ["title", "symbol"]
-            valueField: "symbol"
-            displayFields: ["title", "symbol"]
+            valueField: "uid"
+            displayFields: ["title", "date"]
           - {
               label: Home Score,
               name: hscore,
@@ -85,7 +116,7 @@ collections:
             widget: relation
             collection: "teams"
             searchFields: ["title", "symbol"]
-            valueField: "symbol"
+            valueField: "uid"
             displayFields: ["title", "symbol"]
           - {
               label: Away Score,

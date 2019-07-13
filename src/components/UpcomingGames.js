@@ -79,7 +79,7 @@ const Game = ({ date, location, home, away, hscore, ascore, teams }) => {
         <Score>
           <Team>
             <Logo src={teams[home].logo.publicURL} />
-            {home}
+            {teams[home].symbol}
           </Team>{" "}
           {typeof hscore === "number" ? hscore : "--"}
         </Score>
@@ -87,7 +87,7 @@ const Game = ({ date, location, home, away, hscore, ascore, teams }) => {
         <Score>
           <Team>
             <Logo src={teams[away].logo.publicURL} />
-            {away}
+            {teams[away].symbol}
           </Team>
           {typeof ascore === "number" ? ascore : "--"}
         </Score>
