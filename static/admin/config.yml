@@ -99,6 +99,19 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
+      - file: "src/pages/league-awards/index.md"
+        label: "League Awards"
+        name: "league-awards"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "standard-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Path", name: "path", widget: "hidden" }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/about-the-league/index.md"
         label: "About"
         name: "about-the-league"
@@ -115,6 +128,19 @@ collections:
       - file: "src/pages/code-of-ethics/index.md"
         label: "Code of Ethics"
         name: "code-of-ethics"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "standard-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Path", name: "path", widget: "hidden" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "src/pages/media-policy/index.md"
+        label: "Media Policy"
+        name: "media-policy"
         fields:
           - {
               label: "Template Key",
