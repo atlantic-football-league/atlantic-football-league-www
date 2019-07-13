@@ -18,7 +18,7 @@ const Container = styled.div`
   padding: 1rem;
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 2rem auto;
   display: grid;
   grid-gap: 1.5rem;
   grid-template-columns: 1fr ${({ noSidebar }) =>

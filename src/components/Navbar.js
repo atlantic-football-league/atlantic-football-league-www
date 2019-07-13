@@ -168,7 +168,7 @@ const Navbar = ({ schedulePath, teams }) => {
           <Links isOpen={openNav} onClick={() => setOpenNav(false)}>
             <NavLink to="/news">News</NavLink>
             <NavLink to={schedulePath}>Schedule</NavLink>
-            <NavLink to="/achievements">Achievements</NavLink>
+            <NavLink to="/league-awards">League Awards</NavLink>
           </Links>
         </NavMenu>
       </Wrapper>

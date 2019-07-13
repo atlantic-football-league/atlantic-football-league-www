@@ -77,7 +77,7 @@ const Footer = ({ data }) => {
         </Menu>
         <Menu>
           <MenuHeading>League Info</MenuHeading>
-          <Link to="/about">About</Link>
+          <Link to="/about-the-league">About The League</Link>
           <Link to="/code-of-ethics">Code of Ethics</Link>
           <Link to="/media-policy">Media Policy</Link>
           <Link to="/rules-and-regulations">Rules & Regulations</Link>

@@ -49,6 +49,7 @@ const TimeLocation = styled.div`
 
 const Final = styled.span`
   color: ${({ theme }) => theme.colors.green};
+  text-transform: uppercase;
 `;
 
 const ScheduleLink = styled(Link)`
