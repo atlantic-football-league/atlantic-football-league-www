@@ -1,7 +1,7 @@
 ---
 team: true
 title: UNB Fredericton Red Bombers
-symbol: FR
+symbol: UNBF
 logo: /img/unbf_logo.png
 color: '#E7122C'
 textColor: white
