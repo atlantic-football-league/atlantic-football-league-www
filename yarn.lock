@@ -7810,7 +7810,7 @@ jsdom@^11.3.0:
     request "^2.87.0"
     request-promise-native "^1.0.5"
     sax "^1.2.4"
-    uid-tree "^3.2.2"
+    symbol-tree "^3.2.2"
     tough-cookie "^2.3.4"
     w3c-hr-time "^1.0.1"
     webidl-conversions "^4.0.2"
@@ -13326,9 +13326,9 @@ symbol-observable@^1.2.0:
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
   integrity sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
 
-uid-tree@^3.2.2:
+symbol-tree@^3.2.2:
   version "3.2.2"
-  resolved "https://registry.yarnpkg.com/uid-tree/-/uid-tree-3.2.2.tgz#ae27db38f660a7ae2e1c3b7d1bc290819b8519e6"
+  resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.2.tgz#ae27db38f660a7ae2e1c3b7d1bc290819b8519e6"
   integrity sha1-rifbOPZgp64uHDt9G8KQgZuFGeY=
 
 table@^5.2.3:
