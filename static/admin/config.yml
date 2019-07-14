@@ -37,14 +37,14 @@ collections:
       - { label: "Is Team", name: "team", widget: "hidden", default: true }
       - { label: Name, name: title, widget: string }
       - {
-          label: uid,
+          label: Unique ID,
           name: uid,
-          widget: hidden,
-          hint: "DANGER: DO NOT MODIFY THIS FIELD AFTER. THIS FIELD IS NOT DISPLAYED ANYWHERE ON THE WEBSITE. WHEN CREATING THIS FIELD, ENSURE IT IS UNIQUE FROM ALL OTHER TEAMS.",
+          widget: string,
+          hint: "DANGER: DO NOT MODIFY THIS FIELD AFTER IT IS CREATED. THIS FIELD IS NOT DISPLAYED ANYWHERE ON THE WEBSITE. WHEN CREATING THIS FIELD, ENSURE IT IS UNIQUE FROM ALL OTHER TEAMS.",
         }
       - {
-          label: symbol,
-          name: Symbol,
+          label: Symbol,
+          name: symbol,
           widget: string,
           hint: "Short 2-5 letters that identify the team.",
         }
