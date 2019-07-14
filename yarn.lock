@@ -11626,7 +11626,7 @@ redux@^4.0.0, redux@^4.0.1:
   integrity sha512-R7bAtSkk7nY6O/OYMVR9RiBI+XghjF9rlbl5806HJbQph0LJVHZrU5oaO4q70eUKiqMRqm4y07KLTlMZ2BlVmg==
   dependencies:
     loose-envify "^1.4.0"
-    uid-observable "^1.2.0"
+    symbol-observable "^1.2.0"
 
 regenerate-unicode-properties@^8.0.2:
   version "8.0.2"
@@ -13321,9 +13321,9 @@ svgo@^1.0.0, svgo@^1.0.5, svgo@^1.2.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-uid-observable@^1.2.0:
+symbol-observable@^1.2.0:
   version "1.2.0"
-  resolved "https://registry.yarnpkg.com/uid-observable/-/uid-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
+  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
   integrity sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
 
 uid-tree@^3.2.2:
