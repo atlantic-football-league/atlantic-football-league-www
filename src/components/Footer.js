@@ -5,8 +5,17 @@ import { graphql, StaticQuery, Link } from "gatsby";
 import logo from "../img/afl-logo.svg";
 
 const FooterWrapper = styled.footer`
-  padding: 1rem;
+  padding: 2rem 1rem;
   background: #eee;
+
+  a {
+    text-decoration: inherit;
+    color: inherit;
+
+    &:hover {
+      color: ${({ theme }) => theme.colors.primary};
+    }
+  }
 `;
 
 const InnerFooter = styled.div`
@@ -25,36 +34,35 @@ const InnerFooter = styled.div`
   }
 `;
 
-const BrandWrapper = styled.div`
+const BrandWrapper = styled.span`
   align-self: start;
   align-items: center;
-  display: flex;
+  display: inline-flex;
+  font-weight: 600;
+  font-size: 1.2rem;
+  opacity: 0.5;
+  transition: opacity 100ms ease-in-out;
+
+  &:hover {
+    opacity: 0.75;
+  }
 `;
 
 const Logo = styled.img.attrs({ src: logo, alt: "" })`
   width: 2rem;
-  filter: grayscale(100);
   color: black;
-  filter: invert(0.6);
+  filter: invert(1);
   margin-right: 0.5rem;
 `;
 
 const Menu = styled.div`
   display: grid;
   grid-gap: 0.25rem;
-  font-size: 0.8rem;
-
-  a {
-    text-decoration: inherit;
-    color: inherit;
-
-    &:hover {
-      color: ${({ theme }) => theme.colors.primary};
-    }
-  }
+  justify-content: start;
 `;
 
 const MenuHeading = styled.h4`
+  font-size: 0.8rem;
   text-transform: uppercase;
   margin: 0.5em 0;
 `;
@@ -64,9 +72,13 @@ const Footer = ({ data }) => {
   return (
     <FooterWrapper>
       <InnerFooter>
-        <BrandWrapper>
-          <Logo /> Atlantic Football League
-        </BrandWrapper>
+        <div>
+          <Link to="/">
+            <BrandWrapper>
+              <Logo /> Atlantic Football League
+            </BrandWrapper>
+          </Link>
+        </div>
         <Menu>
           <MenuHeading>Teams</MenuHeading>
           {teams.map(({ node: { frontmatter: team } }) => (
