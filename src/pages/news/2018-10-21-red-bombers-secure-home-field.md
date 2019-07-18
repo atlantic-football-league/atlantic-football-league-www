@@ -10,7 +10,7 @@ author: Bryce Doiron
 
 ## UNB Red Bombers  14 - Holland College Hurricanes  12
 
-{: .article-img}
+
 ![](/img/posts/2018-10-21-b.jpg)
 
 The win today in Charlottetown secured homefield advantage for the UNB Red Bombers (4-2) for the AFL semifinal this Saturday (Oct. 27) in Fredericton against Holland College. Dalhousie Tigers will host the other semi against the UNBSJ Seawolves.

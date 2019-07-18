@@ -1,6 +1,7 @@
 ---
 templateKey: "news-post"
 featuredpost: false
+teamId: HC
 tags:
   - migrated
 date: 2019-05-18T00:00:00.000Z
@@ -8,7 +9,7 @@ title: "MFBALL | ‘Canes add national champion running back from Mexico to rost
 author: Mason Murray
 ---
 
-{: .article-img}
+
 ![Marco Briones](/img/posts/2019-05-18.png)
 
 It’s been a big week for Marco Briones. Last Friday winning the ONEFA (National Organization for Student American Football) national championship in Mexico with the Universidad Autónoma de Nuevo León Tigres (Monterrey), and today he’s committed to joining the Holland Hurricanes men’s football team.

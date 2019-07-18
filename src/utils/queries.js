@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql, StaticQuery } from "gatsby";
 
-export const withTeams = (Component, props) => (
+export const withTeams = (Component, props = {}) => (
   <StaticQuery
     query={graphql`
       query WithTeams {

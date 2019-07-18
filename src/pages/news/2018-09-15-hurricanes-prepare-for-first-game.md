@@ -8,7 +8,7 @@ title: Hurricanes Football Team Prepares For First Game of Promising Season
 author: Bryce Doiron
 ---
 
-{: .article-img}
+
 ![](/img/posts/2018-09-15.jpg)
 
 **Thursday, September 13, 2018. Charlottetown, PE –** Excitement is building for the Holland Hurricanes and their fans as the team prepares for their first Atlantic Football League regular season game, taking place on Saturday at 1 p.m. in Saint John against the Sea Wolves.

@@ -1,6 +1,7 @@
 ---
 templateKey: "news-post"
 featuredpost: false
+teamId: HC
 tags:
   - migrated
 date: 2019-05-31T00:00:00.000Z
@@ -8,7 +9,7 @@ title: "MFBALL | ‘Canes add depth to special teams with Islander Parker Newson
 author: Mason Murray
 ---
 
-{: .article-img}
+
 ![Parker Newson](/img/posts/2019-05-31.jpg)
 
 Things continue to take shape for the upcoming season of men's football at Holland College; the Hurricanes recently announced the commitment of Parker Newson from Hunter River, PEI.

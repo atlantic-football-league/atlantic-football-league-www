@@ -13,7 +13,7 @@ This Saturday another chapter in Red Bomber history will be added (Tiger history
 
 John and Merrill will accompany the Red Bombers Captains when they are summoned to centre field by the Head Referee for the coin toss.
 
-{: .article-img}
+
 ![John Bliss](/img/posts/2017-11-02.jpg)
 
 UNB Red Bomber John Bliss 1953

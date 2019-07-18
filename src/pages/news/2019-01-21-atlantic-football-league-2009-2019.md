@@ -16,7 +16,7 @@ They say football will never come back to UNB. They also said Big Boys Don’t C
 ## Sept. 26, 2009: The UNB Red Bombers’ Return to Campus.
 # Oh What a Night !!
 
-{: .article-img}
+
 ![](/img/posts/2019-01-21-a.jpg)
 
 ## So much more than we could have realized was being rekindled on campus that night.
@@ -31,14 +31,14 @@ Mike Dollimore had done everything he could during camp to instill in these play
 
 So picture for a moment that you are one of those players in 2009 in the dressing room putting on the Red N’ Black for the first time (some of you reading this were indeed one of those players or coaches). At the door is an old Red Bombers helmet from the 1980 season that each player pats as they walk out of the dressing room. A short walk, and as you approach the crest of the hill before going down the long stairs to the field, you wonder why the PA is blaring out the US Navy’s “Anchors Aweigh” music (nice tune I guess – oh well). Suddenly you are at the top of the stairs with your first glimpse of the stands on the other side of the field,… and nearly 3000 fans erupt. This “Red Bombers-thing” starts to sink in. As one of those players Brian Gilliland said, “It’s a moment I will never forget.”
 
-{: .article-img}
+
 ![](/img/posts/2019-01-21-b.jpg)
 
 Pat Gillin, one of the Founders of the revived team had passed away in July, but family members were there to share the moment. Old Red Bombers jackets (fitting snugly) could be seen dotted throughout the stands. As you scanned the Red Bombers bench, there he was – Tony Proudfoot standing with the players with a grin from ear to ear. Eddy Campbell had just begun as UNB’s new President and performed the first Ceremonial Kick-off at a Homecoming.
 
 Half way through the 2nd quarter with a break in the action you could hear the fans roaring and cheering – first from the west end of the stands and then building like a wave louder and louder across to the east. Then you saw him… the Streaker … running full-out endzone to endzone, quickly up the hill and over the fence to the waiting car. … Perfect ! … College football !! The crowd went wild !!! This “Red Bombers-thing” was starting to sink in for everyone. The Bombers were home again. Jim Simons told us that the Red Bombers game was the imputes behind Homecoming being moved to late September. The only problem … we lost the game to the UNBSJ Seawolves 16-14 with a 30 yard field goal in the dying seconds. It didn’t seem to matter. It was magic. All of it. As Richard said, “The emotional aspect is what makes the game worthwhile.”
 
-{: .article-img}
+
 ![](/img/posts/2019-01-21-c.jpg)
 
 #6 DB Mike McSorley makes one of the first Red Bombers tackles in 29 years

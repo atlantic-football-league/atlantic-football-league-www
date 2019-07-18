@@ -1,11 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import { Markdown } from "../components/styles/Markdown";
+import TeamTag from "../components/TeamTag";
+import Panel from "../components/Panel";
 
 const Header = styled.header`
   display: grid;
@@ -18,11 +21,56 @@ const Title = styled.h1`
   margin: 0;
 `;
 
-const Time = styled.time`
+const subheading = css`
   font-weight: 600;
   font-size: 0.8em;
   text-transform: uppercase;
   color: ${({ theme }) => theme.grayscale(0.5)};
+`;
+
+const Time = styled.time`
+  ${subheading}
+`;
+
+const Author = styled.div`
+  ${subheading}
+
+  .prefix {
+    font-weight: 400;
+    text-transform: none;
+  }
+`;
+
+const TagsTitle = styled.h4`
+  text-transform: uppercase;
+  color: ${({ theme }) => theme.colors.primary};
+`;
+
+const TagsList = styled.ul`
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+  }
+`;
+
+const Tag = styled(Link)`
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: ${({ theme }) => theme.grayscale(0.6)};
+  background: ${({ theme }) => theme.grayscale(0.05)};
+  padding: 0.5em 1em;
+  margin-right: 0.5rem;
+  border-radius: 0.25em;
+  transition: background 100ms ease-in-out;
+
+  :hover {
+    background: ${({ theme }) => theme.grayscale(0.1)};
+  }
 `;
 
 export const NewsPostTemplate = ({
@@ -30,31 +78,41 @@ export const NewsPostTemplate = ({
   contentComponent,
   tags,
   title,
+  teamId,
   date,
   author,
   helmet
 }) => {
   const PostContent = contentComponent || Content;
   return (
-    <article className="section">
+    <article>
       {helmet || ""}
-      <Header>
-        <Time>{date}</Time>
-        <Title>{title}</Title>
-        {author && <div>by {author}</div>}
-      </Header>
-      <PostContent content={content} />
+      <Panel>
+        <Header>
+          {teamId && <TeamTag teamId={teamId} />}
+          <Time>{date}</Time>
+          <Title>{title}</Title>
+          {author && (
+            <Author>
+              <span className="prefix">by</span> {author}
+            </Author>
+          )}
+        </Header>
+        <Markdown>
+          <PostContent content={content} />
+        </Markdown>
+      </Panel>
       {tags && tags.length ? (
-        <div>
-          <h4>Tags</h4>
-          <ul className="taglist">
+        <section>
+          <TagsTitle>Tags</TagsTitle>
+          <TagsList>
             {tags.map(tag => (
               <li key={tag + `tag`}>
-                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                <Tag to={`/tags/${kebabCase(tag)}/`}>{tag}</Tag>
               </li>
             ))}
-          </ul>
-        </div>
+          </TagsList>
+        </section>
       ) : null}
     </article>
   );
@@ -104,6 +162,7 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "DD MMMM, YYYY")
         title
+        teamId
         author
         tags
       }

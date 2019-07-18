@@ -28,5 +28,5 @@ Head coach Ross Young said the team is beginning to come together.
 The Holland Hurricanes are 2 and 0 with Saturday’s 35 to 6 win over Saint John Sea Wolves.
 The next home game is Sunday, October 7 at 1 p.m. on MacAdam Field at UPEI Canada Games Place.
 
-{: .article-img}
+
 ![](/img/posts/2018-09-23.jpg)

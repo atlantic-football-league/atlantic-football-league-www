@@ -1,13 +1,14 @@
 ---
 templateKey: "news-post"
 featuredpost: false
+teamId: HC
 tags:
   - migrated
 date: 2019-04-16T00:00:00.000Z
 title: "MFBALL | Miramichi native, Garyth McLean, commits to Hurricanes for 2019"
 ---
 
-{: .article-img}
+
 ![Garyth McLean](/img/posts/garyth-mclean.jpg)
 
 Garyth McLean, of Miramichi, New Brunswick, is set to attend Holland College this fall; he’ll be studying in the Welding Fabrication program while also playing football for the Hurricanes.

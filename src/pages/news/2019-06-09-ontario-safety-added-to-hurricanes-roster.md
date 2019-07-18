@@ -1,6 +1,7 @@
 ---
 templateKey: "news-post"
 featuredpost: false
+teamId: HC
 tags:
   - migrated
 date: 2019-06-09T00:00:00.000Z
@@ -8,7 +9,6 @@ title: "MFBALL | Ontario safety added to Hurricanes roster"
 author: Mason Murray
 ---
 
-{: .article-img}
 ![Hayden Machacynski](/img/posts/2019-06-09.jpg)
 
 The men’s football Hurricanes continue to add defensive depth in preparation for the upcoming season with the addition of safety, Hayden Machacynski.

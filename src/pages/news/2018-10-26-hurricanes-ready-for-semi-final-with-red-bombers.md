@@ -33,5 +33,5 @@ A couple of big plays in the first half of last week’s game left the Hurricane
 
 The Hurricanes kick-off against the Red Bombers at 1 p.m. in Fredericton. To watch the AFL finals online, go to atlanticfootball.co and follow the link to the Bell webcast. The other game, UNB SJ vs. Dalhousie, will also be webcast, starting at 1 p.m.
 
-{: .article-img}
+
 ![](/img/posts/2018-10-26.jpg)

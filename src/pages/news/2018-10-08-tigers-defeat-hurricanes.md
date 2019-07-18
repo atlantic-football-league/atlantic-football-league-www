@@ -27,5 +27,5 @@ Coach Young said it was a very tough day, given the strong performance that the 
 
 The Hurricanes’ next home game, against the Red Bombers, will be at 1 p.m. on Sunday, October 21, on MacAdam Field at UPEI Alumni Canada Games Place.
 
-{: .article-img}
+
 ![](/img/posts/2018-10-08.jpg)

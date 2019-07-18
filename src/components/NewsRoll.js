@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
 import styled from "styled-components";
 import Panel from "./Panel";
+import TeamTag from "./TeamTag";
 
 const Container = styled.main`
   display: grid;
@@ -76,6 +77,9 @@ class NewsRoll extends React.Component {
             <ArticleLink to={post.fields.slug}>
               <Panel key={post.id}>
                 <Article>
+                  {post.frontmatter.teamId && (
+                    <TeamTag teamId={post.frontmatter.teamId} />
+                  )}
                   <Time datetime={post.frontmatter.date}>
                     {post.frontmatter.date}
                   </Time>
@@ -123,6 +127,7 @@ export default ({ limit }) => (
               }
               frontmatter {
                 title
+                teamId
                 author
                 templateKey
                 date(formatString: "DD MMMM, YYYY")

@@ -18,7 +18,6 @@ Today, university sport is played in a different cultural, media, and economic e
 
 ### UNB Red Bombers Recruiting up… and Recruiting in.
 
-{: .text-center}
 ![Bombers Football Player](/img/posts/2016-08-17-bombers.png)
 
 A sad thing happens to High School football players on their way to university with dreams of playing for their Alma Mater. 95% are never invited to be given the chance. That _wasn’t_ the case for this young man, the UNB Red Bombers’ 2015 League-All-Star Middle Linebacker, Charles Dee. Graduating from Leo Hayes High School in Fredericton three years ago, Charles had more than one invitation to CIS Football Camps.

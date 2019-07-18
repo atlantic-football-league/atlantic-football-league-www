@@ -61,8 +61,6 @@ UNB Saint John Seawolves (1 Championship)
 
 ## Achievement Award
 
-***
-
 ### Mike Dollimore
 The Atlantic Football League recognized the outstanding contribution of Mike Dollimore as builder and head coach of the UNB Red Bombers Football Club. Through his work and wisdom Mike has enriched the team he coached and the league in which he participated. His efforts always sought only the best for his players and for the AFL.
 

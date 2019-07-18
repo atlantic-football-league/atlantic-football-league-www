@@ -9,7 +9,6 @@ title: "AFL LEAGUE ALL STARS (2017 SEASON)"
 
 ### 2017 Atlantic Football League Major Award Winners
 
-{: .table .table-striped}
 | Award                             | Recipient            | Team                       |
 | --------------------------------- | -------------------- | -------------------------- |
 | Most Valuable Player:             | Hunter Sturgeon # 14 | UNB Red Bombers            |
@@ -23,7 +22,6 @@ title: "AFL LEAGUE ALL STARS (2017 SEASON)"
 
 ### 2017 Atlantic Football League Offensive All-Stars
 
-{: .table .table-striped}
 | Award              | Recipient                | Team                       |
 | ------------------ | ------------------------ | -------------------------- |
 | Quarterback:       | Hunter Sturgeon # 14     | UNB Red Bombers            |
@@ -45,7 +43,6 @@ title: "AFL LEAGUE ALL STARS (2017 SEASON)"
 
 ### 2017 Atlantic Football League Defensive All-Stars
 
-{: .table .table-striped}
 | Award            | Recipient               | Team                       |
 | ---------------- | ----------------------- | -------------------------- |
 | Defensive Line:  | Josh Feaster # 74       | Holland College Hurricanes |
@@ -63,4 +60,4 @@ title: "AFL LEAGUE ALL STARS (2017 SEASON)"
 |                  | Riley Spear # 10        | UNB Red Bombers            |
 | Punter:          | Jacob McNeil # 17       | UNB Red Bombers            |
 
-See the [League Awards](/league-awards.html) page to find awards from previous seasons.
+See the [League Awards](/league-awards) page to find awards from previous seasons.

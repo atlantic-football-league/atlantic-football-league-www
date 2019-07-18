@@ -40,5 +40,5 @@ Young added that they will be looking to avoid the same outcome this year.
 
 The Holland Hurricanes take on the Dalhousie Tigers in Halifax at 1 p.m. in the first back-to-back games against the team. Their next home game is against the Tigers on Sunday, October 7.
 
-{: .article-img}
+
 ![](/img/posts/2018-09-26.jpg)

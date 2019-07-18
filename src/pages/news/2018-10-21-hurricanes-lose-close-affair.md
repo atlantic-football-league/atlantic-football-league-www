@@ -34,5 +34,5 @@ Coach Young is convinced the boys have what it takes.
 
 The semi-final will take place Saturday at 1 p.m. in Fredericton.
 
-{: .article-img}
+
 ![](/img/posts/2018-10-21.jpg)

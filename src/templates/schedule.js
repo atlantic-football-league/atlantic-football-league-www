@@ -110,15 +110,10 @@ const Schedule = ({ data }) => {
 
   return (
     <Layout noSidebar>
-      <ScheduleTemplate
-        helmet={
-          <Helmet titleTemplate="%s | News">
-            <title>{`${post.frontmatter.title}`}</title>
-          </Helmet>
-        }
-        {...post.frontmatter}
-        teams={teamsObj}
+      <Helmet
+        title={`${post.frontmatter.year} Schedule | Atlantic Football League`}
       />
+      <ScheduleTemplate {...post.frontmatter} teams={teamsObj} />
     </Layout>
   );
 };

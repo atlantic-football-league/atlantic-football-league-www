@@ -22,12 +22,18 @@ collections:
           default: "news-post",
         }
       - { label: "Title", name: "title", widget: "string" }
+      - label: Team
+        required: false
+        name: teamId
+        widget: relation
+        collection: "teams"
+        searchFields: ["title", "symbol"]
+        valueField: "uid"
+        hint: "Is this post from a specific team?"
+        displayFields: ["title"]
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
-      - { label: "Featured Image", name: "featuredimage", widget: image }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
   - name: "teams"
     label: "Teams"
     folder: "src/data/teams"
@@ -36,12 +42,6 @@ collections:
     fields:
       - { label: "Is Team", name: "team", widget: "hidden", default: true }
       - { label: Name, name: title, widget: string }
-      - {
-          label: Unique ID,
-          name: uid,
-          widget: string,
-          hint: "DANGER: DO NOT MODIFY THIS FIELD AFTER IT IS CREATED. THIS FIELD IS NOT DISPLAYED ANYWHERE ON THE WEBSITE. WHEN CREATING THIS FIELD, ENSURE IT IS UNIQUE FROM ALL OTHER TEAMS.",
-        }
       - {
           label: Symbol,
           name: symbol,
@@ -59,11 +59,13 @@ collections:
           name: color,
           widget: string,
           hint: "The team's main brand color",
+          default: "#000000"
         }
       - {
           label: Accent Color,
           name: textColor,
           widget: string,
+          default: "#FFFFFF"
           hint: "The team's accent color (should be high contrast with the main color).",
         }
       - {
@@ -71,6 +73,12 @@ collections:
           name: website,
           widget: string,
           hint: "The team's website URL.",
+        }
+      - {
+          label: Unique ID,
+          name: uid,
+          widget: string,
+          hint: "DANGER: DO NOT MODIFY THIS FIELD AFTER IT IS CREATED. THIS FIELD IS NOT DISPLAYED ANYWHERE ON THE WEBSITE. WHEN CREATING THIS FIELD, ENSURE IT IS UNIQUE FROM ALL OTHER TEAMS.",
         }
   - folder: "src/data/schedule"
     label: "Schedule"
@@ -85,7 +93,7 @@ collections:
           widget: "hidden",
           default: "schedule",
         }
-      - { label: Season, name: year, widget: number }
+      - { label: Season (year), name: year, widget: number, valueType: "int", hint: "The schedule with the most recent year will appear on the schedule page, and be used for the Standings, Games in the sidebar." }
       - label: Games
         name: games
         widget: list
@@ -96,12 +104,15 @@ collections:
               name: "postSeason",
               widget: "boolean",
               default: false,
+              required: false,
+              hint: "Marking the game as post-season will exclude it from the standings calculations."
             }
           - label: Home Team
             name: home
             widget: relation
             collection: "teams"
             searchFields: ["title", "symbol"]
+              required: false
             valueField: "uid"
             displayFields: ["title", "date"]
           - {
@@ -110,10 +121,12 @@ collections:
               widget: number,
               required: false,
               valueType: "int",
+              hint: "Leave this blank until the game is completed. Adding a score here will include count the game as completed and include it in standings calculations."
             }
           - label: Away Team
             name: away
             widget: relation
+              required: false
             collection: "teams"
             searchFields: ["title", "symbol"]
             valueField: "uid"
@@ -124,6 +137,7 @@ collections:
               widget: number,
               required: false,
               valueType: "int",
+              hint: "Leave this blank until the game is completed. Adding a score here will include count the game as completed and include it in standings calculations."
             }
           - { label: Date/Time, name: date, widget: datetime }
           - { label: Location, name: location, widget: string, required: false }

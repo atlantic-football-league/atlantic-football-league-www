@@ -1,6 +1,7 @@
 ---
 templateKey: "news-post"
 featuredpost: false
+teamId: HC
 tags:
   - migrated
 date: 2019-05-09T00:00:00.000Z
@@ -8,7 +9,7 @@ title: "MFBALL | Ontario running back looks to make an impact in first season wi
 author: Mason Murray
 ---
 
-{: .article-img}
+
 ![Calvin Kelly](/img/posts/IMG_0939.png)
 
 The Holland Hurricanes men’s football team continues to build their roster for the upcoming season with the addition of running back, Calvin Kelly.

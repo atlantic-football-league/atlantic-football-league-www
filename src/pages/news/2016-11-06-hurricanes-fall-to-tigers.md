@@ -55,7 +55,7 @@ A fourth quarter Dalhousie interception turned into a defensive TD of their own,
 
 The Tigers would go on to win their first football championship since 1954 by a score of 29-11.
 
-{: .article-img}
+
 ![UNBF Bombers](/img/posts/2016-11-06-two.jpg)
 
 Young knows his team played hard, but realized that turnovers halted any chance of a comeback.
