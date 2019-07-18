@@ -4,6 +4,8 @@ title: MFBALL | Hurricanes add highly-touted Ontario lineman to roster
 teamId: HC
 date: 2019-07-18T03:54:10.536Z
 ---
+![Colin Cepecauer](/img/recruit-graphic-colincepecauer.jpg "Colin Cepecauer")
+
 The pieces continue to fall into place for the football Hurricanes at Holland College as they add another versatile player to their roster ahead of the 2019 season. 
 
 Colin Cepecauer, a 6’3”, 320 lb lineman out of Georgetown, Ontario, will join the Hurricanes this season as they look to capture their fifth Atlantic Football League (AFL) Championship.
@@ -24,7 +26,7 @@ Cepecauer aims to be highly productive in any role he takes on this season, hopi
 
 “I aim to bring good pass set skills as well as being a disturbance in the interior of the line to help create a solid offense that can be effective and successful.”
 
-***
+- - -
 
 The football Hurricanes kick-off their 2019 AFL regular season on Saturday, September 14 when they visit the UNB Red Bombers in Fredericton, NB at 7pm.  The team will host their home opener on Saturday, September 21 at 1pm when they host the University of New Brunswick-Saint John (UNBSJ) Seawolves.
 
