@@ -22,6 +22,7 @@ collections:
           default: "news-post",
         }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string", required: false }
       - label: Team
         required: false
         name: teamId
