@@ -1,6 +1,7 @@
 ---
 templateKey: "news-post"
 featuredpost: false
+teamId: HC
 tags:
   - migrated
 date: 2018-11-02T00:00:00.000Z

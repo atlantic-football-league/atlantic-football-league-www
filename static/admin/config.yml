@@ -59,7 +59,7 @@ collections:
           name: color,
           widget: string,
           hint: "The team's main brand color",
-          default: "#000000"
+          default: "#000000",
         }
       - {
           label: Accent Color,
@@ -93,7 +93,13 @@ collections:
           widget: "hidden",
           default: "schedule",
         }
-      - { label: Season (year), name: year, widget: number, valueType: "int", hint: "The schedule with the most recent year will appear on the schedule page, and be used for the Standings, Games in the sidebar." }
+      - {
+          label: Season (year),
+          name: year,
+          widget: number,
+          valueType: "int",
+          hint: "The schedule with the most recent year will appear on the schedule page, and be used for the Standings, Games in the sidebar.",
+        }
       - label: Games
         name: games
         widget: list
@@ -105,14 +111,14 @@ collections:
               widget: "boolean",
               default: false,
               required: false,
-              hint: "Marking the game as post-season will exclude it from the standings calculations."
+              hint: "Marking the game as post-season will exclude it from the standings calculations.",
             }
           - label: Home Team
             name: home
             widget: relation
             collection: "teams"
             searchFields: ["title", "symbol"]
-              required: false
+            required: false
             valueField: "uid"
             displayFields: ["title", "date"]
           - {
@@ -121,12 +127,12 @@ collections:
               widget: number,
               required: false,
               valueType: "int",
-              hint: "Leave this blank until the game is completed. Adding a score here will include count the game as completed and include it in standings calculations."
+              hint: "Leave this blank until the game is completed. Adding a score here will include count the game as completed and include it in standings calculations.",
             }
           - label: Away Team
             name: away
             widget: relation
-              required: false
+            required: false
             collection: "teams"
             searchFields: ["title", "symbol"]
             valueField: "uid"
@@ -137,7 +143,7 @@ collections:
               widget: number,
               required: false,
               valueType: "int",
-              hint: "Leave this blank until the game is completed. Adding a score here will include count the game as completed and include it in standings calculations."
+              hint: "Leave this blank until the game is completed. Adding a score here will include count the game as completed and include it in standings calculations.",
             }
           - { label: Date/Time, name: date, widget: datetime }
           - { label: Location, name: location, widget: string, required: false }
