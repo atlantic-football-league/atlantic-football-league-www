@@ -183,7 +183,7 @@ export default () => (
       const nextWeek = new Date(
         today.getFullYear(),
         today.getMonth(),
-        today.getDate() + 80
+        today.getDate() + 7
       ).toISOString();
       const sortedGames = sortBy(
         data.allMarkdownRemark.edges[0].node.frontmatter.games.filter(
