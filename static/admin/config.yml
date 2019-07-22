@@ -85,7 +85,7 @@ collections:
     label: "Schedule"
     name: "schedule"
     create: true
-    slug: "{{year}}"
+    slug: "{{fields.year}}"
     identifier_field: year
     fields:
       - {
@@ -104,7 +104,7 @@ collections:
       - label: Games
         name: games
         widget: list
-        displayFields: ["home", "hscore", "away", "ascore"]
+        displayField: "home"
         fields:
           - {
               label: "Post-season",
@@ -121,7 +121,7 @@ collections:
             searchFields: ["title", "symbol"]
             required: false
             valueField: "uid"
-            displayFields: ["title", "date"]
+            displayFields: ["title", "symbol"]
           - {
               label: Home Score,
               name: hscore,

@@ -17,6 +17,15 @@ export const Markdown = styled.div`
     }
   }
 
+  a {
+    color: ${({ theme }) => theme.colors.primary};
+    text-decoration: none;
+    font-weight: 600;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   /* Tables */
   table {
     border-collapse: collapse;
