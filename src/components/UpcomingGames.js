@@ -127,7 +127,12 @@ const NoGames = styled.p`
 
 const UpcomingGames = ({ data, schedulePath, teams }) => {
   if (data.length === 0)
-    return <NoGames>The are no recent or upcoming games.</NoGames>;
+    return (
+      <>
+        <NoGames>The are no recent or upcoming games.</NoGames>
+        <ScheduleLink to={schedulePath}>Full Schedule &rarr;</ScheduleLink>
+      </>
+    );
   const gamesByDate = sortBy(
     groupBy(data, game => game.date.split("T")[0]),
     (obj, key) => key

@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { graphql } from "gatsby";
+import { graphql, StaticQuery, Link } from "gatsby";
 import styled from "styled-components";
 import Layout from "../components/Layout";
 import Panel from "../components/Panel";
@@ -23,6 +23,10 @@ const Score = styled.div`
   text-align: right;
   font-weight: ${({ win }) => (win ? 600 : 400)};
   color: ${({ win, theme }) => (win ? theme.colors.green : "inherit")};
+`;
+
+const PreviousYears = styled.div`
+  margin: 1rem 0;
 `;
 
 const TableHeader = () => (
@@ -77,10 +81,49 @@ const Game = ({ away, ascore, home, hscore, date, location, teams }) => {
   );
 };
 
+// export const Years = () => (
+//   <StaticQuery
+//     query={graphql`
+//       query Years {
+//         allMarkdownRemark(
+//           filter: { frontmatter: { templateKey: { eq: "schedule" } } }
+//           sort: { fields: frontmatter___year, order: DESC }
+//         ) {
+//           edges {
+//             node {
+//               fields {
+//                 slug
+//               }
+//               frontmatter {
+//                 year
+//               }
+//             }
+//           }
+//         }
+//       }
+//     `}
+//     render={staticData => {
+//       const years = staticData.allMarkdownRemark.edges.map(({ node }) => ({
+//         ...node.frontmatter,
+//         ...node.fields
+//       }));
+//       return (
+//         <PreviousYears>
+//           Previous Years:{" "}
+//           {years.map(({ year, slug }) => (
+//             <Link to={slug}>{year}</Link>
+//           ))}
+//         </PreviousYears>
+//       );
+//     }}
+//   />
+// );
+
 export const ScheduleTemplate = ({ games, teams }) => {
   return (
     <>
       <H1>Schedule</H1>
+      {/* <Years /> */}
       <Panel style={{ overflowX: "auto" }}>
         <Table>
           <TableHeader />

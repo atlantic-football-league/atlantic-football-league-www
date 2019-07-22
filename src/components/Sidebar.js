@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import { H2 } from "./styles/Text";
 import Panel from "./Panel";
 import LiveStream from "./LiveStream";

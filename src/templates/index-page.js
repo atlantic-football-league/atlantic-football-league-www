@@ -25,7 +25,7 @@ const MoreNewsLink = styled(Link)`
   }
 `;
 
-export const IndexPageTemplate = ({}) => (
+export const IndexPageTemplate = () => (
   <>
     <H2>Latest stories</H2>
     <NewsRoll limit={5} />

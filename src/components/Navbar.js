@@ -169,6 +169,7 @@ const Navbar = ({ schedulePath, teams }) => {
             <NavLink to="/news">News</NavLink>
             <NavLink to={schedulePath}>Schedule</NavLink>
             <NavLink to="/league-awards">League Awards</NavLink>
+            <NavLink to="/players-of-the-game">Players of the Game</NavLink>
           </Links>
         </NavMenu>
       </Wrapper>
