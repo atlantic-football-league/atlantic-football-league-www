@@ -1,6 +1,7 @@
 ---
 templateKey: news-post
 title: MFBALL | Hurricanes add highly-touted Ontario lineman to roster
+author: Mason Murray
 teamId: HC
 date: 2019-07-18T03:54:10.536Z
 ---
