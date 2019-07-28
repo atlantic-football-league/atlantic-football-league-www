@@ -89,6 +89,17 @@ module.exports = {
         purgeOnly: ["/all.css"] // applies purging only on the bulma css file
       }
     }, // must be after other CSS plugins
-    "gatsby-plugin-netlify" // make sure to keep it last in the array
+    "gatsby-plugin-netlify", // make sure to keep it last in the array
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // Google Analytics Tracking ID
+        trackingId: "UA-68783928-1",
+        // GDPR stuff (better to be safe)
+        anonymize: true,
+        // Do not track
+        respectDNT: true
+      }
+    }
   ]
 };
