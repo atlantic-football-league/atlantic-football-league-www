@@ -10,6 +10,8 @@ public_folder: /img
 
 collections:
   - name: "news"
+    editor:
+      preview: false
     label: "News"
     folder: "src/pages/news"
     create: true
@@ -36,6 +38,8 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
   - name: "teams"
+    editor:
+      preview: false
     label: "Teams"
     folder: "src/data/teams"
     create: true
@@ -97,6 +101,8 @@ collections:
           hint: "DANGER: DO NOT MODIFY THIS FIELD AFTER IT IS CREATED. THIS FIELD IS NOT DISPLAYED ANYWHERE ON THE WEBSITE. WHEN CREATING THIS FIELD, ENSURE IT IS UNIQUE FROM ALL OTHER TEAMS.",
         }
   - folder: "src/data/schedule"
+    editor:
+      preview: false
     label: "Schedule"
     name: "schedule"
     create: true
@@ -172,6 +178,8 @@ collections:
             }
           - { label: Location, name: location, widget: string, required: false }
   - name: "pages"
+    editor:
+      preview: false
     label: "Pages"
     files:
       - file: "src/pages/league-awards/index.md"
