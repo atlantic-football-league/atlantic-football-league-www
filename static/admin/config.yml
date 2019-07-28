@@ -59,8 +59,9 @@ collections:
           label: Primary Color,
           name: color,
           widget: string,
-          hint: "The team's main brand color",
+          hint: "The team's main brand color.",
           default: "#000000",
+          pattern: ["(#([\da-f]{3}){1,2}|(rgb|hsl)a\((\d{1,3}%?,\s?){3}(1|0|0?\.\d+)\)|(rgb|hsl)\(\d{1,3}%?(,\s?\d{1,3}%?){2}\)|black|white|red|gold|grey|gray|blue|green|yellow|purple|orange|pink|brown)$", "Must be a valid CSS color value."]
         }
       - {
           label: Accent Color,
@@ -68,15 +69,17 @@ collections:
           widget: string,
           default: "#FFFFFF",
           hint: "The team's accent color (should be high contrast with the main color).",
+          pattern: ["(#([\da-f]{3}){1,2}|(rgb|hsl)a\((\d{1,3}%?,\s?){3}(1|0|0?\.\d+)\)|(rgb|hsl)\(\d{1,3}%?(,\s?\d{1,3}%?){2}\)|black|white|red|gold|grey|gray|blue|green|yellow|purple|orange|pink|brown)$", "Must be a valid CSS color value."]
         }
       - {
           label: WebsiteUrl,
           name: website,
           widget: string,
           hint: "The team's website URL.",
+          pattern: ["^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$", "Must be a valid URL."]
         }
       - {
-          label: Unique ID,
+          label: Unique ID (DO NOT MODIFY AFTER CREATION),
           name: uid,
           widget: string,
           hint: "DANGER: DO NOT MODIFY THIS FIELD AFTER IT IS CREATED. THIS FIELD IS NOT DISPLAYED ANYWHERE ON THE WEBSITE. WHEN CREATING THIS FIELD, ENSURE IT IS UNIQUE FROM ALL OTHER TEAMS.",
@@ -125,6 +128,7 @@ collections:
           - {
               label: Home Score,
               name: hscore,
+              default: null,
               widget: number,
               required: false,
               valueType: "int",
@@ -141,6 +145,7 @@ collections:
           - {
               label: Away Score,
               name: ascore,
+              default: null,
               widget: number,
               required: false,
               valueType: "int",

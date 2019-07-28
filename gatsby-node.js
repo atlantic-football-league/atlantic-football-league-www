@@ -86,4 +86,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value
     });
   }
+
+  if (node.frontmatter.templateKey === "schedule") {
+    console.log("\n\n\n\n\n\n\n\n\n SCHEDULE \n\n\n\n\n\n\n\n");
+  }
 };
