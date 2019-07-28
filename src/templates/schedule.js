@@ -43,15 +43,19 @@ const TableHeader = () => (
 );
 
 const Game = ({ away, ascore, home, hscore, date, location, teams }) => {
-  const awayTeam = teams[away];
-  const homeTeam = teams[home];
+  const awayTeam = away ? teams[away] : undefined;
+  const homeTeam = home ? teams[home] : undefined;
   return (
     <Row>
       <Cell>
-        <Team>
-          <Logo src={awayTeam.logo.publicURL} />
-          {awayTeam.title}
-        </Team>
+        {awayTeam ? (
+          <Team>
+            <Logo src={awayTeam.logo.publicURL} />
+            {awayTeam.title}
+          </Team>
+        ) : (
+          "--"
+        )}
       </Cell>
       <Cell>
         <Score win={hscore < ascore}>
@@ -59,10 +63,14 @@ const Game = ({ away, ascore, home, hscore, date, location, teams }) => {
         </Score>
       </Cell>
       <Cell>
-        <Team>
-          <Logo src={homeTeam.logo.publicURL} />
-          {homeTeam.title}
-        </Team>
+        {homeTeam ? (
+          <Team>
+            <Logo src={homeTeam.logo.publicURL} />
+            {homeTeam.title}
+          </Team>
+        ) : (
+          "--"
+        )}
       </Cell>
       <Cell>
         <Score win={hscore > ascore}>
