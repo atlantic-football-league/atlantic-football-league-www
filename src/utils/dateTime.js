@@ -7,9 +7,13 @@ export const formatDate = (date, options) =>
     ...options
   }).format(date);
 
-export const formatTime = (date, options) =>
-  new Intl.DateTimeFormat("en-CA", {
+export const formatTime = (date, options) => {
+  if (!(date.getHours() || date.getMinutes() || date.getSeconds()))
+    return "--:--";
+
+  return new Intl.DateTimeFormat("en-CA", {
     hour: "numeric",
     minute: "numeric",
     ...options
   }).format(date);
+};

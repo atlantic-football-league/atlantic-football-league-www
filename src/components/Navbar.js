@@ -57,7 +57,10 @@ const NavMenu = styled.nav`
   }
 `;
 
-const NavLink = styled(Link).attrs({ activeClassName: "active" })`
+const NavLink = styled(Link).attrs({
+  activeClassName: "active",
+  partiallyActive: true
+})`
   display: grid;
   grid-auto-flow: column;
   grid-gap: 0.5rem;

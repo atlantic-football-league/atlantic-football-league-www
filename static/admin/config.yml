@@ -163,7 +163,13 @@ collections:
               valueType: "int",
               hint: "Leave this blank until the game is completed. Adding a score here will include count the game as completed and include it in standings calculations.",
             }
-          - { label: Date/Time, name: date, widget: datetime }
+          - {
+              label: Date/Time,
+              name: date,
+              widget: datetime,
+              required: false,
+              hint: "If the time is TBD, setting the time to 12:00 AM will not display a time on the schedule.",
+            }
           - { label: Location, name: location, widget: string, required: false }
   - name: "pages"
     label: "Pages"

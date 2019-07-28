@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { graphql, StaticQuery, Link } from "gatsby";
+import { graphql, Link } from "gatsby";
 import styled from "styled-components";
 import Layout from "../components/Layout";
 import Panel from "../components/Panel";
@@ -18,6 +18,11 @@ import {
 } from "../components/styles/Table";
 import { formatDate, formatTime } from "../utils/dateTime";
 import Standings from "../components/Standings";
+import trophy from "../img/trophy.svg";
+
+const Small = styled.small`
+  color: ${({ theme }) => theme.grayscale(0.5)};
+`;
 
 const Score = styled.div`
   text-align: right;
@@ -27,6 +32,34 @@ const Score = styled.div`
 
 const PreviousYears = styled.div`
   margin: 1rem 0;
+`;
+
+const YearLink = styled(Link).attrs({ activeClassName: "active" })`
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: ${({ theme }) => theme.grayscale(0.6)};
+  background: ${({ theme }) => theme.grayscale(0.05)};
+  padding: 0.5em 1em;
+  margin-right: 0.5rem;
+  border-radius: 0.25em;
+  transition: background 100ms ease-in-out;
+  cursor: pointer;
+
+  :hover {
+    background: ${({ theme }) => theme.grayscale(0.1)};
+  }
+
+  &.active {
+    background: ${({ theme }) => theme.colors.primary};
+    color: ${({ theme }) => theme.colors.white};
+  }
+`;
+
+const Icon = styled.img`
+  height: 1em;
+  margin-right: 0.5em;
 `;
 
 const TableHeader = () => (
@@ -42,20 +75,38 @@ const TableHeader = () => (
   </THead>
 );
 
-const Game = ({ away, ascore, home, hscore, date, location, teams }) => {
+const Game = ({
+  away,
+  ascore,
+  home,
+  hscore,
+  date,
+  location,
+  teams,
+  postSeason
+}) => {
   const awayTeam = away ? teams[away] : undefined;
   const homeTeam = home ? teams[home] : undefined;
   return (
     <Row>
       <Cell>
-        {awayTeam ? (
-          <Team>
-            <Logo src={awayTeam.logo.publicURL} />
-            {awayTeam.title}
-          </Team>
-        ) : (
-          "--"
-        )}
+        <Team>
+          {postSeason && (
+            <Icon
+              src={trophy}
+              alt="Post Season Game"
+              title="Post Season Game"
+            />
+          )}
+          {awayTeam ? (
+            <>
+              <Logo src={awayTeam.logo.publicURL} />
+              {awayTeam.title}
+            </>
+          ) : (
+            "----"
+          )}
+        </Team>
       </Cell>
       <Cell>
         <Score win={hscore < ascore}>
@@ -69,7 +120,7 @@ const Game = ({ away, ascore, home, hscore, date, location, teams }) => {
             {homeTeam.title}
           </Team>
         ) : (
-          "--"
+          "----"
         )}
       </Cell>
       <Cell>
@@ -79,7 +130,9 @@ const Game = ({ away, ascore, home, hscore, date, location, teams }) => {
       </Cell>
       <Cell>
         <time>
-          {formatDate(new Date(date), { month: "short", weekday: "short" })}
+          {date
+            ? formatDate(new Date(date), { month: "short", weekday: "short" })
+            : "---"}
         </time>
       </Cell>
       <Cell>
@@ -89,49 +142,21 @@ const Game = ({ away, ascore, home, hscore, date, location, teams }) => {
   );
 };
 
-// export const Years = () => (
-//   <StaticQuery
-//     query={graphql`
-//       query Years {
-//         allMarkdownRemark(
-//           filter: { frontmatter: { templateKey: { eq: "schedule" } } }
-//           sort: { fields: frontmatter___year, order: DESC }
-//         ) {
-//           edges {
-//             node {
-//               fields {
-//                 slug
-//               }
-//               frontmatter {
-//                 year
-//               }
-//             }
-//           }
-//         }
-//       }
-//     `}
-//     render={staticData => {
-//       const years = staticData.allMarkdownRemark.edges.map(({ node }) => ({
-//         ...node.frontmatter,
-//         ...node.fields
-//       }));
-//       return (
-//         <PreviousYears>
-//           Previous Years:{" "}
-//           {years.map(({ year, slug }) => (
-//             <Link to={slug}>{year}</Link>
-//           ))}
-//         </PreviousYears>
-//       );
-//     }}
-//   />
-// );
+export const Years = ({ years }) => (
+  <PreviousYears>
+    {years.map(({ year, slug }) => (
+      <YearLink to={slug}>{year}</YearLink>
+    ))}
+  </PreviousYears>
+);
 
-export const ScheduleTemplate = ({ games, teams }) => {
+export const ScheduleTemplate = ({ games, year, teams, years }) => {
   return (
     <>
-      <H1>Schedule</H1>
-      {/* <Years /> */}
+      <H1>
+        Schedule <Small>{year}</Small>
+      </H1>
+      <Years years={years} />
       <Panel style={{ overflowX: "auto" }}>
         <Table>
           <TableHeader />
@@ -159,12 +184,17 @@ const Schedule = ({ data }) => {
     teamsObj[team.node.frontmatter.uid] = team.node.frontmatter;
   });
 
+  const years = data.years.edges.map(({ node }) => ({
+    ...node.frontmatter,
+    ...node.fields
+  }));
+
   return (
     <Layout noSidebar>
       <Helmet
         title={`${post.frontmatter.year} Schedule | Atlantic Football League`}
       />
-      <ScheduleTemplate {...post.frontmatter} teams={teamsObj} />
+      <ScheduleTemplate {...post.frontmatter} teams={teamsObj} years={years} />
     </Layout>
   );
 };
@@ -198,6 +228,21 @@ export const pageQuery = graphql`
               publicURL
             }
             uid
+          }
+        }
+      }
+    }
+    years: allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "schedule" } } }
+      sort: { fields: frontmatter___year, order: DESC }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            year
           }
         }
       }
