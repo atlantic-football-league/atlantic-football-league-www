@@ -57,6 +57,7 @@ const TagsList = styled.ul`
 `;
 
 const Tag = styled(Link)`
+  display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -65,6 +66,7 @@ const Tag = styled(Link)`
   background: ${({ theme }) => theme.grayscale(0.05)};
   padding: 0.5em 1em;
   margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
   border-radius: 0.25em;
   transition: background 100ms ease-in-out;
 
