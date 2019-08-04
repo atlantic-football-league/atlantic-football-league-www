@@ -49,13 +49,11 @@ class TagRoute extends React.Component {
       <Layout>
         <main>
           <Helmet title={`${tag} | ${title}`} />
-          {/* <Panel> */}
           <Heading>{tagHeader}</Heading>
           <List className="taglist">{postLinks}</List>
           <p>
             <Link to="/tags/">Browse all tags</Link>
           </p>
-          {/* </Panel> */}
         </main>
       </Layout>
     );
