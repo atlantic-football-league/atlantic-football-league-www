@@ -86,8 +86,51 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value
     });
   }
+};
 
-  if (node.frontmatter && node.frontmatter.templateKey === "schedule") {
-    console.log("\n\n\n\n\n\n\n\n\n SCHEDULE \n\n\n\n\n\n\n\n");
-  }
+// Normalize types for scores
+exports.sourceNodes = ({ actions, schema }) => {
+  const { createTypes } = actions;
+  const typeDefs = [
+    schema.buildObjectType({
+      name: "MarkdownRemark",
+      fields: {
+        frontmatter: "Frontmatter!"
+      },
+      interfaces: ["Node"],
+      extensions: {
+        infer: true
+      }
+    }),
+    schema.buildObjectType({
+      name: "Frontmatter",
+      fields: {
+        games: "[Game]!",
+        year: "Int!"
+      }
+    }),
+    schema.buildObjectType({
+      name: "Game",
+      fields: {
+        home: "String",
+        away: "String",
+        postSeason: "Boolean",
+        location: "String",
+        date: "Date",
+        hscore: {
+          type: "Int",
+          resolve: parent => (parent.hscore === "" ? null : parent.hscore)
+        },
+        ascore: {
+          type: "Int",
+          resolve: parent => (parent.ascore === "" ? null : parent.ascore)
+        }
+      },
+      interfaces: ["Node"],
+      extensions: {
+        infer: false
+      }
+    })
+  ];
+  createTypes(typeDefs);
 };
