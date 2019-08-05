@@ -3,7 +3,8 @@ var proxy = require("http-proxy-middleware");
 module.exports = {
   siteMetadata: {
     title: "Atlantic Football League",
-    description: `Follow the latest news, and see game results for the Atlantic Football League (AFL). The AFL teams include the UNB Fredericton Red Bombers, the UNB Saint John Seawolves, The Dalhousie Tigers, and the Holland College Hurrincanes.`
+    description: `Follow the latest news, and see game results for the Atlantic Football League (AFL). The AFL teams include the UNB Fredericton Red Bombers, the UNB Saint John Seawolves, The Dalhousie Tigers, and the Holland College Hurrincanes.`,
+    siteUrl: `https://atlanticfootball.co`
   },
   plugins: [
     "gatsby-plugin-react-helmet",
