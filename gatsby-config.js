@@ -100,6 +100,7 @@ module.exports = {
         // Do not track
         respectDNT: true
       }
-    }
+    },
+    "gatsby-plugin-sitemap"
   ]
 };
