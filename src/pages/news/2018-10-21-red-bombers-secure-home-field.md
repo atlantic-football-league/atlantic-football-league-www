@@ -1,11 +1,11 @@
 ---
-templateKey: "news-post"
-featuredpost: false
+templateKey: news-post
+title: UNB Red Bombers Secure Homefield for Semi
+author: Bryce Doiron
+teamId: FR
+date: 2018-10-21T00:00:00.000Z
 tags:
   - migrated
-date: 2018-10-21T00:00:00.000Z
-title: "UNB Red Bombers Secure Homefield for Semi"
-author: Bryce Doiron
 ---
 
 ## UNB Red Bombers  14 - Holland College Hurricanes  12
