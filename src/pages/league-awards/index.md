@@ -1,9 +1,8 @@
 ---
-templateKey: "standard-page"
-path: /league-awards
+templateKey: standard-page
 title: League Awards
+path: /league-awards
 ---
-
 ## AFL Trophies
 
 ### Moosehead Cup
@@ -12,16 +11,16 @@ title: League Awards
 
 > The Moosehead Cup is awarded annually to the AFL Championship Team.
 
-  - 2009 - UNB Fredericton Red Bombers
-  - 2010 - UNB Saint John Seawolves
-  - 2011 - Holland College Hurricanes
-  - 2012 - UNB Fredericton Red Bombers
-  - 2013 - Holland College Hurricanes
-  - 2014 - Holland College Hurricanes
-  - 2015 - Holland College Hurricanes
-  - 2016 - Dalhousie University Tigers
-  - 2017 - UNB Fredericton Red Bombers
-  - 2018 - Dalhousie University Tigers
+* 2009 - UNB Fredericton Red Bombers
+* 2010 - UNB Saint John Seawolves
+* 2011 - Holland College Hurricanes
+* 2012 - UNB Fredericton Red Bombers
+* 2013 - Holland College Hurricanes
+* 2014 - Holland College Hurricanes
+* 2015 - Holland College Hurricanes
+* 2016 - Dalhousie University Tigers
+* 2017 - UNB Fredericton Red Bombers
+* 2018 - Dalhousie University Tigers
 
 Holland College Hurricanes (4 Championships)
 
@@ -31,7 +30,7 @@ Dalhousie University Tigers (2 Championship)
 
 UNB Saint John Seawolves (1 Championship)
 
-***
+- - -
 
 ### Jack Irving Trophy
 
@@ -39,38 +38,53 @@ UNB Saint John Seawolves (1 Championship)
 
 > The Jack Irving Trophy is awarded annually to the AFL team with the best regular season record.
 
-  - 2009 - Saint John Seawolves
-  - 2010 - Saint John Seawolves
-  - 2011 - Holland College Hurricanes
-  - 2012 - Red Bombers
-  - 2013 - Saint John Seawolves
-  - 2014 - Holland College Hurricanes
-  - 2015 - Holland College Hurricanes
-  - 2016 - Dalhousie Tigers
-  - 2017 - Red Bombers
-  - 2018 - Dalhousie Tigers
+* 2009 - Saint John Seawolves
+* 2010 - Saint John Seawolves
+* 2011 - Holland College Hurricanes
+* 2012 - Red Bombers
+* 2013 - Saint John Seawolves
+* 2014 - Holland College Hurricanes
+* 2015 - Holland College Hurricanes
+* 2016 - Dalhousie Tigers
+* 2017 - Red Bombers
+* 2018 - Dalhousie Tigers
 
 #### Most Wins
 
-  - Seawolves (3 times)
-  - Hurricanes (3 times)
-  - Red Bombers (2 times)
-  - Tigers (2 time)
+* Seawolves (3 times)
+* Hurricanes (3 times)
+* Red Bombers (2 times)
+* Tigers (2 time)
 
-***
+- - -
 
 ## Achievement Award
 
-### Mike Dollimore
+**Mike Dollimore**
+
 The Atlantic Football League recognized the outstanding contribution of Mike Dollimore as builder and head coach of the UNB Red Bombers Football Club. Through his work and wisdom Mike has enriched the team he coached and the league in which he participated. His efforts always sought only the best for his players and for the AFL.
 
-### Terry Allen
+**Terry Allen**
+
 The Atlantic Football League recognized the contribution of Terry Allen as Commissioner of the Atlantic Football League. Through his skills at organization and his openness to discourse, he strengthened the AFL through its critical years of growth. His integrity and love of the game are now part of our tradition through his efforts as our Commissioner.
 
-### Dave Grandy
+**Dave Grandy**
+
 The Atlantic Football League recognized the contributions of Dave Grandy as the head coach of the UNB Saint John Seawolves Football Team. His passion for football at all levels of play and his strength of purpose coupled with his integrity of character has shaped the Seawolves and the Atlantic Football League.  
 
-***
+**Michael O'Grady**
+
+The Atlantic Football League recognized the contributions of Michael O'Grady as President of the Holland Hurricanes Football Team. Mike was instrumental in bringing the Hurricanes to the Atlantic Football League and was a key member of the board for nearly a decade.
+
+**Larry Timms**
+
+The Atlantic Football League recognized the contributions of Larry Timms. Larry served as league secretary-treasurer and UNB Saint John Treasurer from 2009-2018. Larry was a key figure and valuable member of growing the Atlantic Football League
+
+**Brian Freeman** 
+
+The Atlantic Football League recognized the contributions of Brian Freeman as a key board member of the UNB Red Bombers. Brian's hard work and dedication to the team has permanently brought football back to the, "Hill," in Fredericton. 
+
+- - -
 
 ## AFL LEAGUE ALL STARS <span class="small">2018 SEASON</span>
 
@@ -126,7 +140,7 @@ The Atlantic Football League recognized the contributions of Dave Grandy as the 
 |                  | Donovan Small # 38          | UNB Red Bombers            |
 |                  | Denzel Gendron-Muscadin # 3 | Holland College Hurricanes |
 
-***
+- - -
 
 ## AFL LEAGUE ALL STARS <span class="small">2017 SEASON</span>
 
@@ -183,58 +197,64 @@ The Atlantic Football League recognized the contributions of Dave Grandy as the 
 |                  | Riley Spear # 10        | UNB Red Bombers            |
 | Punter:          | Jacob McNeil # 17       | UNB Red Bombers            |
 
-***
+- - -
 
 ## AFL LEAGUE ALL STARS <span class="small">2016 SEASON</span>
 
 #### OFFENSIVE LINE
 
-  - ZACH DAVIDSON (Holland College)
-  - JACOB HANSCOM (Fredericton)
-  - CONNOR PAQUETTE (Dalhousie)
-  - MAX MARTIN (Dalhousie)
-  - LUKE SAUNDERS (Fredericton)
+* ZACH DAVIDSON (Holland College)
+* JACOB HANSCOM (Fredericton)
+* CONNOR PAQUETTE (Dalhousie)
+* MAX MARTIN (Dalhousie)
+* LUKE SAUNDERS (Fredericton)
 
 #### RECEIVERS
 
-  - EUGENE MCMINNS (Holland College)
-  - GUILLAUME BERNIER (Dalhousie)
-  - JAY MCCRAE (Holland College)
-  - LOUIS GAUVIN (Dalhousie)
-  - TYLER CURNEW (Saint John)
+* EUGENE MCMINNS (Holland College)
+* GUILLAUME BERNIER (Dalhousie)
+* JAY MCCRAE (Holland College)
+* LOUIS GAUVIN (Dalhousie)
+* TYLER CURNEW (Saint John)
 
 #### RUNNING BACKS
-  - ZACK LEGERE (Dalhousie)
-  - TURNER STURGEON (Fredericton)
+
+* ZACK LEGERE (Dalhousie)
+* TURNER STURGEON (Fredericton)
 
 #### QUARTERBACK
-  - NICK HUNSLEY (Dalhousie)
+
+* NICK HUNSLEY (Dalhousie)
 
 #### DEFENSIVE LINE
-  - CONNOR MANSON (Dalhousie)
-  - JERRAD FAWCETT (Saint John)
-  - JESSE LEGAULT (Dalhousie)
-  - BRANDON WILSON (Holland College)
+
+* CONNOR MANSON (Dalhousie)
+* JERRAD FAWCETT (Saint John)
+* JESSE LEGAULT (Dalhousie)
+* BRANDON WILSON (Holland College)
 
 #### LINEBACKERS
-  - JACK CHAISSON (Dalhousie)
-  - COLIN LANDERS (Saint John)
-  - JACOB JURCINA (Fredericton)
+
+* JACK CHAISSON (Dalhousie)
+* COLIN LANDERS (Saint John)
+* JACOB JURCINA (Fredericton)
 
 #### DEFENSIVE BACKS
-  - KENZIE MACNEIL (Dalhousie)
-  - JAKE MCKAY (Fredericton)
-  - ROB WILSON (Dalhousie)
-  - MAX MALO (Holland College)
-  - NICK GILLESPIE (Saint John)
-  - AUSTIN RING (Saint John)
+
+* KENZIE MACNEIL (Dalhousie)
+* JAKE MCKAY (Fredericton)
+* ROB WILSON (Dalhousie)
+* MAX MALO (Holland College)
+* NICK GILLESPIE (Saint John)
+* AUSTIN RING (Saint John)
 
 #### SPECIAL TEAMS
-  - PUNTER: JACOB MCNEIL (Fredericton)
-  - PLACE KICKER: LIAM CARTER (Holland College)
-  - RETURNER: JAY MCCRAE (Holland College)
 
-***
+* PUNTER: JACOB MCNEIL (Fredericton)
+* PLACE KICKER: LIAM CARTER (Holland College)
+* RETURNER: JAY MCCRAE (Holland College)
+
+- - -
 
 ## AFL LEAGUE ALL STARS <span class="small">2015 SEASON</span>
 
@@ -288,7 +308,6 @@ The Atlantic Football League recognized the contributions of Dave Grandy as the 
 | Dalhousie   | 50     | Jack Chaisson    | Tigers      |
 | Saint John  | 12     | Dustin Arsenault | Seawolves   |
 
-
 #### DEFENSIVE BACKS
 
 | City            | Number | Player         | Team        |
@@ -306,7 +325,7 @@ The Atlantic Football League recognized the contributions of Dave Grandy as the 
 | Fredericton     | 17     | Josh Blanchard | Red Bombers |
 | Holland College | 21     | Jay Dearborn   | Hurricanes  |
 
-***
+- - -
 
 ## AFL MAJOR AWARDS
 
@@ -314,19 +333,19 @@ The Atlantic Football League recognized the contributions of Dave Grandy as the 
 
 | City          | Number | Player                  | Team |
 | ------------- | ------ | ----------------------- | ---- |
-| Jacob Hanscom | 51     | Fredericton Red Bombers |
+| Jacob Hanscom | 51     | Fredericton Red Bombers |      |
 
 #### OFFENSIVE PLAYER
 
 | City           | Number | Player                     | Team |
 | -------------- | ------ | -------------------------- | ---- |
-| Anton Sianchuk | 10     | Holland College Hurricanes |
+| Anton Sianchuk | 10     | Holland College Hurricanes |      |
 
 #### DEFENSIVE PLAYER
 
 | City          | Number | Player           | Team |
 | ------------- | ------ | ---------------- | ---- |
-| Jack Chaisson | 50     | Dalhousie Tigers |
+| Jack Chaisson | 50     | Dalhousie Tigers |      |
 
 #### MVP
 
