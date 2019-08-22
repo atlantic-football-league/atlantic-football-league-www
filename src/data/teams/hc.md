@@ -5,7 +5,7 @@ symbol: HC
 logo: /img/hol_logo.png
 color: '#561c1e'
 textColor: white
-website: 'https://hcfootball.ca'
+website: 'http://www.hollandcollege.com/athletics/Football.html'
 uid: HC
 ---
 
