@@ -1,11 +1,10 @@
 ---
-templateKey: "news-post"
-featuredpost: false
+templateKey: news-post
+title: Atlantic Football League 2009-2019
+author: ''
+date: 2019-01-21T00:00:00.000Z
 tags:
   - migrated
-date: 2019-01-21T00:00:00.000Z
-title: "Atlantic Football League 2009-2019"
-author: Rick Rivers
 ---
 
 On November 19 1982, Richard Riley wrote an article in the Brunswickan entitled “UNB Football Remembered: They Say Big Boys Don’t Cry”. Richard closed the article with these words:
