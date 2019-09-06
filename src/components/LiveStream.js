@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Panel from "./Panel";
 
-import banner from "../img/webcast-banner.jpg";
+import banner from "../img/webcast-banner.png";
 
 const ExternalLink = styled.a.attrs({
   target: "_blank",
@@ -43,7 +43,7 @@ const Banner = styled.img.attrs({
 
 const LiveStream = () => {
   return (
-    <ExternalLink href="https://player.communitylive.ca/Player/GetEvent/4489">
+    <ExternalLink href="http://360go.live/AFL">
       <LiveStreamPanel>
         <Heading>Live Webcast</Heading>
         <Banner />
