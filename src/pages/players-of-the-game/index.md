@@ -5,11 +5,14 @@ path: /players-of-the-game
 ---
 - - -
 
-
-
 ## 2019 Season
 
 #### 14 September, 2019
+
+**Holland College**
+
+* O: Matthew-Uriah Kaye-Mitchell
+* D: Tyler Hobbs
 
 **UNB Saint John**
 
