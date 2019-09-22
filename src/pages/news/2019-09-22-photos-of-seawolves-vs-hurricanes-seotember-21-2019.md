@@ -1,6 +1,6 @@
 ---
 templateKey: news-post
-title: 'Photos of Seawolves vs Hurricanes Seotember 21, 2019'
+title: 'Photos of Seawolves vs Hurricanes September 21, 2019'
 teamId: SJ
 date: 2019-09-22T16:25:11.365Z
 ---
