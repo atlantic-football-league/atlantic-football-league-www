@@ -7,6 +7,14 @@ path: /players-of-the-game
 
 ## 2019 Season
 
+#### 21 September, 2019
+
+**UNB Saint John**
+
+* O: Seb Brown
+* D: Sergio Aalund
+* ST: Josh Leblanc, Anthony McIntyre
+
 #### 14 September, 2019
 
 **Holland College**
