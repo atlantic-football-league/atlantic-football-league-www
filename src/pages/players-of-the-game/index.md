@@ -9,6 +9,11 @@ path: /players-of-the-game
 
 #### 21 September, 2019
 
+**Holland College**
+
+* O: Rodrigo Montes De Oca
+* D: Jack Malo
+
 **UNB Saint John**
 
 * O: Seb Brown
