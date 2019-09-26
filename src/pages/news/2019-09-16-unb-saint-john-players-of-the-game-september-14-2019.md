@@ -8,7 +8,7 @@ Offense: Riley Ring-Dineen
 
 ![](/img/dineen.jpg)
 
-Defense: Chris Setchal, Jordan Betterige
+Defense: Chris Setchall, Jordon Betterige
 
 ![](/img/setchal.jpg)
 
