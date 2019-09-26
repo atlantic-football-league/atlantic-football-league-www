@@ -30,7 +30,7 @@ path: /players-of-the-game
 **UNB Saint John**
 
 * O: Riley Ring Dineen
-* D: Chris Setchal, Jordan Betterige
+* D: Chris Setchall, Jordon Betterige
 * ST: Josh Leblanc
 
 ## 2018 Season
