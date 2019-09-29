@@ -13,7 +13,7 @@ path: /players-of-the-game
 
 * O: Seb Brown
 * D: Anthony McIntyre
-* ST: Jordon Betterige
+* ST: Jordon Betteridge
 
 #### 21 September, 2019
 
@@ -38,7 +38,7 @@ path: /players-of-the-game
 **UNB Saint John**
 
 * O: Riley Ring Dineen
-* D: Chris Setchall, Jordon Betterige
+* D: Chris Setchall, Jordon Betteridge
 * ST: Josh Leblanc
 
 ## 2018 Season
