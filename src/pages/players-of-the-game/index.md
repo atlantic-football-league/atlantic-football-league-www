@@ -7,6 +7,14 @@ path: /players-of-the-game
 
 ## 2019 Season
 
+#### 28 September, 2019
+
+**UNB Saint John**
+
+* O: Seb Brown
+* D: Anthony McIntyre
+* ST: Jordon Betterige
+
 #### 21 September, 2019
 
 **Holland College**
