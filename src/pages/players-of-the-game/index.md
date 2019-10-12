@@ -7,6 +7,14 @@ path: /players-of-the-game
 
 ## 2019 Season
 
+#### 5 October, 2019
+
+**UNB Saint John**
+
+* O: Tyler Ring-Dineen
+* D: Anthony McIntyre
+* ST: Keegan Duffley
+
 #### 28 September, 2019
 
 **UNB Saint John**
