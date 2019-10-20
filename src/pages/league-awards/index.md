@@ -48,12 +48,13 @@ UNB Saint John Seawolves (1 Championship)
 * 2016 - Dalhousie Tigers
 * 2017 - Red Bombers
 * 2018 - Dalhousie Tigers
+* 2019- Red Bombers
 
 #### Most Wins
 
 * Seawolves (3 times)
 * Hurricanes (3 times)
-* Red Bombers (2 times)
+* Red Bombers (3 times)
 * Tigers (2 time)
 
 - - -
