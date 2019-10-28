@@ -56,6 +56,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "gatsby-core-utils": "^1.0.16",
     "http-proxy-middleware": "^0.19.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^1.15.3",
