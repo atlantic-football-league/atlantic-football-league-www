@@ -47,3 +47,7 @@ For more information on the Atlantic Football League, visit www.atlanticfootball
 Connect with the football Hurricanes by visiting www.facebook.com/canesmfootball, www.twitter.com/canesmfootball and www.instagram.com/canesmfootball.
 
 For more information on the Holland Hurricanes, please visit www.hollandhurricanes.com, www.facebook.com/hollandhurricanes, www.twitter.com/hc_hurricanes and www.instagram.com/hollandhurricanes.
+
+
+
+https://www.hollandcollege.com/athletics%20news/2019/mfball-afl-championship-comes-down-to-final-minute-unb-squeaks-past-hurricanes.html
