@@ -4,7 +4,7 @@ title: HURRICANES NAME AARON MACISAAC NEW FOOTBALL HEAD COACH
 teamId: HC
 date: 2021-08-02T19:13:35.198Z
 ---
-![](/img/welcome-aaron.jpg)
+![]()
 
 The Holland Hurricanes men’s football team will have a familiar face leading them into the 2021 season as intercollegiate sports make the comeback after a one-year hiatus due to the Covid-19 pandemic. Aaron MacIsaac makes his return to the Hurricanes as the new head coach after spending time as an offensive coach with the program from 2010 to 2012.
 
