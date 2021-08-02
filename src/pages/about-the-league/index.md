@@ -33,7 +33,7 @@ League Facebook Page: <https://www.facebook.com/#!/groups/108639567508/>
 
 #### Coaches
 
-* Steve Letner, Holland College Hurricanes
+* Aaron MacIsaac,  Holland College Hurricanes
 * Mark Haggett, Dalhousie Tigers
 * Nathan Gorham, UNB Saint John Seawolves
 * Vince Sturgeon, UNB Fredericton Red Bombers
