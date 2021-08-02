@@ -12,7 +12,7 @@ import {
   Heading as THeading,
   Cell as TCell,
   Logo,
-  Team
+  Team,
 } from "./styles/Table";
 
 const Cell = styled(TCell)`
@@ -23,9 +23,9 @@ const Heading = styled(THeading)`
   text-align: right;
 `;
 
-const getStandings = data => {
+const getStandings = (data) => {
   const games = data.allMarkdownRemark.edges[0].node.frontmatter.games.filter(
-    game => !game.postSeason
+    (game) => !game.postSeason
   );
 
   const initTeam = {
@@ -36,7 +36,7 @@ const getStandings = data => {
     pa: 0,
     t: 0,
     pts: 0,
-    wPercent: 0
+    wPercent: 0,
   };
 
   const standings = games.reduce((teams, game) => {
@@ -78,7 +78,7 @@ const getStandings = data => {
     return {
       ...teams,
       [game.home]: homeTeam,
-      [game.away]: awayTeam
+      [game.away]: awayTeam,
     };
   }, {});
 
@@ -104,23 +104,26 @@ const Standings = ({ data, teams }) => (
       </Row>
     </THead>
     <TBody>
-      {data.map(({ team, gp, w, l, pf, pa, pts, wPercent }) => (
-        <Row key={team}>
-          <TCell>
-            <Team>
-              <Logo src={teams[team].logo.publicURL} />
-              <strong>{teams[team].symbol}</strong>
-            </Team>
-          </TCell>
-          <Cell>{gp}</Cell>
-          <Cell>{w}</Cell>
-          <Cell>{l}</Cell>
-          <Cell>{pf}</Cell>
-          <Cell>{pa}</Cell>
-          <Cell style={{ fontWeight: 600 }}>{pts}</Cell>
-          <Cell>{wPercent.toFixed(3)}</Cell>
-        </Row>
-      ))}
+      {data.map(({ team, gp, w, l, pf, pa, pts, wPercent }) => {
+        console.log({ team });
+        return (
+          <Row key={team}>
+            <TCell>
+              <Team>
+                <Logo src={teams[team].logo.publicURL} />
+                <strong>{teams[team].symbol}</strong>
+              </Team>
+            </TCell>
+            <Cell>{gp}</Cell>
+            <Cell>{w}</Cell>
+            <Cell>{l}</Cell>
+            <Cell>{pf}</Cell>
+            <Cell>{pa}</Cell>
+            <Cell style={{ fontWeight: 600 }}>{pts}</Cell>
+            <Cell>{wPercent.toFixed(3)}</Cell>
+          </Row>
+        );
+      })}
     </TBody>
   </Table>
 );
@@ -151,7 +154,7 @@ export default () => (
         }
       }
     `}
-    render={data => {
+    render={(data) => {
       const standingsData = getStandings(data);
       return withTeams(Standings, { data: standingsData });
     }}
