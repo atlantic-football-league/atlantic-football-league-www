@@ -22,12 +22,13 @@ path: /league-awards
 * 2017 - UNB Fredericton Red Bombers
 * 2018 - Dalhousie University Tigers
 * 2019 - UNB Fredericton Red Bombers
+* 2021 - Dalhousie University Tigers
 
 Holland College Hurricanes (4 Championships)
 
 UNB Fredericton Red Bombers (4 Championships)
 
-Dalhousie University Tigers (2 Championship)
+Dalhousie University Tigers (3 Championship)
 
 UNB Saint John Seawolves (1 Championship)
 
