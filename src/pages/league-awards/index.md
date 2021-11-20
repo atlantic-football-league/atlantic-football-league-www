@@ -123,8 +123,8 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 |                    | Luke Saunders #64               | UNB Red Bombers            |
 |                    | Colin Cepecauer #57             | Holland College Hurricanes |
 |                    | Griffin Quigley #75             | Holland College Hurricanes |
-| Return Specialist: | Brennan Ciona # 8               | UNB Saint John Seawolves   |
-|                    | Colin Sleigh # 21               | UNB Saint John Seawolves   |
+| Return Specialist: | Jack Malo #9                    | Holland College Hurricanes |
+| Kicker             | Matt Mills #77                  | UNB red Bombers            |
 
 ### 2018 Atlantic Football League Defensive All-Stars
 
