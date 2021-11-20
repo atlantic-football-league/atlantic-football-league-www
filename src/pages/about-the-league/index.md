@@ -35,5 +35,5 @@ League Facebook Page: <https://www.facebook.com/#!/groups/108639567508/>
 
 * Aaron MacIsaac,  Holland College Hurricanes
 * Mark Haggett, Dalhousie Tigers
-* Nathan Gorham, UNB Saint John Seawolves
+* Nick Beale, UNB Saint John Seawolves
 * Vince Sturgeon, UNB Fredericton Red Bombers
