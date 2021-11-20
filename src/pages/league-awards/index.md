@@ -115,7 +115,7 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 |                    | Dylan Waugh #21                 | UNB Red Bombers            |
 | Receiver:          | Jack Underhill #88              | Dalhousie Tigers           |
 |                    | Matt LaFleur #88                | UNB Red Bombers            |
-|                    | Matthew Uriah Kaye-Mitchell#17  | Holland College Hurricanes |
+| (Punter)           | Matthew Uriah Kaye-Mitchell#17  | Holland College Hurricanes |
 |                    | Seb Brown #4                    | UNB Saint John Seawolves   |
 |                    | Jackson Green #87               | UNB Red Bombers            |
 | Offensive Line:    | Cal Zeran #67                   | Dalhousie Tigers           |
@@ -124,16 +124,16 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 |                    | Colin Cepecauer #57             | Holland College Hurricanes |
 |                    | Griffin Quigley #75             | Holland College Hurricanes |
 | Return Specialist: | Jack Malo #9                    | Holland College Hurricanes |
-| Kicker             | Matt Mills #77                  | UNB Red Bombers            |
+| Kicker:            | Matt Mills #77                  | UNB Red Bombers            |
 
-### 2018 Atlantic Football League Defensive All-Stars
+### 2019 Atlantic Football League Defensive All-Stars
 
 | Award            | Recipient                   | Team                       |
 | ---------------- | --------------------------- | -------------------------- |
-| Defensive Line:  | Connor Manson # 5           | Dalhousie Tigers           |
-|                  | Robie Holland # 29          | Dalhousie Tigers           |
-|                  | Jessie Legault # 56         | Dalhousie Tigers           |
-|                  | Bradley Lawton # 99         | Holland College Hurricanes |
+| Defensive Line:  | Jesse Legault #56           | Dalhousie Tigers           |
+|                  | AJ Fields #93               | Holland College Hurricanes |
+|                  | Tyler Hobbs #7              | Holland College Hurricanes |
+|                  | Alex Ferris #30             | UNB Red Bombers            |
 |                  | Gabriel St. Germain # 99    | UNB Red Bombers            |
 | Linebacker:      | Zack Leger # 7              | Dalhousie Tigers           |
 |                  | Sam Jennings-Lindsay # 53   | Dalhousie Tigers           |
