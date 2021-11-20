@@ -106,15 +106,15 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 | Special Teams Player of the Year: | Jack Malo #9            | Holland College Hurricanes |
 | Coach of the Year:                | Vince Sturgeon          | UNB Red Bombers            |
 
-### 2018 Atlantic Football League Offensive All-Stars
+### 2019 Atlantic Football League Offensive All-Stars
 
 | Award              | Recipient                        | Team                       |
 | ------------------ | -------------------------------- | -------------------------- |
 | Quarterback:       | Chris Duplisea #10               | Dalhousie Tigers           |
-| Running Back       | Zacchary Kuhn #21                | Dalhousie Tigers           |
+| Running Back       | Marco Antonio Briones-Gutierrez  | Holland College Hurricanes |
 |                    | Dylan Waugh #21                  | UNB Red Bombers            |
-| Receiver:          | Alistair Chauhan # 4             | Dalhousie Tigers           |
-|                    | Micah Hesman #14                 | UNB Red Bombers            |
+| Receiver:          | Jack Underhill #88               | Dalhousie Tigers           |
+|                    | Matt LaFleur #88                 | UNB Red Bombers            |
 |                    | Matthew-Uriah Kaye-Mitchell # 87 | Holland College Hurricanes |
 |                    | Riley Ring-Dineen #1             | UNB Saint John Seawolves   |
 |                    | Jarrett Walker #21               | Holland College Hurricanes |
