@@ -108,23 +108,23 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 
 ### 2019 Atlantic Football League Offensive All-Stars
 
-| Award              | Recipient                        | Team                       |
-| ------------------ | -------------------------------- | -------------------------- |
-| Quarterback:       | Chris Duplisea #10               | Dalhousie Tigers           |
-| Running Back       | Marco Antonio Briones-Gutierrez  | Holland College Hurricanes |
-|                    | Dylan Waugh #21                  | UNB Red Bombers            |
-| Receiver:          | Jack Underhill #88               | Dalhousie Tigers           |
-|                    | Matt LaFleur #88                 | UNB Red Bombers            |
-|                    | Matthew-Uriah Kaye-Mitchell # 87 | Holland College Hurricanes |
-|                    | Riley Ring-Dineen #1             | UNB Saint John Seawolves   |
-|                    | Jarrett Walker #21               | Holland College Hurricanes |
-| Offensive Line:    | Cal Zeran #67                    | Dalhousie Tigers           |
-|                    | Max Martin #65                   | Dalhousie Tigers           |
-|                    | Jacob Hanscom # 51               | UNB Red Bombers            |
-|                    | Spencer McNamara #60             | Holland College Hurricanes |
-|                    | Kyle Tower # 58                  | UNB Red Bombers            |
-| Return Specialist: | Brennan Ciona # 8                | UNB Saint John Seawolves   |
-|                    | Colin Sleigh # 21                | UNB Saint John Seawolves   |
+| Award              | Recipient                       | Team                       |
+| ------------------ | ------------------------------- | -------------------------- |
+| Quarterback:       | Chris Duplisea #10              | Dalhousie Tigers           |
+| Running Back       | Marco Antonio Briones-Gutierrez | Holland College Hurricanes |
+|                    | Dylan Waugh #21                 | UNB Red Bombers            |
+| Receiver:          | Jack Underhill #88              | Dalhousie Tigers           |
+|                    | Matt LaFleur #88                | UNB Red Bombers            |
+|                    | Matthew Uriah Kaye-Mitchell#17  | Holland College Hurricanes |
+|                    | Seb Brown #4                    | UNB Saint John Seawolves   |
+|                    | Jackson Green #87               | UNB Red Bombers            |
+| Offensive Line:    | Cal Zeran #67                   | Dalhousie Tigers           |
+|                    | Max Martin #65                  | Dalhousie Tigers           |
+|                    | Jacob Hanscom # 51              | UNB Red Bombers            |
+|                    | Spencer McNamara #60            | Holland College Hurricanes |
+|                    | Kyle Tower # 58                 | UNB Red Bombers            |
+| Return Specialist: | Brennan Ciona # 8               | UNB Saint John Seawolves   |
+|                    | Colin Sleigh # 21               | UNB Saint John Seawolves   |
 
 ### 2018 Atlantic Football League Defensive All-Stars
 
