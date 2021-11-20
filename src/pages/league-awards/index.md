@@ -91,6 +91,62 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 
 - - -
 
+## AFL LEAGUE ALL STARS <span class="small">2019 SEASON</span>
+
+### 2019 Atlantic Football League Major Award Winners
+
+| Award                             | Recipient               | Team                       |
+| --------------------------------- | ----------------------- | -------------------------- |
+| Most Valuable Player:             | Dylan Waugh #21         | UNB Red Bombers            |
+| Offensive Player of the Year:     | Chris Duplisea #10      | Dalhousie Tigers           |
+| Defensive Player of the Year:     | Jerome Tshimpangila #28 | Holland College Hurricanes |
+| Offensive Lineman of the Year:    | Luke Saunders #64       | UNB Red Bombers            |
+| Defensive Lineman of the Year:    | Alec Ferris #30         | UNB Red Bombers            |
+| Rookie of the Year:               | Justice Grant #23       | Holland College Hurricanes |
+| Special Teams Player of the Year: | Jack Malo #9            | Holland College Hurricanes |
+| Coach of the Year:                | Vince Sturgeon          | UNB Red Bombers            |
+
+### 2018 Atlantic Football League Offensive All-Stars
+
+| Award              | Recipient                        | Team                       |
+| ------------------ | -------------------------------- | -------------------------- |
+| Quarterback:       | Chris Duplisea #10               | Dalhousie Tigers           |
+| Running Back       | Zacchary Kuhn #21                | Dalhousie Tigers           |
+|                    | Dylan Waugh #21                  | UNB Red Bombers            |
+| Receiver:          | Alistair Chauhan # 4             | Dalhousie Tigers           |
+|                    | Micah Hesman #14                 | UNB Red Bombers            |
+|                    | Matthew-Uriah Kaye-Mitchell # 87 | Holland College Hurricanes |
+|                    | Riley Ring-Dineen #1             | UNB Saint John Seawolves   |
+|                    | Jarrett Walker #21               | Holland College Hurricanes |
+| Offensive Line:    | Cal Zeran #67                    | Dalhousie Tigers           |
+|                    | Max Martin #65                   | Dalhousie Tigers           |
+|                    | Jacob Hanscom # 51               | UNB Red Bombers            |
+|                    | Spencer McNamara #60             | Holland College Hurricanes |
+|                    | Kyle Tower # 58                  | UNB Red Bombers            |
+| Return Specialist: | Brennan Ciona # 8                | UNB Saint John Seawolves   |
+|                    | Colin Sleigh # 21                | UNB Saint John Seawolves   |
+
+### 2018 Atlantic Football League Defensive All-Stars
+
+| Award            | Recipient                   | Team                       |
+| ---------------- | --------------------------- | -------------------------- |
+| Defensive Line:  | Connor Manson # 5           | Dalhousie Tigers           |
+|                  | Robie Holland # 29          | Dalhousie Tigers           |
+|                  | Jessie Legault # 56         | Dalhousie Tigers           |
+|                  | Bradley Lawton # 99         | Holland College Hurricanes |
+|                  | Gabriel St. Germain # 99    | UNB Red Bombers            |
+| Linebacker:      | Zack Leger # 7              | Dalhousie Tigers           |
+|                  | Sam Jennings-Lindsay # 53   | Dalhousie Tigers           |
+|                  | Charlie Dee # 8             | UNB Red Bombers            |
+|                  | Alex Rose # 54              | Holland College Hurricanes |
+| Defensive Backs: | Rob Wilson # 23             | UNB Saint John Seawolves   |
+|                  | Gordon Brown # 14           | Dalhousie Tigers           |
+|                  | Will Keneford # 25          | Dalhousie Tigers           |
+|                  | Donovan Small # 38          | UNB Red Bombers            |
+|                  | Denzel Gendron-Muscadin # 3 | Holland College Hurricanes |
+
+- - -
+
 ## AFL LEAGUE ALL STARS <span class="small">2018 SEASON</span>
 
 ### 2018 Atlantic Football League Major Award Winners
