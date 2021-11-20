@@ -124,7 +124,7 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 |                    | Colin Cepecauer #57             | Holland College Hurricanes |
 |                    | Griffin Quigley #75             | Holland College Hurricanes |
 | Return Specialist: | Jack Malo #9                    | Holland College Hurricanes |
-| Kicker             | Matt Mills #77                  | UNB red Bombers            |
+| Kicker             | Matt Mills #77                  | UNB Red Bombers            |
 
 ### 2018 Atlantic Football League Defensive All-Stars
 
