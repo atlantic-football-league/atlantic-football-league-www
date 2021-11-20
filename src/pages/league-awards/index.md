@@ -128,22 +128,22 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 
 ### 2019 Atlantic Football League Defensive All-Stars
 
-| Award            | Recipient                   | Team                       |
-| ---------------- | --------------------------- | -------------------------- |
-| Defensive Line:  | Jesse Legault #56           | Dalhousie Tigers           |
-|                  | AJ Fields #93               | Holland College Hurricanes |
-|                  | Tyler Hobbs #7              | Holland College Hurricanes |
-|                  | Alex Ferris #30             | UNB Red Bombers            |
-|                  | Morgan Martin #90           | UNB Red Bombers            |
-| Linebacker:      | Jerome Tshimpangila #28     | Holland College Hurricanes |
-|                  | Liam Chisari #5             | Dalhousie Tigers           |
-|                  | Turner Sturgeon #22         | UNB Red Bombers            |
-|                  | Keegan Waters #56           | UNB Red Bombers            |
-| Defensive Backs: | Rob Wilson # 23             | UNB Saint John Seawolves   |
-|                  | Gordon Brown # 14           | Dalhousie Tigers           |
-|                  | Will Keneford # 25          | Dalhousie Tigers           |
-|                  | Donovan Small # 38          | UNB Red Bombers            |
-|                  | Denzel Gendron-Muscadin # 3 | Holland College Hurricanes |
+| Award            | Recipient               | Team                       |
+| ---------------- | ----------------------- | -------------------------- |
+| Defensive Line:  | Jesse Legault #56       | Dalhousie Tigers           |
+|                  | AJ Fields #93           | Holland College Hurricanes |
+|                  | Tyler Hobbs #7          | Holland College Hurricanes |
+|                  | Alex Ferris #30         | UNB Red Bombers            |
+|                  | Morgan Martin #90       | UNB Red Bombers            |
+| Linebacker:      | Jerome Tshimpangila #28 | Holland College Hurricanes |
+|                  | Liam Chisari #5         | Dalhousie Tigers           |
+|                  | Turner Sturgeon #22     | UNB Red Bombers            |
+|                  | Keegan Waters #56       | UNB Red Bombers            |
+| Defensive Backs: | Isaac Ombotimbe #2      | Dalhousie Tigers           |
+|                  | Jack Malo #9            | Holland College Hurricanes |
+|                  | Max Malo #26            | Holland College Hurricanes |
+|                  | Marcus Urqhart #10      | UNB Red Bombers            |
+|                  | Justice Grant #23       | Holland College Hurricanes |
 
 - - -
 
