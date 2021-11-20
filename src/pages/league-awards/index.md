@@ -134,11 +134,11 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 |                  | AJ Fields #93               | Holland College Hurricanes |
 |                  | Tyler Hobbs #7              | Holland College Hurricanes |
 |                  | Alex Ferris #30             | UNB Red Bombers            |
-|                  | Gabriel St. Germain # 99    | UNB Red Bombers            |
-| Linebacker:      | Zack Leger # 7              | Dalhousie Tigers           |
-|                  | Sam Jennings-Lindsay # 53   | Dalhousie Tigers           |
-|                  | Charlie Dee # 8             | UNB Red Bombers            |
-|                  | Alex Rose # 54              | Holland College Hurricanes |
+|                  | Morgan Martin #90           | UNB Red Bombers            |
+| Linebacker:      | Jerome Tshimpangila #28     | Holland College Hurricanes |
+|                  | Liam Chisari #5             | Dalhousie Tigers           |
+|                  | Turner Sturgeon #22         | UNB Red Bombers            |
+|                  | Keegan Waters #56           | UNB Red Bombers            |
 | Defensive Backs: | Rob Wilson # 23             | UNB Saint John Seawolves   |
 |                  | Gordon Brown # 14           | Dalhousie Tigers           |
 |                  | Will Keneford # 25          | Dalhousie Tigers           |
