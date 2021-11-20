@@ -119,10 +119,10 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 |                    | Seb Brown #4                    | UNB Saint John Seawolves   |
 |                    | Jackson Green #87               | UNB Red Bombers            |
 | Offensive Line:    | Cal Zeran #67                   | Dalhousie Tigers           |
-|                    | Max Martin #65                  | Dalhousie Tigers           |
-|                    | Jacob Hanscom # 51              | UNB Red Bombers            |
-|                    | Spencer McNamara #60            | Holland College Hurricanes |
-|                    | Kyle Tower # 58                 | UNB Red Bombers            |
+|                    | Kyle Tower #68                  | UNB Red Bombers            |
+|                    | Luke Saunders #64               | UNB Red Bombers            |
+|                    | Colin Cepecauer #57             | Holland College Hurricanes |
+|                    | Griffin Quigley #75             | Holland College Hurricanes |
 | Return Specialist: | Brennan Ciona # 8               | UNB Saint John Seawolves   |
 |                    | Colin Sleigh # 21               | UNB Saint John Seawolves   |
 
