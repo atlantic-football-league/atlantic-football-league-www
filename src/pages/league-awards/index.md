@@ -91,6 +91,62 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 
 - - -
 
+## AFL LEAGUE ALL STARS <span class="small">2021 SEASON</span>
+
+### 2021 Atlantic Football League Major Award Winners
+
+| Award                             | Recipient              | Team                       |
+| --------------------------------- | ---------------------- | -------------------------- |
+| Most Valuable Player:             | Dylan Waugh #21        | Dalhousie Tigers           |
+| Offensive Player of the Year:     | Hunter Sturgeon        | UNB Red Bombers            |
+| Defensive Player of the Year:     | Nate Whidden #33       | Dalhousie Tigers           |
+| Offensive Lineman of the Year:    | Brendan Seymour #77    | UNB Red Bombers            |
+| Defensive Lineman of the Year:    | Kevin Dickens #99      | Dalhousie Tigers           |
+| Rookie of the Year:               | Christian Desreaux #20 | Holland College Hurricanes |
+| Special Teams Player of the Year: | Okyay Kepenek #77      | Dalhousie Tigers           |
+| Coach of the Year:                | Mark Haggett           | UNB Red Bombers            |
+
+### 2019 Atlantic Football League Offensive All-Stars
+
+| Award              | Recipient                       | Team                       |
+| ------------------ | ------------------------------- | -------------------------- |
+| Quarterback:       | Chris Duplisea #10              | Dalhousie Tigers           |
+| Running Back       | Marco Antonio Briones-Gutierrez | Holland College Hurricanes |
+|                    | Dylan Waugh #21                 | UNB Red Bombers            |
+| Receiver:          | Jack Underhill #88              | Dalhousie Tigers           |
+|                    | Matt LaFleur #88                | UNB Red Bombers            |
+| (Punter)           | Matthew Uriah Kaye-Mitchell#17  | Holland College Hurricanes |
+|                    | Seb Brown #4                    | UNB Saint John Seawolves   |
+|                    | Jackson Green #87               | UNB Red Bombers            |
+| Offensive Line:    | Cal Zeran #67                   | Dalhousie Tigers           |
+|                    | Kyle Tower #68                  | UNB Red Bombers            |
+|                    | Luke Saunders #64               | UNB Red Bombers            |
+|                    | Colin Cepecauer #57             | Holland College Hurricanes |
+|                    | Griffin Quigley #75             | Holland College Hurricanes |
+| Return Specialist: | Jack Malo #9                    | Holland College Hurricanes |
+| Kicker:            | Matt Mills #77                  | UNB Red Bombers            |
+
+### 2019 Atlantic Football League Defensive All-Stars
+
+| Award            | Recipient               | Team                       |
+| ---------------- | ----------------------- | -------------------------- |
+| Defensive Line:  | Jesse Legault #56       | Dalhousie Tigers           |
+|                  | AJ Fields #93           | Holland College Hurricanes |
+|                  | Tyler Hobbs #7          | Holland College Hurricanes |
+|                  | Alex Ferris #30         | UNB Red Bombers            |
+|                  | Morgan Martin #90       | UNB Red Bombers            |
+| Linebacker:      | Jerome Tshimpangila #28 | Holland College Hurricanes |
+|                  | Liam Chisari #5         | Dalhousie Tigers           |
+|                  | Turner Sturgeon #22     | UNB Red Bombers            |
+|                  | Keegan Waters #56       | UNB Red Bombers            |
+| Defensive Backs: | Isaac Ombotimbe #2      | Dalhousie Tigers           |
+|                  | Jack Malo #9            | Holland College Hurricanes |
+|                  | Max Malo #26            | Holland College Hurricanes |
+|                  | Marcus Urqhart #10      | UNB Red Bombers            |
+|                  | Justice Grant #23       | Holland College Hurricanes |
+
+- - -
+
 ## AFL LEAGUE ALL STARS <span class="small">2019 SEASON</span>
 
 ### 2019 Atlantic Football League Major Award Winners
