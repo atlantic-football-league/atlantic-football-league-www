@@ -106,25 +106,25 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 | Special Teams Player of the Year: | Okyay Kepenek #77      | Dalhousie Tigers           |
 | Coach of the Year:                | Mark Haggett           | UNB Red Bombers            |
 
-### 2019 Atlantic Football League Offensive All-Stars
+### 2021 Atlantic Football League Offensive All-Stars
 
-| Award              | Recipient                       | Team                       |
-| ------------------ | ------------------------------- | -------------------------- |
-| Quarterback:       | Chris Duplisea #10              | Dalhousie Tigers           |
-| Running Back       | Marco Antonio Briones-Gutierrez | Holland College Hurricanes |
-|                    | Dylan Waugh #21                 | UNB Red Bombers            |
-| Receiver:          | Jack Underhill #88              | Dalhousie Tigers           |
-|                    | Matt LaFleur #88                | UNB Red Bombers            |
-| (Punter)           | Matthew Uriah Kaye-Mitchell#17  | Holland College Hurricanes |
-|                    | Seb Brown #4                    | UNB Saint John Seawolves   |
-|                    | Jackson Green #87               | UNB Red Bombers            |
-| Offensive Line:    | Cal Zeran #67                   | Dalhousie Tigers           |
-|                    | Kyle Tower #68                  | UNB Red Bombers            |
-|                    | Luke Saunders #64               | UNB Red Bombers            |
-|                    | Colin Cepecauer #57             | Holland College Hurricanes |
-|                    | Griffin Quigley #75             | Holland College Hurricanes |
-| Return Specialist: | Jack Malo #9                    | Holland College Hurricanes |
-| Kicker:            | Matt Mills #77                  | UNB Red Bombers            |
+| Award              | Recipient                              | Team                             |
+| ------------------ | -------------------------------------- | -------------------------------- |
+| Quarterback:       | Chris Duplisea #10/Hunter Sturgeon #22 | Dalhousie Tigers/UNB Red Bombers |
+| Running Back       | Christian Desreux  #20                 | Holland College Hurricanes       |
+|                    | Dylan Waugh #21                        | UNB Red Bombers                  |
+| Receiver:          | Aiden Keefe #6                         | Dalhousie Tigers                 |
+|                    | Jake McKay #12/Dominic Hall #3         | UNB Red Bombers                  |
+|                    | Cameron Wall #6                        | Holland College Hurricanes       |
+|                    | Matt Lindsay #11                       | Dalhousie Tigers                 |
+|                    | Jackson Green #87                      | UNB Red Bombers                  |
+| Offensive Line:    | Cal Zeran #67                          | Dalhousie Tigers                 |
+|                    | Kyle Tower #68                         | UNB Red Bombers                  |
+|                    | Luke Saunders #64                      | UNB Red Bombers                  |
+|                    | Colin Cepecauer #57                    | Holland College Hurricanes       |
+|                    | Griffin Quigley #75                    | Holland College Hurricanes       |
+| Return Specialist: | Jack Malo #9                           | Holland College Hurricanes       |
+| Kicker:            | Matt Mills #77                         | UNB Red Bombers                  |
 
 ### 2019 Atlantic Football League Defensive All-Stars
 
