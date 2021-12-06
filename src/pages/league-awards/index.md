@@ -108,33 +108,33 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 
 ### 2021 Atlantic Football League Offensive All-Stars
 
-| Award              | Recipient                              | Team                             |
-| ------------------ | -------------------------------------- | -------------------------------- |
-| Quarterback:       | Chris Duplisea #10/Hunter Sturgeon #22 | Dalhousie Tigers/UNB Red Bombers |
-| Running Back       | Christian Desreux  #20                 | Holland College Hurricanes       |
-|                    | Dylan Waugh #21                        | UNB Red Bombers                  |
-| Receiver:          | Aiden Keefe #6                         | Dalhousie Tigers                 |
-|                    | Jake McKay #12/Dominic Hall #3         | UNB Red Bombers                  |
-|                    | Cameron Wall #6                        | Holland College Hurricanes       |
-|                    | Matt Lindsay #11                       | Dalhousie Tigers                 |
-|                    | Jackson Green #87                      | UNB Red Bombers                  |
-| Offensive Line:    | Cal Zeran #67                          | Dalhousie Tigers                 |
-|                    | Kyle Tower #68                         | UNB Red Bombers                  |
-|                    | Luke Saunders #64                      | UNB Red Bombers                  |
-|                    | Colin Cepecauer #57                    | Holland College Hurricanes       |
-|                    | Griffin Quigley #75                    | Holland College Hurricanes       |
-| Return Specialist: | Jack Malo #9                           | Holland College Hurricanes       |
-| Kicker:            | Matt Mills #77                         | UNB Red Bombers                  |
+| Award              | Recipient                              | Team                                                |
+| ------------------ | -------------------------------------- | --------------------------------------------------- |
+| Quarterback:       | Chris Duplisea #10/Hunter Sturgeon #22 | Dalhousie Tigers/UNB Red Bombers                    |
+| Running Back       | Christian Desreux  #20                 | Holland College Hurricanes                          |
+|                    | Dylan Waugh #21                        | UNB Red Bombers                                     |
+| Receiver:          | Aiden Keefe #6                         | Dalhousie Tigers                                    |
+|                    | Jake McKay #12/Dominic Hall #3         | UNB Red Bombers                                     |
+|                    | Cameron Wall #6                        | Holland College Hurricanes                          |
+|                    | Matt Lindsay #11                       | Dalhousie Tigers                                    |
+|                    | Austin Walker #80                      | Holland College Hurricanes                          |
+| Offensive Line:    | Cal Zeran #67                          | Dalhousie Tigers                                    |
+|                    | Louis Fiset #65                        | Dalhousie Tigers                                    |
+|                    | Kyle Tower #68                         | UNB Red Bombers                                     |
+|                    | Brenden Seymour #77                    | UNB Red Bombers                                     |
+|                    | Stephen Sears #50/Justin Chandler #56  | Holland College Hurricanes                          |
+| Return Specialist: | Brian Fitzgerald #2/Owen Dunfield #1   | Holland College Hurricanes/UNB Saint John Seawolves |
+| Heart & Hustle     | Josh Byron #8                          | Dalhousie Tigers                                    |
 
-### 2019 Atlantic Football League Defensive All-Stars
+### 2021 Atlantic Football League Defensive All-Stars
 
 | Award            | Recipient               | Team                       |
 | ---------------- | ----------------------- | -------------------------- |
-| Defensive Line:  | Jesse Legault #56       | Dalhousie Tigers           |
-|                  | AJ Fields #93           | Holland College Hurricanes |
+| Defensive Line:  | Kevin Dickens #99       | Dalhousie Tigers           |
+|                  | Tyler Raycroft #94      | Dalhousie Tigers           |
 |                  | Tyler Hobbs #7          | Holland College Hurricanes |
-|                  | Alex Ferris #30         | UNB Red Bombers            |
-|                  | Morgan Martin #90       | UNB Red Bombers            |
+|                  | Morgan Martin #57       | UNB Red Bombers            |
+|                  | Robbert Scoffield #92   | UNB Red Bombers            |
 | Linebacker:      | Jerome Tshimpangila #28 | Holland College Hurricanes |
 |                  | Liam Chisari #5         | Dalhousie Tigers           |
 |                  | Turner Sturgeon #22     | UNB Red Bombers            |
