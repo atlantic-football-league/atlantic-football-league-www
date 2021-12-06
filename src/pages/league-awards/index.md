@@ -128,22 +128,22 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 
 ### 2021 Atlantic Football League Defensive All-Stars
 
-| Award            | Recipient               | Team                       |
-| ---------------- | ----------------------- | -------------------------- |
-| Defensive Line:  | Kevin Dickens #99       | Dalhousie Tigers           |
-|                  | Tyler Raycroft #94      | Dalhousie Tigers           |
-|                  | Tyler Hobbs #7          | Holland College Hurricanes |
-|                  | Morgan Martin #57       | UNB Red Bombers            |
-|                  | Robbert Scoffield #92   | UNB Red Bombers            |
-| Linebacker:      | Jerome Tshimpangila #28 | Holland College Hurricanes |
-|                  | Liam Chisari #5         | Dalhousie Tigers           |
-|                  | Turner Sturgeon #22     | UNB Red Bombers            |
-|                  | Keegan Waters #56       | UNB Red Bombers            |
-| Defensive Backs: | Isaac Ombotimbe #2      | Dalhousie Tigers           |
-|                  | Jack Malo #9            | Holland College Hurricanes |
-|                  | Max Malo #26            | Holland College Hurricanes |
-|                  | Marcus Urqhart #10      | UNB Red Bombers            |
-|                  | Justice Grant #23       | Holland College Hurricanes |
+| Award            | Recipient             | Team                       |
+| ---------------- | --------------------- | -------------------------- |
+| Defensive Line:  | Kevin Dickens #99     | Dalhousie Tigers           |
+|                  | Tyler Raycroft #94    | Dalhousie Tigers           |
+|                  | Tyler Hobbs #7        | Holland College Hurricanes |
+|                  | Morgan Martin #57     | UNB Red Bombers            |
+|                  | Robbert Scoffield #92 | UNB Red Bombers            |
+| Linebacker:      | Tyler Newson #33      | Holland College Hurricanes |
+|                  | Nate Whidden #33      | Dalhousie Tigers           |
+|                  | Justin Ellingwood #45 | UNB Red Bombers            |
+|                  | Liam Chisari #5       | Dalhousie Tigers           |
+| Defensive Backs: | Will Keneford #25     | Dalhousie Tigers           |
+|                  | Jake Lynch #16        | Holland College Hurricanes |
+|                  | Aiden Leszkowiat #31  | Dalhousie Tigers           |
+|                  | Josh Armstrong #15    | UNB Red Bombers            |
+|                  | Logan Hillier #3      | Dalhousie Tigers           |
 
 - - -
 
