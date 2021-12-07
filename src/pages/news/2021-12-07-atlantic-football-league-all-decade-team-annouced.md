@@ -51,7 +51,7 @@ Tyler Doak
 
 Jory Smith
 
-Greg Madsen
+Jeff Madsen
 
 Turner Sturgeon
 
