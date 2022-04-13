@@ -39,20 +39,19 @@ UNB Saint John Seawolves (1 Championship)
 ![Jack Irving Trophy]({{ site.baseurl }}/img/jack_irving.jpg "Jack Irving Trophy")
 
 > The Jack Irving Trophy is awarded annually to the AFL team with the best regular season record.
-
-* 2009 - Saint John Seawolves
-* 2010 - Saint John Seawolves
-* 2011 - Holland College Hurricanes
-* 2012 - Red Bombers
-* 2013 - Saint John Seawolves
-* 2014 - Holland College Hurricanes
-* 2015 - Holland College Hurricanes
-* 2016 - Dalhousie Tigers
-* 2017 - Red Bombers
-* 2018 - Dalhousie Tigers
-* 2019- Red Bombers
-
-  2021 - Dalhousie Tigers
+>
+> * 2009 - Saint John Seawolves
+> * 2010 - Saint John Seawolves
+> * 2011 - Holland College Hurricanes
+> * 2012 - Red Bombers
+> * 2013 - Saint John Seawolves
+> * 2014 - Holland College Hurricanes
+> * 2015 - Holland College Hurricanes
+> * 2016 - Dalhousie Tigers
+> * 2017 - Red Bombers
+> * 2018 - Dalhousie Tigers
+> * 2019- Red Bombers
+> * 2021 – Dalhousie Tiger
 
 #### Most Wins
 
