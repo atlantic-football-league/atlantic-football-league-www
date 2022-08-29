@@ -1,11 +1,10 @@
 ---
 team: true
-title: UNB Fredericton Red Bombers
+title: UNB Fredericton Reds
 symbol: UNBF
-logo: /img/unbf_logo.png
-color: '#e7122c'
+logo: /img/reds.jpg
+color: "#e7122c"
 textColor: white
-website: 'https://unbredbombers.ca'
+website: https://unbredbombers.ca
 uid: FR
 ---
-
