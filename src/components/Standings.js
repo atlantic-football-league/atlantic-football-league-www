@@ -105,7 +105,6 @@ const Standings = ({ data, teams }) => (
     </THead>
     <TBody>
       {data.map(({ team, gp, w, l, pf, pa, pts, wPercent }) => {
-        console.log({ team });
         return (
           <Row key={team}>
             <TCell>

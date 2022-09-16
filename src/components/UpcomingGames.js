@@ -111,7 +111,7 @@ const GamesByDay = ({ games, teams }) => (
         <time>{formatDate(new Date(games[0].date))}</time>
       </Heading>
     </Section>
-    {games.map(game => (
+    {games.map((game) => (
       <Section>
         <Game {...game} teams={teams} />
       </Section>
@@ -134,13 +134,13 @@ const UpcomingGames = ({ data, schedulePath, teams }) => {
       </>
     );
   const gamesByDate = sortBy(
-    groupBy(data, game => game.date.split("T")[0]),
+    groupBy(data, (game) => game.date.split("T")[0]),
     (obj, key) => key
   );
 
   return (
     <>
-      {gamesByDate.map(games => (
+      {gamesByDate.map((games) => (
         <GamesByDay games={games} teams={teams} />
       ))}
       <ScheduleLink to={schedulePath}>Full Schedule &rarr;</ScheduleLink>
@@ -178,7 +178,7 @@ export default () => (
         }
       }
     `}
-    render={data => {
+    render={(data) => {
       const today = new Date();
       const lastWeek = new Date(
         today.getFullYear(),
@@ -190,16 +190,22 @@ export default () => (
         today.getMonth(),
         today.getDate() + 7
       ).toISOString();
+
       const sortedGames = sortBy(
         data.allMarkdownRemark.edges[0].node.frontmatter.games.filter(
-          game => game.date > lastWeek && game.date < nextWeek
+          (game) => {
+            const gameDate = new Date(game.date).toISOString();
+            const isRecentOrUpcoming =
+              gameDate > lastWeek && gameDate < nextWeek;
+            return isRecentOrUpcoming;
+          }
         ),
         "date"
       );
 
       return withTeams(UpcomingGames, {
         data: sortedGames,
-        schedulePath: data.allMarkdownRemark.edges[0].node.fields.slug
+        schedulePath: data.allMarkdownRemark.edges[0].node.fields.slug,
       });
     }}
   />
