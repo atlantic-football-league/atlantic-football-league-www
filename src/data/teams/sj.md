@@ -1,6 +1,6 @@
 ---
 team: true
-title: Saint John Seawolves
+title: "Saint John "
 symbol: SJ
 logo: /img/favicon-16x16.png
 color: "#1c284e"
