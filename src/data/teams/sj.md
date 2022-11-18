@@ -1,8 +1,8 @@
 ---
 team: true
-title: UNB Saint John Seawolves
-symbol: UNBSJ
-logo: /img/unbsj_logo.png
+title: Saint John Seawolves
+symbol: SJ
+logo: /img/favicon-16x16.png
 color: "#1c284e"
 textColor: white
 website: https://linktr.ee/unbsaintjohnseawolvesfootball
