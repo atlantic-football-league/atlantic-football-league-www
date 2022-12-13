@@ -1,7 +1,7 @@
 ---
 team: true
 title: UNB Fredericton Reds
-symbol: UNBF
+symbol: UNB
 logo: /img/reds.jpg
 color: "#e7122c"
 textColor: white
