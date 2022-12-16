@@ -1443,25 +1443,25 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 
 ### 2022 Atlantic Football League Offensive All-Stars
 
-| Award              | Recipient                              | Team                                                |
-| ------------------ | -------------------------------------- | --------------------------------------------------- |
-| Quarterback:       | Hunter Sturgeon #22                    | UNB Reds                                            |
-| Running Back       | J﻿avier Reyes Laundry #21              | D﻿alhousie Tigers                                   |
-|                    | J﻿ohn Freeze #20/Christian Desreux #20 | U﻿NB Reds/Holland College Hurricanes                |
-| Receiver:          | Aiden Keefe #6                         | Dalhousie Tigers                                    |
-|                    | A﻿ustin Rowe #83                       | S﻿aint John                                         |
-|                    | M﻿att LaFluer #88                      | U﻿NB Reds                                           |
-|                    | K﻿yle Cameron #11                      | H﻿olland College Hurricanes                         |
-|                    | C﻿olten Allen #4                       | D﻿alhousie Tigers                                   |
-| Offensive Line:    | Cal Zeran #67                          | Dalhousie Tigers                                    |
-|                    | Louis Fiset #65                        | Dalhousie Tigers                                    |
-|                    | Kyle Tower #68                         | UNB Red Bombers                                     |
-|                    | Brenden Seymour #77                    | UNB Red Bombers                                     |
-|                    | Stephen Sears #50/Justin Chandler #56  | Holland College Hurricanes                          |
-| Return Specialist: | Brian Fitzgerald #2/Owen Dunfield #1   | Holland College Hurricanes/UNB Saint John Seawolves |
-| Heart & Hustle     | Josh Byron #8                          | Dalhousie Tigers                                    |
+| Award           | Recipient                              | Team                                 |
+| --------------- | -------------------------------------- | ------------------------------------ |
+| Quarterback:    | Hunter Sturgeon #22                    | UNB Reds                             |
+| Running Back    | J﻿avier Reyes Laundry #21              | D﻿alhousie Tigers                    |
+|                 | J﻿ohn Freeze #20/Christian Desreux #20 | U﻿NB Reds/Holland College Hurricanes |
+| Receiver:       | Aiden Keefe #6                         | Dalhousie Tigers                     |
+|                 | A﻿ustin Rowe #83                       | S﻿aint John                          |
+|                 | M﻿att LaFluer #88                      | U﻿NB Reds                            |
+|                 | K﻿yle Cameron #11                      | H﻿olland College Hurricanes          |
+|                 | C﻿olten Allen #4                       | D﻿alhousie Tigers                    |
+| Offensive Line: | R﻿yan Gerard #62                       | Dalhousie Tigers                     |
+|                 | Louis Fiset #65                        | Dalhousie Tigers                     |
+|                 | D﻿evon Dean #66                        | S﻿aint John                          |
+|                 | Brenden Seymour #77/ Mitch Shaw #64    | UNB Reds                             |
+|                 | H﻿endrik Aochina                       | Holland College Hurricanes           |
+| Kicker:         | K﻿yle Cameron #11                      | Holland College Hurricanes           |
+| R﻿eturner:      | D﻿aniel Nkonkomalimba #1               | H﻿olland College Hurricanes          |
 
-### 2021 Atlantic Football League Defensive All-Stars
+### 2022 Atlantic Football League Defensive All-Stars
 
 | Award            | Recipient             | Team                       |
 | ---------------- | --------------------- | -------------------------- |
