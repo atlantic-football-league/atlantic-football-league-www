@@ -9,13 +9,13 @@ path: /league-awards
 
 ![Moosehead Cup Image]( "Moosehead Cup")
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -54,9 +54,9 @@ path: /league-awards
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -635,9 +635,9 @@ path: /league-awards
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 10]>
+<!--\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -664,7 +664,7 @@ path: /league-awards
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\[endif]-->
+<!\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -700,13 +700,13 @@ UNB Saint John Seawolves (1 Championship)
 
 ![Jack Irving Trophy]( "Jack Irving Trophy")
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -745,9 +745,9 @@ UNB Saint John Seawolves (1 Championship)
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -1326,9 +1326,9 @@ UNB Saint John Seawolves (1 Championship)
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 10]>
+<!--\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -1355,37 +1355,37 @@ UNB Saint John Seawolves (1 Championship)
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\[endif]-->
+<!\\\\[endif]-->
 
 <!--StartFragment-->
 
 The Jack Irving Trophy is awarded annually to the AFL team with the best regular season record.
 
-<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2009 - Saint John Seawolves
+<!--\\\\[if !supportLists]-->·<!--\\\\[endif]-->2009 - Saint John Seawolves
 
-<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2010 - Saint John Seawolves
+<!--\\\\[if !supportLists]-->·<!--\\\\[endif]-->2010 - Saint John Seawolves
 
-<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2011 - Holland College Hurricanes
+<!--\\\\[if !supportLists]-->·<!--\\\\[endif]-->2011 - Holland College Hurricanes
 
-<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2012 - Red Bombers
+<!--\\\\[if !supportLists]-->·<!--\\\\[endif]-->2012 - Red Bombers
 
-<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2013 - Saint John Seawolves
+<!--\\\\[if !supportLists]-->·<!--\\\\[endif]-->2013 - Saint John Seawolves
 
-<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2014 - Holland College Hurricanes
+<!--\\\\[if !supportLists]-->·<!--\\\\[endif]-->2014 - Holland College Hurricanes
 
-<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2015 - Holland College Hurricanes
+<!--\\\\[if !supportLists]-->·<!--\\\\[endif]-->2015 - Holland College Hurricanes
 
-<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2016 - Dalhousie Tigers
+<!--\\\\[if !supportLists]-->·<!--\\\\[endif]-->2016 - Dalhousie Tigers
 
-<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2017 - Red Bombers
+<!--\\\\[if !supportLists]-->·<!--\\\\[endif]-->2017 - Red Bombers
 
-<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2018 - Dalhousie Tigers
+<!--\\\\[if !supportLists]-->·<!--\\\\[endif]-->2018 - Dalhousie Tigers
 
-<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2019- Red Bombers
+<!--\\\\[if !supportLists]-->·<!--\\\\[endif]-->2019- Red Bombers
 
-<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2021 – Dalhousie Tiger
+<!--\\\\[if !supportLists]-->·<!--\\\\[endif]-->2021 – Dalhousie Tiger
 
-<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2022 -UNB Reds
+<!--\\\\[if !supportLists]-->·<!--\\\\[endif]-->2022 -UNB Reds
 
 **Most Wins**
 
@@ -1445,14 +1445,14 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 
 | Award              | Recipient                              | Team                                                |
 | ------------------ | -------------------------------------- | --------------------------------------------------- |
-| Quarterback:       | Chris Duplisea #10/Hunter Sturgeon #22 | Dalhousie Tigers/UNB Red Bombers                    |
-| Running Back       | Christian Desreux  #20                 | Holland College Hurricanes                          |
-|                    | Dylan Waugh #21                        | UNB Red Bombers                                     |
+| Quarterback:       | Hunter Sturgeon #22                    | UNB Reds                                            |
+| Running Back       | J﻿avier Reyes Laundry #21              | D﻿alhousie Tigers                                   |
+|                    | J﻿ohn Freeze #20/Christian Desreux #20 | U﻿NB Reds/Holland College Hurricanes                |
 | Receiver:          | Aiden Keefe #6                         | Dalhousie Tigers                                    |
-|                    | Jake McKay #12/Dominic Hall #3         | UNB Red Bombers                                     |
-|                    | Cameron Wall #6                        | Holland College Hurricanes                          |
-|                    | Matt Lindsay #11                       | Dalhousie Tigers                                    |
-|                    | Austin Walker #80                      | Holland College Hurricanes                          |
+|                    | A﻿ustin Rowe #83                       | S﻿aint John                                         |
+|                    | M﻿att LaFluer #88                      | U﻿NB Reds                                           |
+|                    | K﻿yle Cameron #11                      | H﻿olland College Hurricanes                         |
+|                    | C﻿olten Allen #4                       | D﻿alhousie Tigers                                   |
 | Offensive Line:    | Cal Zeran #67                          | Dalhousie Tigers                                    |
 |                    | Louis Fiset #65                        | Dalhousie Tigers                                    |
 |                    | Kyle Tower #68                         | UNB Red Bombers                                     |
