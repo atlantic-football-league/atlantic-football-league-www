@@ -1439,7 +1439,7 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 | Defensive Lineman of the Year:    | Kevin Dickens #99      | Dalhousie Tigers           |
 | Rookie of the Year:               | Christian Desreaux #20 | Holland College Hurricanes |
 | Special Teams Player of the Year: | Okyay Kepenek #77      | Dalhousie Tigers           |
-| Coach of the Year:                | Mark Haggett           | UNB Red Bombers            |
+| Coach of the Year:                | Mark Haggett           | D﻿alhousie Tigers          |
 
 ### 2021 Atlantic Football League Offensive All-Stars
 
