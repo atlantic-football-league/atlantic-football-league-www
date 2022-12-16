@@ -1463,22 +1463,22 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 
 ### 2022 Atlantic Football League Defensive All-Stars
 
-| Award            | Recipient             | Team                       |
-| ---------------- | --------------------- | -------------------------- |
-| Defensive Line:  | Kevin Dickens #99     | Dalhousie Tigers           |
-|                  | Tyler Raycroft #94    | Dalhousie Tigers           |
-|                  | Tyler Hobbs #7        | Holland College Hurricanes |
-|                  | Morgan Martin #57     | UNB Red Bombers            |
-|                  | Robbert Scoffield #92 | UNB Red Bombers            |
-| Linebacker:      | Tyler Newson #33      | Holland College Hurricanes |
-|                  | Nate Whidden #33      | Dalhousie Tigers           |
-|                  | Justin Ellingwood #45 | UNB Red Bombers            |
-|                  | Liam Chisari #5       | Dalhousie Tigers           |
-| Defensive Backs: | Will Keneford #25     | Dalhousie Tigers           |
-|                  | Jake Lynch #16        | Holland College Hurricanes |
-|                  | Aiden Leszkowiat #31  | Dalhousie Tigers           |
-|                  | Josh Armstrong #15    | UNB Red Bombers            |
-|                  | Logan Hillier #3      | Dalhousie Tigers           |
+| Award            | Recipient            | Team                       |
+| ---------------- | -------------------- | -------------------------- |
+| Defensive Line:  | C﻿hristian Riley #59 | Dalhousie Tigers           |
+|                  | M﻿ike MacKenzie #57  | Dalhousie Tigers           |
+|                  | Tyler Hobbs #7       | Holland College Hurricanes |
+|                  | Morgan Martin #57    | UNB Reds                   |
+|                  |                      |                            |
+| Linebacker:      | J﻿oseph Bertram #27  | Holland College Hurricanes |
+|                  | M﻿ax Parker #15      | Dalhousie Tigers           |
+|                  | E﻿athan Rae #30      | UNB Reds                   |
+|                  | Liam Chisari #5      | Dalhousie Tigers           |
+| Defensive Backs: | Will Keneford #25    | Dalhousie Tigers           |
+|                  | Jake Lynch #16       | Holland College Hurricanes |
+|                  | Aiden Leszkowiat #31 | Dalhousie Tigers           |
+|                  | Josh Armstrong #15   | UNB Red Bombers            |
+|                  | Logan Hillier #3     | Dalhousie Tigers           |
 
 - - -
 
