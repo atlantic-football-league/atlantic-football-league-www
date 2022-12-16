@@ -1525,7 +1525,7 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 |                  | Tyler Raycroft #94    | Dalhousie Tigers           |
 |                  | Tyler Hobbs #7        | Holland College Hurricanes |
 |                  | Morgan Martin #57     | UNB Red Bombers            |
-|                  | Robbert Scoffield #92 | UNB Red Bombers            |
+|                  | Robert Scoffield #92  | UNB Red Bombers            |
 | Linebacker:      | Tyler Newson #33      | Holland College Hurricanes |
 |                  | Nate Whidden #33      | Dalhousie Tigers           |
 |                  | Justin Ellingwood #45 | UNB Red Bombers            |
