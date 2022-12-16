@@ -9,13 +9,13 @@ path: /league-awards
 
 ![Moosehead Cup Image]( "Moosehead Cup")
 
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -54,9 +54,9 @@ path: /league-awards
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -635,9 +635,9 @@ path: /league-awards
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 10]>
+<!--\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -664,7 +664,7 @@ path: /league-awards
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\[endif]-->
+<!\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -700,13 +700,13 @@ UNB Saint John Seawolves (1 Championship)
 
 ![Jack Irving Trophy]( "Jack Irving Trophy")
 
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -745,9 +745,9 @@ UNB Saint John Seawolves (1 Championship)
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -1326,9 +1326,9 @@ UNB Saint John Seawolves (1 Championship)
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 10]>
+<!--\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -1355,37 +1355,37 @@ UNB Saint John Seawolves (1 Championship)
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\[endif]-->
+<!\\\[endif]-->
 
 <!--StartFragment-->
 
 The Jack Irving Trophy is awarded annually to the AFL team with the best regular season record.
 
-<!--\\[if !supportLists]-->·<!--\\[endif]-->2009 - Saint John Seawolves
+<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2009 - Saint John Seawolves
 
-<!--\\[if !supportLists]-->·<!--\\[endif]-->2010 - Saint John Seawolves
+<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2010 - Saint John Seawolves
 
-<!--\\[if !supportLists]-->·<!--\\[endif]-->2011 - Holland College Hurricanes
+<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2011 - Holland College Hurricanes
 
-<!--\\[if !supportLists]-->·<!--\\[endif]-->2012 - Red Bombers
+<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2012 - Red Bombers
 
-<!--\\[if !supportLists]-->·<!--\\[endif]-->2013 - Saint John Seawolves
+<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2013 - Saint John Seawolves
 
-<!--\\[if !supportLists]-->·<!--\\[endif]-->2014 - Holland College Hurricanes
+<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2014 - Holland College Hurricanes
 
-<!--\\[if !supportLists]-->·<!--\\[endif]-->2015 - Holland College Hurricanes
+<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2015 - Holland College Hurricanes
 
-<!--\\[if !supportLists]-->·<!--\\[endif]-->2016 - Dalhousie Tigers
+<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2016 - Dalhousie Tigers
 
-<!--\\[if !supportLists]-->·<!--\\[endif]-->2017 - Red Bombers
+<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2017 - Red Bombers
 
-<!--\\[if !supportLists]-->·<!--\\[endif]-->2018 - Dalhousie Tigers
+<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2018 - Dalhousie Tigers
 
-<!--\\[if !supportLists]-->·<!--\\[endif]-->2019- Red Bombers
+<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2019- Red Bombers
 
-<!--\\[if !supportLists]-->·<!--\\[endif]-->2021 – Dalhousie Tiger
+<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2021 – Dalhousie Tiger
 
-<!--\\[if !supportLists]-->·<!--\\[endif]-->2022 -UNB Reds
+<!--\\\[if !supportLists]-->·<!--\\\[endif]-->2022 -UNB Reds
 
 **Most Wins**
 
@@ -1423,6 +1423,62 @@ The Atlantic Football League recognized the contributions of Larry Timms. Larry 
 **Brian Freeman** 
 
 The Atlantic Football League recognized the contributions of Brian Freeman as a key board member of the UNB Red Bombers. Brian's hard work and dedication to the team has permanently brought football back to the, "Hill," in Fredericton. 
+
+- - -
+
+## AFL LEAGUE ALL STARS <span class="small">2021 SEASON</span>
+
+### 2022 Atlantic Football League Major Award Winners
+
+| Award                             | Recipient            | Team                        |
+| --------------------------------- | -------------------- | --------------------------- |
+| Most Valuable Player:             | H﻿unter Sturgeon #22 | U﻿NB Reds                   |
+| Offensive Player of the Year:     | A﻿iden Keefe #6      | D﻿alhousie Tigers           |
+| Defensive Player of the Year:     | L﻿iam Chisari #5     | Dalhousie Tigers            |
+| Offensive Lineman of the Year:    | Brendan Seymour #77  | UNB Reds                    |
+| Defensive Lineman of the Year:    | T﻿yler Hobbs #7      | H﻿olland College Hurricanes |
+| Rookie of the Year:               | M﻿ike MacKenzie #57  | D﻿alhousie Tigers           |
+| Special Teams Player of the Year: | B﻿rayden Robinson    | S﻿aint John                 |
+| Coach of the Year:                | D﻿ave Kelly          | D﻿alhousie Tigers           |
+
+### 2022 Atlantic Football League Offensive All-Stars
+
+| Award              | Recipient                              | Team                                                |
+| ------------------ | -------------------------------------- | --------------------------------------------------- |
+| Quarterback:       | Chris Duplisea #10/Hunter Sturgeon #22 | Dalhousie Tigers/UNB Red Bombers                    |
+| Running Back       | Christian Desreux  #20                 | Holland College Hurricanes                          |
+|                    | Dylan Waugh #21                        | UNB Red Bombers                                     |
+| Receiver:          | Aiden Keefe #6                         | Dalhousie Tigers                                    |
+|                    | Jake McKay #12/Dominic Hall #3         | UNB Red Bombers                                     |
+|                    | Cameron Wall #6                        | Holland College Hurricanes                          |
+|                    | Matt Lindsay #11                       | Dalhousie Tigers                                    |
+|                    | Austin Walker #80                      | Holland College Hurricanes                          |
+| Offensive Line:    | Cal Zeran #67                          | Dalhousie Tigers                                    |
+|                    | Louis Fiset #65                        | Dalhousie Tigers                                    |
+|                    | Kyle Tower #68                         | UNB Red Bombers                                     |
+|                    | Brenden Seymour #77                    | UNB Red Bombers                                     |
+|                    | Stephen Sears #50/Justin Chandler #56  | Holland College Hurricanes                          |
+| Return Specialist: | Brian Fitzgerald #2/Owen Dunfield #1   | Holland College Hurricanes/UNB Saint John Seawolves |
+| Heart & Hustle     | Josh Byron #8                          | Dalhousie Tigers                                    |
+
+### 2021 Atlantic Football League Defensive All-Stars
+
+| Award            | Recipient             | Team                       |
+| ---------------- | --------------------- | -------------------------- |
+| Defensive Line:  | Kevin Dickens #99     | Dalhousie Tigers           |
+|                  | Tyler Raycroft #94    | Dalhousie Tigers           |
+|                  | Tyler Hobbs #7        | Holland College Hurricanes |
+|                  | Morgan Martin #57     | UNB Red Bombers            |
+|                  | Robbert Scoffield #92 | UNB Red Bombers            |
+| Linebacker:      | Tyler Newson #33      | Holland College Hurricanes |
+|                  | Nate Whidden #33      | Dalhousie Tigers           |
+|                  | Justin Ellingwood #45 | UNB Red Bombers            |
+|                  | Liam Chisari #5       | Dalhousie Tigers           |
+| Defensive Backs: | Will Keneford #25     | Dalhousie Tigers           |
+|                  | Jake Lynch #16        | Holland College Hurricanes |
+|                  | Aiden Leszkowiat #31  | Dalhousie Tigers           |
+|                  | Josh Armstrong #15    | UNB Red Bombers            |
+|                  | Logan Hillier #3      | Dalhousie Tigers           |
 
 - - -
 
