@@ -9,13 +9,13 @@ path: /league-awards
 
 ![Moosehead Cup Image](/img/moosehead.jpg "Moosehead Cup")
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -54,9 +54,9 @@ path: /league-awards
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -635,9 +635,9 @@ path: /league-awards
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 10]>
+<!--\\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -664,7 +664,7 @@ path: /league-awards
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\\\[endif]-->
+<!\\\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -700,13 +700,13 @@ UNB Saint John Seawolves (1 Championship)
 
 ![Jack Irving Trophy](/img/jack_irving.jpg "Jack Irving Trophy")
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -745,9 +745,9 @@ UNB Saint John Seawolves (1 Championship)
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -1326,9 +1326,9 @@ UNB Saint John Seawolves (1 Championship)
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 10]>
+<!--\\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -1355,37 +1355,37 @@ UNB Saint John Seawolves (1 Championship)
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\\\[endif]-->
+<!\\\\\\[endif]-->
 
 <!--StartFragment-->
 
 The Jack Irving Trophy is awarded annually to the AFL team with the best regular season record.
 
-<!--\\\\\[if !supportLists]-->·<!--\\\\\[endif]-->2009 - Saint John Seawolves
+<!--\\\\\\[if !supportLists]-->·<!--\\\\\\[endif]-->2009 - Saint John Seawolves
 
-<!--\\\\\[if !supportLists]-->·<!--\\\\\[endif]-->2010 - Saint John Seawolves
+<!--\\\\\\[if !supportLists]-->·<!--\\\\\\[endif]-->2010 - Saint John Seawolves
 
-<!--\\\\\[if !supportLists]-->·<!--\\\\\[endif]-->2011 - Holland College Hurricanes
+<!--\\\\\\[if !supportLists]-->·<!--\\\\\\[endif]-->2011 - Holland College Hurricanes
 
-<!--\\\\\[if !supportLists]-->·<!--\\\\\[endif]-->2012 - Red Bombers
+<!--\\\\\\[if !supportLists]-->·<!--\\\\\\[endif]-->2012 - Red Bombers
 
-<!--\\\\\[if !supportLists]-->·<!--\\\\\[endif]-->2013 - Saint John Seawolves
+<!--\\\\\\[if !supportLists]-->·<!--\\\\\\[endif]-->2013 - Saint John Seawolves
 
-<!--\\\\\[if !supportLists]-->·<!--\\\\\[endif]-->2014 - Holland College Hurricanes
+<!--\\\\\\[if !supportLists]-->·<!--\\\\\\[endif]-->2014 - Holland College Hurricanes
 
-<!--\\\\\[if !supportLists]-->·<!--\\\\\[endif]-->2015 - Holland College Hurricanes
+<!--\\\\\\[if !supportLists]-->·<!--\\\\\\[endif]-->2015 - Holland College Hurricanes
 
-<!--\\\\\[if !supportLists]-->·<!--\\\\\[endif]-->2016 - Dalhousie Tigers
+<!--\\\\\\[if !supportLists]-->·<!--\\\\\\[endif]-->2016 - Dalhousie Tigers
 
-<!--\\\\\[if !supportLists]-->·<!--\\\\\[endif]-->2017 - Red Bombers
+<!--\\\\\\[if !supportLists]-->·<!--\\\\\\[endif]-->2017 - Red Bombers
 
-<!--\\\\\[if !supportLists]-->·<!--\\\\\[endif]-->2018 - Dalhousie Tigers
+<!--\\\\\\[if !supportLists]-->·<!--\\\\\\[endif]-->2018 - Dalhousie Tigers
 
-<!--\\\\\[if !supportLists]-->·<!--\\\\\[endif]-->2019- Red Bombers
+<!--\\\\\\[if !supportLists]-->·<!--\\\\\\[endif]-->2019- Red Bombers
 
-<!--\\\\\[if !supportLists]-->·<!--\\\\\[endif]-->2021 – Dalhousie Tiger
+<!--\\\\\\[if !supportLists]-->·<!--\\\\\\[endif]-->2021 – Dalhousie Tiger
 
-<!--\\\\\[if !supportLists]-->·<!--\\\\\[endif]-->2022 -UNB Reds
+<!--\\\\\\[if !supportLists]-->·<!--\\\\\\[endif]-->2022 -UNB Reds
 
 **Most Wins**
 
@@ -1426,7 +1426,7 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 
 - - -
 
-## AFL LEAGUE ALL STARS <span class="small">2021 SEASON</span>
+## AFL LEAGUE ALL STARS <span class="small">2022 SEASON</span>
 
 ### 2022 Atlantic Football League Major Award Winners
 
