@@ -22,10 +22,7 @@ League Facebook Page: <https://www.facebook.com/#!/groups/108639567508/>
 
 #### Board
 
-* Barry Ogden, Saint John Seawolves
-* Dan Kirk, Saint John Seawolves (Alternate)
-* John Morse, Fredericton Red Bombers
-* Marc Horncastle, Fredericton Red Bombers (Alternate)
+* Marc Horncastle, UNB REDS
 * Albert Roche, Holland College Hurricanes
 * Daniel Cudmore, Holland College Hurricanes (Alternate)
 * Jim Wilson, Dalhousie Tigers
@@ -34,6 +31,5 @@ League Facebook Page: <https://www.facebook.com/#!/groups/108639567508/>
 #### Coaches
 
 * Aaron MacIsaac,  Holland College Hurricanes
-* Mark Haggett, Dalhousie Tigers
-* Nick Beale, UNB Saint John Seawolves
+* David Kelley, Dalhousie Tigers
 * Vince Sturgeon, UNB Fredericton Red Bombers
