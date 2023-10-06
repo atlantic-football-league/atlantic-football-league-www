@@ -5,7 +5,7 @@ author: Rick Rivers
 teamId: DAL
 date: 2023-10-06T12:00:11.629Z
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -45,9 +45,9 @@ date: 2023-10-06T12:00:11.629Z
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -626,9 +626,9 @@ date: 2023-10-06T12:00:11.629Z
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -645,52 +645,34 @@ date: 2023-10-06T12:00:11.629Z
 	font-family:"Times New Roman",serif;
 	border:none;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
 **LOST IN THE TRENCHES, UNB 31, DAL 8**
 
-
-
 It was a gorgeous night for football in Fredericton, and a lot of Tiger fans had made the beautiful autumn drive with the expectations of seeing the Tigers return the Alumni Cup to Halifax.The Black and Gold had a three-point lead in the two-game total-point series.
-
-
 
 Dalhousie, after an exciting 31-28 victory at Wickwire Field,played a subpar game losing 31-8 and the Cup, 59-39.The game had been lost in the trenches!
 
-
-
 The scoring opened with UNB making an eleven-yard FG by Justin Remillard.In a tight first half, the Reds gave up a safety touch.Cam Hayward scored his first of two game touchdowns.Remillard added the PAT and the score was close on the board but not regarding offensive play, Reds 10, Tigers 2.
-
-
 
 Dalhousie’s D had kept UNB’s O at bay for most of the half, bending but not breaking.Their contain of the Reds’ QB, Jonah Rawlines was better than the home opener.Game totals saw Rawlines sacked four times and intercepted once. Sam Martin led all Dal tacklers with 9 and 2 sacks, while Owen Dunfield had 8 and one interception.Trenton Couture seemed to be everywhere with 8 stops, and Luke Smith finished with 6, one sack, and probably the hardest open-field hit of the game.
 
-
-
 The Black and Gold O was anemic in the first half.Caden Quong was held to just 36 yards on ten carries.Four times he was tackled for losses.QB, Noah Glover was only 5/13 and 40 yards but rallied for 8/14 and 111 yards in the second half.Ethan Lord was outstanding, catching four of these in the second half and all for first downs (64 yards).Lord also had two exciting kickoff returns.
-
-
 
 In the second half, UNB would continue to pound the ball with Hayward scoring his second major and Nick Parker had two receiving TDs from Rawlines.All three of these drives were assisted by unnecessary roughness calls.The Reds finished the game with 11 penalties while Dal had 7.
 
-
-
 A bright spot for the Tigers was the punting and placekicking of Okyay Kepenek which kept UNB further away from Dal’s end zone.Kepenek also kicked FGs of 21 and 36 yards.Last year on this field, he broke his leg.Good for you Okyay.
-
-
 
 Every year a team is entitled to a wake-up call early in the season provided they make the necessary adjustments for future games.
 
-
-
 This Saturday is Homecoming and Dalhousie faces Holland College Hurricanes for the first time this year.Last weekend the Hurricanes lost in a high-scoring but close game with the Reds.I am sure the Dalhousie coaching staff have poured through game film and are in the midst of making the necessary changes to get the Tigers back in the win column.
 
+As the cliche goes, “any given Sunday”.Hopefully, corrections are being made this week in all facets of the Black and Gold’s game!This Saturday, the Dalhousie University Tigers will come with their GAME FACE ON and win the Battle of the Trenches!
 
+<!--\\[if !supportLineBreakNewLine]-->\
 
-As the cliche goes, “any given Sunday”.Hopefully, corrections are being made this week in all facets of the Black and Gold’s game!This Saturday, the Dalhousie University Tigers will come with their GAME FACE ON and win the Battle of the Trenches!\
-<!--\[if !supportLineBreakNewLine]-->\
-<!--\[endif]-->
+<!--\\[endif]-->
 
 <!--EndFragment-->
