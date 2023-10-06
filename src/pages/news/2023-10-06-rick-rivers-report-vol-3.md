@@ -671,7 +671,7 @@ This Saturday is Homecoming and Dalhousie faces Holland College Hurricanes for t
 
 As the cliche goes, “any given Sunday”.Hopefully, corrections are being made this week in all facets of the Black and Gold’s game!This Saturday, the Dalhousie University Tigers will come with their GAME FACE ON and win the Battle of the Trenches!
 
-<!--\\[if !supportLineBreakNewLine]-->\
+<!--\\[if !supportLineBreakNewLine]-->
 
 <!--\\[endif]-->
 
