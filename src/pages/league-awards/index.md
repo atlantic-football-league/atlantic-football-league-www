@@ -1453,15 +1453,15 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 |                 | M﻿itch Spence #6                        | H﻿olland Collge Hurricanes  |
 |                 | B﻿rian Fitzgerald #2                    | H﻿olland College Hurricanes |
 |                 | N﻿ick Parker #84/ Brady Manderville #87 | U﻿NB Reds                   |
-| Offensive Line: | R﻿yan Gerard #62                        | Dalhousie Tigers            |
-|                 | Louis Fiset #65                         | Dalhousie Tigers            |
-|                 | D﻿evon Dean #66                         | S﻿aint John                 |
-|                 | Brenden Seymour #77/ Mitch Shaw #64     | UNB Reds                    |
-|                 | H﻿endrik Aochina                        | Holland College Hurricanes  |
-| Kicker:         | K﻿yle Cameron #11                       | Holland College Hurricanes  |
-| R﻿eturner:      | D﻿aniel Nkonkomalimba #1                | H﻿olland College Hurricanes |
+| Offensive Line: | Louis Fiset #65                         | Dalhousie Tigers            |
+|                 | S﻿ean Matheson #57                      | Dalhousie Tigers            |
+|                 | S﻿pencer Dean #62                       | UNB Reds                    |
+|                 | Mitch Shaw #64                          | UNB Reds                    |
+|                 | C﻿hris Bennett #64                      | Holland College Hurricanes  |
+| Kicker:         | S﻿imon Hales #14                        | Holland College Hurricanes  |
+|                 |                                         |                             |
 
-### 2022 Atlantic Football League Defensive All-Stars
+### 2023 Atlantic Football League Defensive All-Stars
 
 | Award            | Recipient              | Team                        |
 | ---------------- | ---------------------- | --------------------------- |
