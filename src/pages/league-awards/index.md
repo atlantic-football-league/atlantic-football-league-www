@@ -1463,22 +1463,22 @@ The Atlantic Football League recognized the contributions of Brian Freeman as a 
 
 ### 2023 Atlantic Football League Defensive All-Stars
 
-| Award            | Recipient              | Team                        |
-| ---------------- | ---------------------- | --------------------------- |
-| Defensive Line:  | C﻿hristian Riley #59   | Dalhousie Tigers            |
-|                  | M﻿ike MacKenzie #57    | Dalhousie Tigers            |
-|                  | Tyler Hobbs #7         | Holland College Hurricanes  |
-|                  | Morgan Martin #57      | UNB Reds                    |
-|                  |                        |                             |
-| Linebacker:      | J﻿oseph Bertram #27    | Holland College Hurricanes  |
-|                  | M﻿ax Parker #15        | Dalhousie Tigers            |
-|                  | E﻿athan Rae #30        | UNB Reds                    |
-|                  | Liam Chisari #5        | Dalhousie Tigers            |
-| Defensive Backs: | C﻿onnor McCormick #23  | D﻿alhousie Tigers           |
-|                  | J﻿eremy Miller #32     | D﻿alhousie Tigers           |
-|                  | G﻿riffen Chenier #31   | H﻿olland College Hurricanes |
-|                  | H﻿ayden Machacynski #4 | H﻿olland College Hurricanes |
-|                  | J﻿ordan Colpitts #33   | U﻿NB Reds                   |
+| Award            | Recipient                | Team                        |
+| ---------------- | ------------------------ | --------------------------- |
+| Defensive Line:  | C﻿hristian Riley #59     | Dalhousie Tigers            |
+|                  | L﻿ogan Steeves #90       | Dalhousie Tigers            |
+|                  | B﻿rayden Charette #33    | Holland College Hurricanes  |
+|                  | D﻿onnie Sharpe #52       | UNB Reds                    |
+|                  |                          |                             |
+| Linebacker:      | M﻿athis Blais #25        | Holland College Hurricanes  |
+|                  | O﻿wen Hamilton-White #33 | Dalhousie Tigers            |
+|                  | E﻿athan Rae #30          | UNB Reds                    |
+|                  | J﻿ordan Colpitts #33     | Dalhousie Tigers            |
+| Defensive Backs: | Logan  Hillier #3        | D﻿alhousie Tigers           |
+|                  | J﻿aron Killam #15        | UNB Reds                    |
+|                  | C﻿onnor Winrow #7        | H﻿olland College Hurricanes |
+|                  | P﻿arker Orr #4           | H﻿olland College Hurricanes |
+|                  | Seb Brown #18            | U﻿NB Reds                   |
 
 - - -
 
