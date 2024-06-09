@@ -1368,25 +1368,27 @@ The Jack Irving Trophy is awarded annually to the AFL team with the best regular
 
 *2011 - Holland College Hurricanes
 
-<!--\\\\\\\\\\[if !supportLists]-->·<!--\\\\\\\\\\[endif]-->2012 - Red Bombers
+*2012 - UNB Fredericton Red Bombers
 
-<!--\\\\\\\\\\[if !supportLists]-->·<!--\\\\\\\\\\[endif]-->2013 - Saint John Seawolves
+*2013 - Saint John Seawolves
 
-<!--\\\\\\\\\\[if !supportLists]-->·<!--\\\\\\\\\\[endif]-->2014 - Holland College Hurricanes
+*2014 - Holland College Hurricanes
 
-<!--\\\\\\\\\\[if !supportLists]-->·<!--\\\\\\\\\\[endif]-->2015 - Holland College Hurricanes
+*2015 - Holland College Hurricanes
 
-<!--\\\\\\\\\\[if !supportLists]-->·<!--\\\\\\\\\\[endif]-->2016 - Dalhousie Tigers
+*2016 - Dalhousie Tigers
 
-<!--\\\\\\\\\\[if !supportLists]-->·<!--\\\\\\\\\\[endif]-->2017 - Red Bombers
+*2017 - UNB Fredericton Red Bombers
 
-<!--\\\\\\\\\\[if !supportLists]-->·<!--\\\\\\\\\\[endif]-->2018 - Dalhousie Tigers
+*2018 - Dalhousie Tigers
 
-<!--\\\\\\\\\\[if !supportLists]-->·<!--\\\\\\\\\\[endif]-->2019- Red Bombers
+*2019- UNB Fredericton Red Bombers
 
-<!--\\\\\\\\\\[if !supportLists]-->·<!--\\\\\\\\\\[endif]-->2021 – Dalhousie Tiger
+*2021 – Dalhousie Tiger
 
-<!--\\\\\\\\\\[if !supportLists]-->·<!--\\\\\\\\\\[endif]-->2022 -UNB Reds
+*2022 - UNB Fredericton Reds
+
+*2023 - UNB Fredericton Reds
 
 **Most Wins**
 
