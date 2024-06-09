@@ -1,6 +1,6 @@
 ---
 team: true
-title: "Saint John "
+title: Saint John Falcons
 symbol: SJ
 logo: /img/favicon-16x16.png
 color: "#1c284e"
