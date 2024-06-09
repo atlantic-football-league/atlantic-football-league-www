@@ -39,12 +39,15 @@ Teams are encouraged to set up Facebook pages to communicate with their follower
 * [Holland College Hurricanes](https://www.facebook.com/canesmfootball)
 * [Dalhousie Tigres](https://www.facebook.com/DalFootball)
 * [UNB Fredericton Red Bombers](https://www.facebook.com/unbfootball)
-* [Saint John Falcons] (https://www.facebook.com/FundyMinorFootball)
+* [Saint John Falcons](https://www.facebook.com/FundyMinorFootball)
 
-#### Twitter
+#### X
 
 Teams are also encouraged to spread the word through twitter. AFL teams with their own twitter account can be added to the sidebar of the main AFL website. Twitter is a great way to post live score updates and interact with fans. Current Twitter feeds are:
 
+* Atlantic Football League
+* Holland Hurricanes
+* Saint John Falcons
 * Dalhousie Tigres -  [@DalFootballClub](https://twitter.com/DalFootballClub)
 * UNB Fredericton Red Bombers - [@unbredbombers](https://twitter.com/unbredbombers)
 
