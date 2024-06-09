@@ -1362,11 +1362,11 @@ UNB Saint John Seawolves (1 Championship)
 
 The Jack Irving Trophy is awarded annually to the AFL team with the best regular season record.
 
-<!--\\\\\\\\\\[if !supportLists]-->·<!--\\\\\\\\\\[endif]-->2009 - Saint John Seawolves
+*2009 - Saint John Seawolves
 
-<!--\\\\\\\\\\[if !supportLists]-->·<!--\\\\\\\\\\[endif]-->2010 - Saint John Seawolves
+*2010 - Saint John Seawolves
 
-<!--\\\\\\\\\\[if !supportLists]-->·<!--\\\\\\\\\\[endif]-->2011 - Holland College Hurricanes
+*2011 - Holland College Hurricanes
 
 <!--\\\\\\\\\\[if !supportLists]-->·<!--\\\\\\\\\\[endif]-->2012 - Red Bombers
 
