@@ -38,24 +38,38 @@ Teams are encouraged to set up Facebook pages to communicate with their follower
 * [Atlantic Football League](https://www.facebook.com/theaflofficial)
 * [Holland College Hurricanes](https://www.facebook.com/canesmfootball)
 * [Dalhousie Tigres](https://www.facebook.com/DalFootball)
-* [UNB Fredericton Red Bombers](https://www.facebook.com/unbfootball)
+* [UNB Fredericton Reds](https://www.facebook.com/unbfootball)
 * [Saint John Falcons](https://www.facebook.com/FundyMinorFootball)
 
 #### X
 
 Teams are also encouraged to spread the word through twitter. AFL teams with their own twitter account can be added to the sidebar of the main AFL website. Twitter is a great way to post live score updates and interact with fans. Current Twitter feeds are:
 
-* Atlantic Football League
-* Holland Hurricanes
-* Saint John Falcons
-* Dalhousie Tigres -  [@DalFootballClub](https://twitter.com/DalFootballClub)
-* UNB Fredericton Red Bombers - [@unbredbombers](https://twitter.com/unbredbombers)
+* [Atlantic Football League](https://x.com/TheAFL_Official)
+* [Holland Hurricanes](https://x.com/canesmfootball)
+* [Dalhousie Tigres](https://x.com/DalFootballClub)
+* [UNB Fredericton Reds](https://x.com/UNBRedsFootball)
+
+#### Instagram
+
+Teams are encouraged to set up Instagram pages to communicate with their followers. Teams are also encouraged to promote events of the league and other teams, and we would suggest you “like” all the league pages. Here is a list of the league pages:
+
+* [Atlantic Football League](https://www.instagram.com/theafl_official/)
+* [Holland College Hurricanes](https://www.instagram.com/canesmfootball)
+* [Dalhousie Tigres](https://www.instagram.com/dalhousiefootball/?hl=en)
+* [UNB Fredericton Reds](https://www.instagram.com/unbfootball/)
+* [Saint John Falcons](https://www.instagram.com/fundyminorfootball/)
 
 - - -
 
 ### Live Streaming
 
 Live streaming internet video gives a great avenue for league fans to watch our games from away and grows our profile. If you plan to live stream a home game please send the link to the webmaster and they will be featured prominently at the top of the AFL homepage the week before the game. As always teams are expected to promote the positive image of the league in their live streams.
+
+* [Dalhousie Tigers](https://www.ao.live/en)
+* [UNB Fredericton Reds](https://www.youtube.com/@UNBReds)
+* [Holland Hurricanes](https://www.youtube.com/@GoCanesGo/featured)
+* Saint John Falcons
 
 - - -
 
