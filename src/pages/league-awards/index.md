@@ -683,6 +683,7 @@ The Moosehead Cup is awarded annually to the AFL Championship Team.
 * 2019 - UNB Fredericton Red Bombers
 * 2021 - Dalhousie University Tigers
 * 2022 – Dalhousie University Tigers
+* 2023 - UNB Fredericton Reds
 
 Holland College Hurricanes (4 Championships)
 
