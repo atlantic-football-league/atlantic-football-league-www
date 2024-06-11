@@ -25,6 +25,8 @@ T﻿here are currently four teams - UNB REDS, Dalhousie Tigers, Holland College 
 * Colleen Henderson, Holland College Hurricanes (Alternate)
 * Jim Wilson, Dalhousie Tigers
 * Rick Rivers, Dalhousie Tigers (Alternate)
+* Jason Watson, Saint John Falcons
+* Melissa McNamee, Saint John Falcons (Alternate)
 
 #### Coaches
 
