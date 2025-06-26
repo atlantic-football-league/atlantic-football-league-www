@@ -69,7 +69,7 @@ Live streaming internet video gives a great avenue for league fans to watch our 
 * [Dalhousie Tigers](https://www.ao.live/en)
 * [UNB Fredericton Reds](https://www.youtube.com/@UNBReds)
 * [Holland Hurricanes](https://www.youtube.com/@GoCanesGo/featured)
-* Saint John Falcons
+* [Saint John Falcons](https://www.ao.live/aolive)
 
 - - -
 
